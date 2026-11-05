@@ -26,5 +26,5 @@ if [ ! -f installed.ok ]; then
   touch installed.ok
 fi
 run firstboot 3000
-run secondboot 900
+[ "$K" != vmwareimg ] && run secondboot 900
 echo finished | tee -a phases.log

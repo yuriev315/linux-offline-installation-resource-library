@@ -14,6 +14,14 @@ fi
 echo "=== kind=$K"; date -u; . /etc/os-release; echo "$PRETTY_NAME"; uname -r; cat /etc/machine-id >/dev/null
 echo "=== network proof"; ip -o link; ip route; if timeout 5 bash -c 'exec 3<>/dev/tcp/185.125.190.81/80' 2>/dev/null; then echo 'NETWORK REACHABLE - TEST INVALID'; else echo 'no route to the internet (expected)'; fi
 echo "=== packages at first boot"; dpkg-query -W | wc -l
+if [ "$K" = vmwareimg ]; then
+  # A small image that keeps the ISO's GA kernel, for testing open-vm-tools inside real VMware.
+  echo "=== vmware guest setup"; bash $S/ubuntu_vmware/setup_vmware_guest.sh; echo "vmware rc=$?"
+  bash $S/dependency_installation/offline_install.sh --packages "build-essential"; echo "gcc rc=$?"; uname -r; dpkg -l | grep -c linux-image
+  echo "tester ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/90-offline-test; chmod 440 /etc/sudoers.d/90-offline-test
+  grep -q 'console=ttyS0' /etc/default/grub || { sed -i 's/^GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT="console=tty0 console=ttyS0,115200"/' /etc/default/grub; update-grub; }
+  systemctl disable offline-test.service; sync; umount /mnt/out; systemctl poweroff; exit 0
+fi
 echo "=== native script"; bash $S/ubuntu_native/setup_ubuntu_native.sh --profile server --with-kernel --enable-ssh --timezone Asia/Shanghai; echo "native rc=$?"
 echo "=== rerun (idempotency)"; bash $S/ubuntu_native/setup_ubuntu_native.sh --profile server --with-kernel --enable-ssh --timezone Asia/Shanghai >/dev/null 2>&1; echo "rerun rc=$?"
 echo "=== full dev environment"; bash $S/dependency_installation/install_dev_environment.sh --profile fulldev; echo "dev rc=$?"

@@ -44,3 +44,4 @@ PASS vm-created-from-template
 PASS vm-iso-poweron 
 PASS vmdk-convert 
 PASS vm-prebuilt-poweron 
+FAIL open-vm-tools-running-in-vmware installed

@@ -10,7 +10,8 @@
 | Ubuntu Desktop 从 ISO 安装，全程断网 | **已验证**（在 KVM 中，到登录界面） | 测试 A |
 | WSL2 离线安装、导入、开发环境、备份恢复 | **已验证**（无网卡 Windows 11 虚拟机） | 测试 B |
 | VMware Workstation 离线安装 | **已验证**（无网卡 Windows 11 虚拟机） | 测试 C |
-| VMware 中的虚拟机启动、VMware Tools、共享目录 | **测试中**，尚未得出结论 | 测试 C |
+| VMware 中开机、运行 Ubuntu 6.8 内核 | **已验证**（ISO 启动到安装程序） | 测试 C |
+| VMware 中的 VMware Tools、共享目录、快照 | **未通过，原因待查**，正在重测 | 测试 C |
 | 真实物理机 | **未验证** | 全部测试都在虚拟机中进行 |
 
 ## 测试 A：从 ISO 安装（Server 和 Desktop）
@@ -75,7 +76,11 @@
 | `create_vmware_vm.ps1`（检查、建盘、生成 `.vmx`、挂载 ISO） | 通过 |
 | 从 ISO 开机的虚拟机 | 通过（开机并运行 4 分钟，未走完安装） |
 | 预装 Ubuntu 的虚拟机开机 | 通过 |
-| VMware Tools、共享目录、快照 | **测试中**，尚未得出结论。开启 Hyper-V（WSL2 共存）时，预装虚拟机 30 分钟内 Tools 未进入 running，可能是三层嵌套太慢，尚无定论；正在关闭 Hyper-V 后重测 |
+| ISO 虚拟机中的 Ubuntu 6.8 内核 | 通过：`vmwgfx`、`vmxnet3` 已加载，读取了 CDROM |
+| 预装 Ubuntu（HWE 7.0 内核）启动 | **未通过**：EFI 交接后没有任何内核活动，VMware Tools 30 分钟内未运行 |
+| VMware Tools、共享目录、快照 | **未测到**：受上一项阻塞，正在用 6.8 内核的镜像重测 |
+
+开启和关闭 Hyper-V 时，预装虚拟机的结果相同。这里是三层嵌套虚拟化（KVM → Windows → VMware），所以 7.0 内核的问题**可能只存在于嵌套环境，也可能是真实问题，目前无法确定**。在真实 VMware 上使用 HWE 7.0 内核之前，请先自行确认。
 
 预装 Ubuntu 是测试 A 的 Server 磁盘转成的 VMDK。这样可以验证 open-vm-tools 在真实 VMware 里的行为，但**没有测试在 VMware 中从 ISO 完整安装 Ubuntu**。
 

@@ -6,7 +6,7 @@
 
 ## 结论
 
-Ubuntu 24.04 的离线安装、WSL2 和开发环境已在无网卡虚拟机中实测通过。VMware Workstation 离线安装成功，虚拟机内的 VMware Tools 和共享目录还在测试中。受许可限制的 14 个文件在仓库中只有 `.url` 占位。
+Ubuntu 24.04 的离线安装、WSL2 和开发环境已在无网卡虚拟机中实测通过。VMware Workstation 离线安装成功，Ubuntu 6.8 内核能在其中启动；VMware Tools 和共享目录还没有测通。受许可限制的 14 个文件在仓库中只有 `.url` 占位。
 
 ## 交付物
 
@@ -17,7 +17,7 @@ Ubuntu 24.04 的离线安装、WSL2 和开发环境已在无网卡虚拟机中�
 | 3 | Ubuntu WSL rootfs | 已交付 | `02_WSL2/ubuntu_rootfs` |
 | 4 | WSL2 离线组件 | Ubuntu rootfs 已交付；WSL MSI 为 `.url` 占位。已在 Windows 上实测通过 | `02_WSL2` |
 | 5 | VMware Workstation 安装程序 | **`.url` 占位**，需从 Broadcom 下载。测试版本在 Windows 上安装成功 | `03_VMWARE/workstation_installers` |
-| 6 | open-vm-tools | 已交付，软件包已测试，VMware 内运行测试中；VMware Tools ISO 为 `.url` 占位 | APT 仓库 |
+| 6 | open-vm-tools | 已交付，软件包已测试，VMware 内运行未测通；VMware Tools ISO 为 `.url` 占位 | APT 仓库 |
 | 7 | APT 离线仓库 | 已交付并验证 | `04_APT_OFFLINE_REPOSITORY` |
 | 8 | 系统依赖 DEB | 已交付并验证 | APT 仓库，分组见 `05` |
 | 9 | 开发工具 | 已交付并验证 | APT 仓库，分组见 `06`、`15` |
@@ -26,7 +26,7 @@ Ubuntu 24.04 的离线安装、WSL2 和开发环境已在无网卡虚拟机中�
 | 12 | 配置文件 | 已交付；SSH 已实测，其余部分未在目标环境生效 | `11_CONFIGURATIONS` |
 | 13 | 原生安装脚本 | 已交付并验证 | `10_INSTALLATION_SCRIPTS/ubuntu_native` |
 | 14 | WSL2 脚本 | 已交付并在 Windows 上实测通过 | `10_INSTALLATION_SCRIPTS/ubuntu_wsl` |
-| 15 | VMware 指南和脚本 | 已交付；建虚拟机和开机已在 VMware 中通过，Tools 和共享目录测试中 | `03_VMWARE`、`10_INSTALLATION_SCRIPTS/ubuntu_vmware` |
+| 15 | VMware 指南和脚本 | 已交付；建虚拟机和开机已在 VMware 中通过，Tools 和共享目录未测通 | `03_VMWARE`、`10_INSTALLATION_SCRIPTS/ubuntu_vmware` |
 | 16 | APT 仓库配置脚本 | 已交付并验证 | `10_INSTALLATION_SCRIPTS/apt_offline` |
 | 17 | SHA256 校验文件 | 已交付 | `12_CHECKSUMS_AND_METADATA/SHA256SUMS.txt` |
 | 18 | 依赖关系清单 | 已交付 | `12_CHECKSUMS_AND_METADATA/PACKAGE_DEPENDENCIES.csv` |

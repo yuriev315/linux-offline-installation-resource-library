@@ -85,3 +85,64 @@ t=90s tools=installed
 t=120s tools=installed
 t=150s tools=installed
 t=180s tools=installed
+t=210s tools=installed
+t=240s tools=installed
+t=270s tools=installed
+t=300s tools=installed
+t=330s tools=installed
+t=360s tools=installed
+t=390s tools=installed
+t=420s tools=installed
+t=450s tools=installed
+t=480s tools=installed
+t=510s tools=installed
+t=540s tools=installed
+t=570s tools=installed
+t=600s tools=installed
+t=630s tools=installed
+t=660s tools=installed
+t=690s tools=installed
+t=720s tools=installed
+t=750s tools=installed
+t=780s tools=installed
+t=810s tools=installed
+t=840s tools=installed
+t=870s tools=installed
+t=900s tools=installed
+t=930s tools=installed
+t=960s tools=installed
+t=990s tools=installed
+t=1020s tools=installed
+t=1050s tools=installed
+t=1080s tools=installed
+t=1110s tools=installed
+t=1140s tools=installed
+t=1170s tools=installed
+t=1200s tools=installed
+t=1230s tools=installed
+t=1260s tools=installed
+t=1290s tools=installed
+t=1320s tools=installed
+t=1350s tools=installed
+t=1380s tools=installed
+t=1410s tools=installed
+t=1440s tools=installed
+t=1470s tools=installed
+t=1500s tools=installed
+t=1530s tools=installed
+t=1560s tools=installed
+t=1590s tools=installed
+t=1620s tools=installed
+t=1650s tools=installed
+t=1680s tools=installed
+t=1710s tools=installed
+t=1740s tools=installed
+t=1770s tools=installed
+t=1800s tools=installed
+FAIL open-vm-tools-running-in-vmware installed
+tools not running: skipping guest steps
+
+**********************
+Windows PowerShell transcript end
+End time: 20261105075947
+**********************
