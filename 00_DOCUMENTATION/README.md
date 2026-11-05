@@ -21,7 +21,7 @@
 ## 使用前须知
 
 - **有些文件要单独下载。** VMware、VS Code、WSL MSI 因许可限制不放在仓库里，要在联网时运行 `fetch_url_placeholders` 脚本取得。VMware 还需要 Broadcom 账户，见 [HOW_TO_OBTAIN.md](../03_VMWARE/workstation_installers/HOW_TO_OBTAIN.md)。其他内容的取得方式见 [LICENSES.md](../12_CHECKSUMS_AND_METADATA/LICENSES.md)。
-- **WSL2 和 VMware 的实测还在进行中。** 当前进度见验证报告。
+- **VMware Tools 和共享目录没有测通。** Ubuntu、WSL2 和 VMware 安装都已实测通过，其余见验证报告。
 - **APT 仓库是筛选后的子集，不是 Ubuntu 完整镜像。** 清单外的软件无法安装，也不含 2026-11-05 之后的安全更新。
 
 ## GitHub 上的文件分布

@@ -1,7 +1,5 @@
 # 最终报告
 
-> **进行中：** VMware 虚拟机实测尚未结束，下表状态可能更新。
-
 构建日期：2026-11-05。详细测试结果见 [VERIFICATION_REPORT.md](../00_DOCUMENTATION/VERIFICATION_REPORT.md)。
 
 ## 结论

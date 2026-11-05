@@ -2,7 +2,7 @@
 
 适用对象：要用 VMware Workstation Pro 运行 Ubuntu 的用户。安装程序的获取方法见 `../workstation_installers/HOW_TO_OBTAIN.md`。
 
-> 实测情况见 `00_DOCUMENTATION/VERIFICATION_REPORT.md`。
+> 安装 VMware、建虚拟机和从 ISO 开机已实测通过。**VMware Tools、共享目录和快照没有测通**，下面相应步骤未经验证。预装 HWE 7.0 内核的虚拟机在测试中未能启动（嵌套虚拟化环境，原因未查明）。详见 `00_DOCUMENTATION/VERIFICATION_REPORT.md`。
 
 ## 0. 安装 VMware
 
