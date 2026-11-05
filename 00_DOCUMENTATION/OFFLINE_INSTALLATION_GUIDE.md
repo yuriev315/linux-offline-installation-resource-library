@@ -10,7 +10,7 @@
 git clone https://github.com/yuriev315/linux-offline-installation-resource-library.git Linux_Offline_Installation_Resource_Library
 cd Linux_Offline_Installation_Resource_Library
 bash 10_INSTALLATION_SCRIPTS/recovery/assemble_from_github_release.sh     # 约 13 GB，可断点续传
-bash 10_INSTALLATION_SCRIPTS/recovery/fetch_url_placeholders.sh           # 约 1.4 GB，从发布方下载受许可限制的文件
+bash 10_INSTALLATION_SCRIPTS/recovery/fetch_url_placeholders.sh           # 约 1.2 GB，从发布方下载受许可限制的文件
 ```
 
 Windows 上用同名的 `.ps1` 脚本。第一个脚本可以用 `--only iso|wsl|apt|runtime` 只取一部分，第二个可以用 `--only vmware|wsl|vscode`。
