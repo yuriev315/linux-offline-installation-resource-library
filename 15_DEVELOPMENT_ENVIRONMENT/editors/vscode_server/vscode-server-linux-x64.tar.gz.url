@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://vscode.download.prss.microsoft.com/dbazure/download/stable/a717861c07586a53d83b80d742cd3f59b20a6273/vscode-server-linux-x64.tar.gz
+
+[File]
+Name=vscode-server-linux-x64.tar.gz
+Product=Visual Studio Code
+SizeBytes=228544749
+SHA256=53a8e2707f27b3dfc08f8aef536f9595f4c479922fc13f9644e723b3b1abab37
+DirectDownload=yes
+Checked=2026-11-05 HTTP 206
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

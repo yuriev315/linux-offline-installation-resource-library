@@ -1,0 +1,5 @@
+# Keep every file byte-identical on all platforms, so SHA256SUMS.txt holds after any clone.
+* -text
+*.sh text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf

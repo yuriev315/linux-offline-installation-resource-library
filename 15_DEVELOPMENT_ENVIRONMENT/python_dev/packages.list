@@ -1,0 +1,10 @@
+python3-dbg
+python3-pytest
+python3-pip
+python3-venv
+libgdbm-dev
+libgdbm-compat-dev
+tk-dev
+uuid-dev
+libexpat1-dev
+libnss3-dev

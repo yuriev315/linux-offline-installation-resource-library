@@ -1,0 +1,5 @@
+open-vm-tools
+open-vm-tools-desktop
+fuse3
+network-manager
+xserver-xorg-video-vmware

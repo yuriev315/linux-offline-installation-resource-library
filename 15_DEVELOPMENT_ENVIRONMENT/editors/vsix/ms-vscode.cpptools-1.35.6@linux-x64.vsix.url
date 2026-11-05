@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-vscode/vsextensions/cpptools/1.35.6/vspackage?targetPlatform=linux-x64
+
+[File]
+Name=ms-vscode.cpptools-1.35.6@linux-x64.vsix
+Product=Visual Studio Code
+SizeBytes=142263364
+SHA256=858052d1c920f9448debeb336952b5f2da3d1c684c4417de819216d009942fde
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

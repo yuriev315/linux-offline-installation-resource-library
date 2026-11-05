@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105040426
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command $d=(Get-PSDrive -PSProvider FileSystem | Where-Object { Test-Path ($_.Root + 'OFFLINE_TEST_PAYLOAD') } | Select-Object -First 1).Root; & ($d + 'Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1')
+Process ID: 7912
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T04:04:26 prepare the test machine
+
+
+Caption     : Microsoft Windows 11 Enterprise Evaluation
+Version     : 10.0.26200
+BuildNumber : 26200
+
+
+
+PASS no-network-adapter
+PASS no-internet
+
+
+
+=== 2026-11-05T04:04:34 PowerShell syntax of every script in the library
+OK   run_windows_test.ps1
+OK   verify_powershell_syntax.ps1
+OK   create_vmware_vm.ps1
+OK   assemble_from_github_release.ps1
+OK   wsl_backup.ps1
+OK   wsl_offline_install.ps1
+OK   wsl_restore.ps1
+PASS powershell-syntax
+=== 2026-11-05T04:04:35 WSL script, check only
+2026-11-05T04:04:35 Windows build 26200, arch AMD64
+2026-11-05T04:04:40 Firmware virtualization enabled: True; hypervisor already running: True
+2026-11-05T04:04:42 SHA256 OK: wsl.3.0.3.0.x64.msi
+2026-11-05T04:04:44 SHA256 OK: ubuntu-24.04.5-wsl-amd64.wsl
+2026-11-05T04:04:44 Checks passed; nothing changed (-CheckOnly).
+PASS wsl-checkonly rc=0
+**********************
+Windows PowerShell transcript end
+End time: 20261105040444
+**********************

@@ -1,0 +1,21 @@
+# Published as Release assets
+*.iso
+*.wsl
+04_APT_OFFLINE_REPOSITORY/pool/
+07_PYTHON_BASE_ENVIRONMENT/wheelhouse/*.whl
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/node/node-*.tar.xz
+# Licence-restricted: the repository only holds the <file>.url placeholder beside each of these
+*.msi
+*.exe
+*.bundle
+*.iso.sha
+*.iso.sig
+*.vsix
+15_DEVELOPMENT_ENVIRONMENT/editors/vscode/*.deb
+15_DEVELOPMENT_ENVIRONMENT/editors/vscode_server/*.tar.gz
+# Local build and test state, including the private signing key
+.tools/
+.release-download/
+*.tmp
+*.badsha
+*.part

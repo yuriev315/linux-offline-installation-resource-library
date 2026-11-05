@@ -1,0 +1,57 @@
+PASS,gcc-c,hello from c
+PASS,gpp-cpp,hello from c++
+PASS,clang-c,hello from c
+PASS,clangpp-cpp,hello from c++
+PASS,lld-link,hello from c
+PASS,ccache,hello from c
+PASS,make,hello from make
+PASS,autotools,autoconf (GNU Autoconf) 2.71
+PASS,pkg-config,
+PASS,openssl-link,
+PASS,blas-lapack,
+PASS,protobuf,
+PASS,cmake-ninja-ctest,hello from cmake 5050
+PASS,gdb,[Thread debugging using libthread_db enabled]
+PASS,lldb,(lldb) target create "./c_hello"
+PASS,valgrind,==43267== Memcheck a memory error detector
+PASS,strace,execve("./c_hello" ["./c_hello"] 0x7ffc108ddda0 /* 20 vars */) = 0
+PASS,ltrace,ltrace version 0.7.3.
+PASS,gcov,hello from c
+PASS,gprof,Flat profile:
+PASS,lcov,lcov: LCOV version 2.0-1
+PASS,perf,perf version 6.8.12
+PASS,python3.12,hello from python 3.45.1 OpenSSL 3.0.13 30 Jan 2024
+PASS,system-python-intact,
+PASS,venv-wheelhouse,No broken requirements found.
+PASS,pytest-from-wheels,.                                                                        [100%]
+PASS,virtualenv-from-wheels,created virtual environment CPython3.12.3.final.0-64-x86_64 in 259ms
+PASS,python-cprofile,hello from python 3.45.1 OpenSSL 3.0.13 30 Jan 2024
+PASS,python3-dbg,
+PASS,python-apt-pytest,pytest 7.4.4
+PASS,pyspy-installed,py-spy 0.4.3
+PASS,bash,hello from bash
+PASS,zsh,zsh 5.9 (x86_64-ubuntu-linux-gnu)
+PASS,shellcheck,
+PASS,shellcheck-catches-bad,
+PASS,shfmt,
+PASS,jq,2
+PASS,yq,2
+PASS,perl,hello from perl 5.038002
+PASS,ruby,hello from ruby 3.2.3
+PASS,expect,ok
+PASS,git,2556cc9 initial
+PASS,git-lfs,git-lfs/3.4.1 (GitHub; linux amd64; go 1.22.2)
+PASS,tig,tig version 2.5.8
+PASS,java,hello from java 21.0.12.1
+PASS,node,hello from node v24.22.2
+PASS,npm,11.19.1
+PASS,npm-local,
+PASS,go,hello from go go1.26.8
+PASS,rust-rustc,hello from rust
+PASS,rust-cargo,hello from cargo
+PASS,php,hello from php 8.3.6
+PASS,vim,VIM - Vi IMproved 9.1 (2024 Jan 02 compiled Aug 24 2026 22:13:04)
+PASS,neovim,NVIM v0.9.5
+PASS,emacs,GNU Emacs 29.3
+PASS,vscode,1.145.0
+RESULT,PASS=56 FAIL=0 SKIP=0,

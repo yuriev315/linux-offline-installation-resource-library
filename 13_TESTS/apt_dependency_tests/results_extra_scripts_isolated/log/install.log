@@ -1,0 +1,897 @@
+2026-11-05T01:22:33Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:34Z wrote /etc/apt/sources.list.d/linux-offline-noble.sources
+2026-11-05T01:22:34Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:22:34Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:34Z /etc/apt/sources.list.d/linux-offline-noble.sources already up to date
+2026-11-05T01:22:34Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:22:34Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:34Z removed /etc/apt/sources.list.d/linux-offline-noble.sources and /usr/share/keyrings/linux-offline-repo.gpg
+2026-11-05T01:22:34Z target OK: Ubuntu 24.04.5 LTS / amd64
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:22:35Z repair finished
+2026-11-05T01:22:35Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:35Z created user devuser (set a password with: passwd devuser)
+2026-11-05T01:22:35Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:22:35Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:22:35Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:35Z user devuser exists
+2026-11-05T01:22:35Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:22:35Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:22:35Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:35Z ERROR: invalid user name: Bad User 2
+2026-11-05T01:22:49Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:49Z == system
+Linux build-host 7.0.0-22-generic #22-Ubuntu SMP PREEMPT_DYNAMIC Mon May 25 15:54:34 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+model name	: AMD Ryzen 5 3600 6-Core Processor
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi        43Gi       7.4Gi        18Gi        31Gi        19Gi
+Swap:          2.0Gi       2.0Gi       212Ki
+2026-11-05T01:22:49Z == storage
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/md2       ext4  465G  288G  154G  66% /mnt/lib
+2026-11-05T01:22:49Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:49Z packages requested: 46
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt is already the newest version (2.8.4ubuntu0.1).
+apt-utils is already the newest version (2.8.4ubuntu0.1).
+bash is already the newest version (5.2.21-2ubuntu4).
+bzip2 is already the newest version (1.0.8-5.1ubuntu0.1).
+ca-certificates is already the newest version (20260816ubuntu0.24.04.1).
+coreutils is already the newest version (9.4-3ubuntu6.3).
+cron is already the newest version (3.0pl1-184ubuntu2).
+dmidecode is already the newest version (3.5-3ubuntu0.2).
+dpkg is already the newest version (1.22.6ubuntu6.6).
+findutils is already the newest version (4.9.0-5build1).
+gnupg is already the newest version (2.4.4-2ubuntu17.6).
+grep is already the newest version (3.11-4build1).
+gzip is already the newest version (1.12-1ubuntu3.2).
+hdparm is already the newest version (9.65+ds-1build1).
+htop is already the newest version (3.3.0-4build1).
+libc6 is already the newest version (2.39-0ubuntu8.9).
+libgcc-s1 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+libstdc++6 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+lm-sensors is already the newest version (1:3.6.0-9build1).
+locales is already the newest version (2.39-0ubuntu8.9).
+logrotate is already the newest version (3.21.0-2build1).
+lsof is already the newest version (4.95.0-1build3).
+nvme-cli is already the newest version (2.8-1ubuntu0.1).
+openssl is already the newest version (3.0.13-0ubuntu3.16).
+pciutils is already the newest version (1:3.10.0-2build1).
+procps is already the newest version (2:4.0.4-4ubuntu3.3).
+rsync is already the newest version (3.2.7-1ubuntu1.5).
+screen is already the newest version (4.9.1-1ubuntu1).
+sed is already the newest version (4.9-2ubuntu0.24.04.1).
+smartmontools is already the newest version (7.4-2build1).
+strace is already the newest version (6.8-0ubuntu2).
+sudo is already the newest version (1.9.15p5-3ubuntu5.24.04.4).
+sysstat is already the newest version (12.6.1-2).
+systemd is already the newest version (255.4-1ubuntu8.18).
+systemd-sysv is already the newest version (255.4-1ubuntu8.18).
+tar is already the newest version (1.35+dfsg-3ubuntu0.4).
+tmux is already the newest version (3.4-1ubuntu0.2).
+tzdata is already the newest version (2026e-0ubuntu0.24.04.1).
+ubuntu-keyring is already the newest version (2023.11.28.1).
+ubuntu-minimal is already the newest version (1.539.2).
+ubuntu-standard is already the newest version (1.539.2).
+unzip is already the newest version (6.0-28ubuntu4.1).
+usbutils is already the newest version (1:017-3build1).
+util-linux is already the newest version (2.39.3-9ubuntu6.6).
+xz-utils is already the newest version (5.6.1+really5.4.5-1ubuntu0.4).
+zip is already the newest version (3.0-13ubuntu0.2).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:22:49Z install complete: 46 requested packages present
+2026-11-05T01:22:49Z native setup finished
+2026-11-05T01:22:49Z ERROR: nothing selected. Use --profile, --group or --packages (--list shows them). 2
+2026-11-05T01:22:49Z ERROR: unknown profile: nope (try --list) 2
+2026-11-05T01:22:52Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:52Z ERROR: repository is incomplete or damaged (see the list above) 14
+2026-11-05T01:22:54Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:22:55Z packages requested: 2
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  jq libjq1
+0 upgraded, 2 newly installed, 0 to remove and 41 not upgraded.
+Need to get 0 B/208 kB of archives.
+After this operation, 483 kB of additional disk space will be used.
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libjq1 amd64 1.7.1-3ubuntu0.24.04.2 [142 kB]
+Get:2 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 jq amd64 1.7.1-3ubuntu0.24.04.2 [65.7 kB]
+Selecting previously unselected package libjq1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 110322 files and directories currently installed.)
+Preparing to unpack .../libjq1_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../jq_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking jq (1.7.1-3ubuntu0.24.04.2) ...
+Setting up libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Setting up jq (1.7.1-3ubuntu0.24.04.2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+2026-11-05T01:22:57Z install complete: 2 requested packages present
+2026-11-05T01:23:13Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:13Z wrote /etc/apt/sources.list.d/linux-offline-noble.sources
+2026-11-05T01:23:13Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:23:13Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:14Z /etc/apt/sources.list.d/linux-offline-noble.sources already up to date
+2026-11-05T01:23:14Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:23:14Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:14Z removed /etc/apt/sources.list.d/linux-offline-noble.sources and /usr/share/keyrings/linux-offline-repo.gpg
+2026-11-05T01:23:14Z target OK: Ubuntu 24.04.5 LTS / amd64
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:23:15Z repair finished
+2026-11-05T01:23:15Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:15Z user devuser exists
+2026-11-05T01:23:15Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:23:15Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:23:15Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:15Z user devuser exists
+2026-11-05T01:23:15Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:23:15Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:23:15Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:15Z ERROR: invalid user name: Bad User 2
+2026-11-05T01:23:17Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:17Z == system
+Linux build-host 7.0.0-22-generic #22-Ubuntu SMP PREEMPT_DYNAMIC Mon May 25 15:54:34 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+model name	: AMD Ryzen 5 3600 6-Core Processor
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi        43Gi       5.9Gi        18Gi        32Gi        19Gi
+Swap:          2.0Gi       2.0Gi       236Ki
+2026-11-05T01:23:17Z == storage
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/md2       ext4  465G  288G  154G  66% /mnt/lib
+2026-11-05T01:23:17Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:17Z packages requested: 46
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt is already the newest version (2.8.4ubuntu0.1).
+apt-utils is already the newest version (2.8.4ubuntu0.1).
+bash is already the newest version (5.2.21-2ubuntu4).
+bzip2 is already the newest version (1.0.8-5.1ubuntu0.1).
+ca-certificates is already the newest version (20260816ubuntu0.24.04.1).
+coreutils is already the newest version (9.4-3ubuntu6.3).
+cron is already the newest version (3.0pl1-184ubuntu2).
+dmidecode is already the newest version (3.5-3ubuntu0.2).
+dpkg is already the newest version (1.22.6ubuntu6.6).
+findutils is already the newest version (4.9.0-5build1).
+gnupg is already the newest version (2.4.4-2ubuntu17.6).
+grep is already the newest version (3.11-4build1).
+gzip is already the newest version (1.12-1ubuntu3.2).
+hdparm is already the newest version (9.65+ds-1build1).
+htop is already the newest version (3.3.0-4build1).
+libc6 is already the newest version (2.39-0ubuntu8.9).
+libgcc-s1 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+libstdc++6 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+lm-sensors is already the newest version (1:3.6.0-9build1).
+locales is already the newest version (2.39-0ubuntu8.9).
+logrotate is already the newest version (3.21.0-2build1).
+lsof is already the newest version (4.95.0-1build3).
+nvme-cli is already the newest version (2.8-1ubuntu0.1).
+openssl is already the newest version (3.0.13-0ubuntu3.16).
+pciutils is already the newest version (1:3.10.0-2build1).
+procps is already the newest version (2:4.0.4-4ubuntu3.3).
+rsync is already the newest version (3.2.7-1ubuntu1.5).
+screen is already the newest version (4.9.1-1ubuntu1).
+sed is already the newest version (4.9-2ubuntu0.24.04.1).
+smartmontools is already the newest version (7.4-2build1).
+strace is already the newest version (6.8-0ubuntu2).
+sudo is already the newest version (1.9.15p5-3ubuntu5.24.04.4).
+sysstat is already the newest version (12.6.1-2).
+systemd is already the newest version (255.4-1ubuntu8.18).
+systemd-sysv is already the newest version (255.4-1ubuntu8.18).
+tar is already the newest version (1.35+dfsg-3ubuntu0.4).
+tmux is already the newest version (3.4-1ubuntu0.2).
+tzdata is already the newest version (2026e-0ubuntu0.24.04.1).
+ubuntu-keyring is already the newest version (2023.11.28.1).
+ubuntu-minimal is already the newest version (1.539.2).
+ubuntu-standard is already the newest version (1.539.2).
+unzip is already the newest version (6.0-28ubuntu4.1).
+usbutils is already the newest version (1:017-3build1).
+util-linux is already the newest version (2.39.3-9ubuntu6.6).
+xz-utils is already the newest version (5.6.1+really5.4.5-1ubuntu0.4).
+zip is already the newest version (3.0-13ubuntu0.2).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:23:17Z install complete: 46 requested packages present
+2026-11-05T01:23:17Z native setup finished
+2026-11-05T01:23:17Z ERROR: nothing selected. Use --profile, --group or --packages (--list shows them). 2
+2026-11-05T01:23:17Z ERROR: unknown profile: nope (try --list) 2
+2026-11-05T01:23:19Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:19Z ERROR: repository is incomplete or damaged (see the list above) 14
+2026-11-05T01:23:21Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:21Z packages requested: 2
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  jq libjq1
+0 upgraded, 2 newly installed, 0 to remove and 41 not upgraded.
+Need to get 0 B/208 kB of archives.
+After this operation, 483 kB of additional disk space will be used.
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libjq1 amd64 1.7.1-3ubuntu0.24.04.2 [142 kB]
+Get:2 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 jq amd64 1.7.1-3ubuntu0.24.04.2 [65.7 kB]
+Selecting previously unselected package libjq1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 110322 files and directories currently installed.)
+Preparing to unpack .../libjq1_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../jq_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking jq (1.7.1-3ubuntu0.24.04.2) ...
+Setting up libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Setting up jq (1.7.1-3ubuntu0.24.04.2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+2026-11-05T01:23:23Z install complete: 2 requested packages present
+2026-11-05T01:23:33Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:33Z wrote /etc/apt/sources.list.d/linux-offline-noble.sources
+2026-11-05T01:23:33Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:23:33Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:33Z /etc/apt/sources.list.d/linux-offline-noble.sources already up to date
+2026-11-05T01:23:33Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:23:33Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:33Z removed /etc/apt/sources.list.d/linux-offline-noble.sources and /usr/share/keyrings/linux-offline-repo.gpg
+2026-11-05T01:23:33Z target OK: Ubuntu 24.04.5 LTS / amd64
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:23:34Z repair finished
+2026-11-05T01:23:34Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:34Z user devuser exists
+2026-11-05T01:23:34Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:23:34Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:23:34Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:34Z user devuser exists
+2026-11-05T01:23:34Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:23:34Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:23:34Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:34Z ERROR: invalid user name: Bad User 2
+2026-11-05T01:23:35Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:35Z == system
+Linux build-host 7.0.0-22-generic #22-Ubuntu SMP PREEMPT_DYNAMIC Mon May 25 15:54:34 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+model name	: AMD Ryzen 5 3600 6-Core Processor
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi        40Gi       8.5Gi        18Gi        33Gi        22Gi
+Swap:          2.0Gi       2.0Gi       236Ki
+2026-11-05T01:23:35Z == storage
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/md2       ext4  465G  288G  154G  66% /mnt/lib
+2026-11-05T01:23:35Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:36Z packages requested: 46
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt is already the newest version (2.8.4ubuntu0.1).
+apt-utils is already the newest version (2.8.4ubuntu0.1).
+bash is already the newest version (5.2.21-2ubuntu4).
+bzip2 is already the newest version (1.0.8-5.1ubuntu0.1).
+ca-certificates is already the newest version (20260816ubuntu0.24.04.1).
+coreutils is already the newest version (9.4-3ubuntu6.3).
+cron is already the newest version (3.0pl1-184ubuntu2).
+dmidecode is already the newest version (3.5-3ubuntu0.2).
+dpkg is already the newest version (1.22.6ubuntu6.6).
+findutils is already the newest version (4.9.0-5build1).
+gnupg is already the newest version (2.4.4-2ubuntu17.6).
+grep is already the newest version (3.11-4build1).
+gzip is already the newest version (1.12-1ubuntu3.2).
+hdparm is already the newest version (9.65+ds-1build1).
+htop is already the newest version (3.3.0-4build1).
+libc6 is already the newest version (2.39-0ubuntu8.9).
+libgcc-s1 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+libstdc++6 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+lm-sensors is already the newest version (1:3.6.0-9build1).
+locales is already the newest version (2.39-0ubuntu8.9).
+logrotate is already the newest version (3.21.0-2build1).
+lsof is already the newest version (4.95.0-1build3).
+nvme-cli is already the newest version (2.8-1ubuntu0.1).
+openssl is already the newest version (3.0.13-0ubuntu3.16).
+pciutils is already the newest version (1:3.10.0-2build1).
+procps is already the newest version (2:4.0.4-4ubuntu3.3).
+rsync is already the newest version (3.2.7-1ubuntu1.5).
+screen is already the newest version (4.9.1-1ubuntu1).
+sed is already the newest version (4.9-2ubuntu0.24.04.1).
+smartmontools is already the newest version (7.4-2build1).
+strace is already the newest version (6.8-0ubuntu2).
+sudo is already the newest version (1.9.15p5-3ubuntu5.24.04.4).
+sysstat is already the newest version (12.6.1-2).
+systemd is already the newest version (255.4-1ubuntu8.18).
+systemd-sysv is already the newest version (255.4-1ubuntu8.18).
+tar is already the newest version (1.35+dfsg-3ubuntu0.4).
+tmux is already the newest version (3.4-1ubuntu0.2).
+tzdata is already the newest version (2026e-0ubuntu0.24.04.1).
+ubuntu-keyring is already the newest version (2023.11.28.1).
+ubuntu-minimal is already the newest version (1.539.2).
+ubuntu-standard is already the newest version (1.539.2).
+unzip is already the newest version (6.0-28ubuntu4.1).
+usbutils is already the newest version (1:017-3build1).
+util-linux is already the newest version (2.39.3-9ubuntu6.6).
+xz-utils is already the newest version (5.6.1+really5.4.5-1ubuntu0.4).
+zip is already the newest version (3.0-13ubuntu0.2).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:23:36Z install complete: 46 requested packages present
+2026-11-05T01:23:36Z native setup finished
+2026-11-05T01:23:36Z ERROR: nothing selected. Use --profile, --group or --packages (--list shows them). 2
+2026-11-05T01:23:36Z ERROR: unknown profile: nope (try --list) 2
+2026-11-05T01:23:38Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:38Z ERROR: repository is incomplete or damaged (see the list above) 14
+2026-11-05T01:23:41Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:41Z packages requested: 2
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  jq libjq1
+0 upgraded, 2 newly installed, 0 to remove and 41 not upgraded.
+Need to get 0 B/208 kB of archives.
+After this operation, 483 kB of additional disk space will be used.
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libjq1 amd64 1.7.1-3ubuntu0.24.04.2 [142 kB]
+Get:2 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 jq amd64 1.7.1-3ubuntu0.24.04.2 [65.7 kB]
+Selecting previously unselected package libjq1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 110322 files and directories currently installed.)
+Preparing to unpack .../libjq1_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../jq_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking jq (1.7.1-3ubuntu0.24.04.2) ...
+Setting up libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Setting up jq (1.7.1-3ubuntu0.24.04.2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+2026-11-05T01:23:44Z install complete: 2 requested packages present
+2026-11-05T01:23:58Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:58Z wrote /etc/apt/sources.list.d/linux-offline-noble.sources
+2026-11-05T01:23:58Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:23:58Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:58Z /etc/apt/sources.list.d/linux-offline-noble.sources already up to date
+2026-11-05T01:23:58Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:23:59Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:59Z removed /etc/apt/sources.list.d/linux-offline-noble.sources and /usr/share/keyrings/linux-offline-repo.gpg
+2026-11-05T01:23:59Z target OK: Ubuntu 24.04.5 LTS / amd64
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:23:59Z repair finished
+2026-11-05T01:23:59Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:59Z user devuser exists
+2026-11-05T01:23:59Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:23:59Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:23:59Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:59Z user devuser exists
+2026-11-05T01:23:59Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:23:59Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:23:59Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:23:59Z ERROR: invalid user name: Bad User 2
+2026-11-05T01:24:00Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:00Z == system
+Linux build-host 7.0.0-22-generic #22-Ubuntu SMP PREEMPT_DYNAMIC Mon May 25 15:54:34 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+model name	: AMD Ryzen 5 3600 6-Core Processor
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi        40Gi       8.5Gi        18Gi        33Gi        22Gi
+Swap:          2.0Gi       2.0Gi       248Ki
+2026-11-05T01:24:00Z == storage
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/md2       ext4  465G  288G  154G  66% /mnt/lib
+2026-11-05T01:24:00Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:01Z packages requested: 46
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt is already the newest version (2.8.4ubuntu0.1).
+apt-utils is already the newest version (2.8.4ubuntu0.1).
+bash is already the newest version (5.2.21-2ubuntu4).
+bzip2 is already the newest version (1.0.8-5.1ubuntu0.1).
+ca-certificates is already the newest version (20260816ubuntu0.24.04.1).
+coreutils is already the newest version (9.4-3ubuntu6.3).
+cron is already the newest version (3.0pl1-184ubuntu2).
+dmidecode is already the newest version (3.5-3ubuntu0.2).
+dpkg is already the newest version (1.22.6ubuntu6.6).
+findutils is already the newest version (4.9.0-5build1).
+gnupg is already the newest version (2.4.4-2ubuntu17.6).
+grep is already the newest version (3.11-4build1).
+gzip is already the newest version (1.12-1ubuntu3.2).
+hdparm is already the newest version (9.65+ds-1build1).
+htop is already the newest version (3.3.0-4build1).
+libc6 is already the newest version (2.39-0ubuntu8.9).
+libgcc-s1 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+libstdc++6 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+lm-sensors is already the newest version (1:3.6.0-9build1).
+locales is already the newest version (2.39-0ubuntu8.9).
+logrotate is already the newest version (3.21.0-2build1).
+lsof is already the newest version (4.95.0-1build3).
+nvme-cli is already the newest version (2.8-1ubuntu0.1).
+openssl is already the newest version (3.0.13-0ubuntu3.16).
+pciutils is already the newest version (1:3.10.0-2build1).
+procps is already the newest version (2:4.0.4-4ubuntu3.3).
+rsync is already the newest version (3.2.7-1ubuntu1.5).
+screen is already the newest version (4.9.1-1ubuntu1).
+sed is already the newest version (4.9-2ubuntu0.24.04.1).
+smartmontools is already the newest version (7.4-2build1).
+strace is already the newest version (6.8-0ubuntu2).
+sudo is already the newest version (1.9.15p5-3ubuntu5.24.04.4).
+sysstat is already the newest version (12.6.1-2).
+systemd is already the newest version (255.4-1ubuntu8.18).
+systemd-sysv is already the newest version (255.4-1ubuntu8.18).
+tar is already the newest version (1.35+dfsg-3ubuntu0.4).
+tmux is already the newest version (3.4-1ubuntu0.2).
+tzdata is already the newest version (2026e-0ubuntu0.24.04.1).
+ubuntu-keyring is already the newest version (2023.11.28.1).
+ubuntu-minimal is already the newest version (1.539.2).
+ubuntu-standard is already the newest version (1.539.2).
+unzip is already the newest version (6.0-28ubuntu4.1).
+usbutils is already the newest version (1:017-3build1).
+util-linux is already the newest version (2.39.3-9ubuntu6.6).
+xz-utils is already the newest version (5.6.1+really5.4.5-1ubuntu0.4).
+zip is already the newest version (3.0-13ubuntu0.2).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:24:01Z install complete: 46 requested packages present
+2026-11-05T01:24:01Z native setup finished
+2026-11-05T01:24:01Z ERROR: nothing selected. Use --profile, --group or --packages (--list shows them). 2
+2026-11-05T01:24:01Z ERROR: unknown profile: nope (try --list) 2
+2026-11-05T01:24:03Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:03Z ERROR: repository is incomplete or damaged (see the list above) 14
+2026-11-05T01:24:05Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:05Z packages requested: 2
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  jq libjq1
+0 upgraded, 2 newly installed, 0 to remove and 41 not upgraded.
+Need to get 0 B/208 kB of archives.
+After this operation, 483 kB of additional disk space will be used.
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libjq1 amd64 1.7.1-3ubuntu0.24.04.2 [142 kB]
+Get:2 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 jq amd64 1.7.1-3ubuntu0.24.04.2 [65.7 kB]
+Selecting previously unselected package libjq1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 110322 files and directories currently installed.)
+Preparing to unpack .../libjq1_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../jq_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking jq (1.7.1-3ubuntu0.24.04.2) ...
+Setting up libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Setting up jq (1.7.1-3ubuntu0.24.04.2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+2026-11-05T01:24:07Z install complete: 2 requested packages present
+2026-11-05T01:24:54Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:54Z wrote /etc/apt/sources.list.d/linux-offline-noble.sources
+2026-11-05T01:24:54Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:24:54Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:54Z /etc/apt/sources.list.d/linux-offline-noble.sources already up to date
+2026-11-05T01:24:54Z done. On a machine with no internet, 'apt-get update' will warn about other configured sources; that is harmless.
+2026-11-05T01:24:55Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:55Z removed /etc/apt/sources.list.d/linux-offline-noble.sources and /usr/share/keyrings/linux-offline-repo.gpg
+2026-11-05T01:24:55Z target OK: Ubuntu 24.04.5 LTS / amd64
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:24:55Z repair finished
+2026-11-05T01:24:55Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:55Z user devuser exists
+2026-11-05T01:24:55Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:24:55Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:24:55Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:55Z user devuser exists
+2026-11-05T01:24:55Z kept existing /etc/wsl.conf (it must contain [user] default=devuser to take effect)
+2026-11-05T01:24:55Z distro configured. From Windows run: wsl --terminate <name>, then start it again.
+2026-11-05T01:24:55Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:55Z ERROR: invalid user name: Bad User 2
+2026-11-05T01:24:57Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:57Z == system
+Linux build-host 7.0.0-22-generic #22-Ubuntu SMP PREEMPT_DYNAMIC Mon May 25 15:54:34 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+model name	: AMD Ryzen 5 3600 6-Core Processor
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi        40Gi       6.8Gi        18Gi        34Gi        22Gi
+Swap:          2.0Gi       2.0Gi       248Ki
+2026-11-05T01:24:57Z == storage
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/md2       ext4  465G  288G  154G  66% /mnt/lib
+2026-11-05T01:24:57Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:57Z packages requested: 46
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt is already the newest version (2.8.4ubuntu0.1).
+apt-utils is already the newest version (2.8.4ubuntu0.1).
+bash is already the newest version (5.2.21-2ubuntu4).
+bzip2 is already the newest version (1.0.8-5.1ubuntu0.1).
+ca-certificates is already the newest version (20260816ubuntu0.24.04.1).
+coreutils is already the newest version (9.4-3ubuntu6.3).
+cron is already the newest version (3.0pl1-184ubuntu2).
+dmidecode is already the newest version (3.5-3ubuntu0.2).
+dpkg is already the newest version (1.22.6ubuntu6.6).
+findutils is already the newest version (4.9.0-5build1).
+gnupg is already the newest version (2.4.4-2ubuntu17.6).
+grep is already the newest version (3.11-4build1).
+gzip is already the newest version (1.12-1ubuntu3.2).
+hdparm is already the newest version (9.65+ds-1build1).
+htop is already the newest version (3.3.0-4build1).
+libc6 is already the newest version (2.39-0ubuntu8.9).
+libgcc-s1 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+libstdc++6 is already the newest version (14.2.0-4ubuntu2~24.04.1).
+lm-sensors is already the newest version (1:3.6.0-9build1).
+locales is already the newest version (2.39-0ubuntu8.9).
+logrotate is already the newest version (3.21.0-2build1).
+lsof is already the newest version (4.95.0-1build3).
+nvme-cli is already the newest version (2.8-1ubuntu0.1).
+openssl is already the newest version (3.0.13-0ubuntu3.16).
+pciutils is already the newest version (1:3.10.0-2build1).
+procps is already the newest version (2:4.0.4-4ubuntu3.3).
+rsync is already the newest version (3.2.7-1ubuntu1.5).
+screen is already the newest version (4.9.1-1ubuntu1).
+sed is already the newest version (4.9-2ubuntu0.24.04.1).
+smartmontools is already the newest version (7.4-2build1).
+strace is already the newest version (6.8-0ubuntu2).
+sudo is already the newest version (1.9.15p5-3ubuntu5.24.04.4).
+sysstat is already the newest version (12.6.1-2).
+systemd is already the newest version (255.4-1ubuntu8.18).
+systemd-sysv is already the newest version (255.4-1ubuntu8.18).
+tar is already the newest version (1.35+dfsg-3ubuntu0.4).
+tmux is already the newest version (3.4-1ubuntu0.2).
+tzdata is already the newest version (2026e-0ubuntu0.24.04.1).
+ubuntu-keyring is already the newest version (2023.11.28.1).
+ubuntu-minimal is already the newest version (1.539.2).
+ubuntu-standard is already the newest version (1.539.2).
+unzip is already the newest version (6.0-28ubuntu4.1).
+usbutils is already the newest version (1:017-3build1).
+util-linux is already the newest version (2.39.3-9ubuntu6.6).
+xz-utils is already the newest version (5.6.1+really5.4.5-1ubuntu0.4).
+zip is already the newest version (3.0-13ubuntu0.2).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T01:24:57Z install complete: 46 requested packages present
+2026-11-05T01:24:57Z native setup finished
+2026-11-05T01:24:57Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:24:57Z packages requested: 1
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  binutils-aarch64-linux-gnu cpp-13-aarch64-linux-gnu cpp-aarch64-linux-gnu
+  cross-config dpkg-cross g++-13-aarch64-linux-gnu g++-aarch64-linux-gnu
+  gcc-13-aarch64-linux-gnu gcc-13-aarch64-linux-gnu-base gcc-13-cross-base
+  gcc-14-cross-base gcc-aarch64-linux-gnu libasan8-arm64-cross
+  libatomic1-arm64-cross libc6-arm64-cross libc6-dev-arm64-cross
+  libconfig-auto-perl libconfig-inifiles-perl libdebian-dpkgcross-perl
+  libfile-homedir-perl libfile-which-perl libgcc-13-dev-arm64-cross
+  libgcc-s1-arm64-cross libgomp1-arm64-cross libhwasan0-arm64-cross
+  libio-string-perl libitm1-arm64-cross liblsan0-arm64-cross
+  libstdc++-13-dev-arm64-cross libstdc++6-arm64-cross libtsan2-arm64-cross
+  libubsan1-arm64-cross libxml-libxml-perl libxml-namespacesupport-perl
+  libxml-sax-base-perl libxml-sax-expat-perl libxml-sax-perl
+  libxml-simple-perl libyaml-libyaml-perl libyaml-perl
+  linux-libc-dev-arm64-cross
+Suggested packages:
+  binutils-doc gcc-13-locales cpp-13-doc cpp-doc binutils-multiarch gcc-13-doc
+  flex bison gdb-aarch64-linux-gnu gcc-doc libxml-sax-expatxs-perl
+  libyaml-shell-perl
+The following NEW packages will be installed:
+  binutils-aarch64-linux-gnu cpp-13-aarch64-linux-gnu cpp-aarch64-linux-gnu
+  cross-config crossbuild-essential-arm64 dpkg-cross g++-13-aarch64-linux-gnu
+  g++-aarch64-linux-gnu gcc-13-aarch64-linux-gnu gcc-13-aarch64-linux-gnu-base
+  gcc-13-cross-base gcc-14-cross-base gcc-aarch64-linux-gnu
+  libasan8-arm64-cross libatomic1-arm64-cross libc6-arm64-cross
+  libc6-dev-arm64-cross libconfig-auto-perl libconfig-inifiles-perl
+  libdebian-dpkgcross-perl libfile-homedir-perl libfile-which-perl
+  libgcc-13-dev-arm64-cross libgcc-s1-arm64-cross libgomp1-arm64-cross
+  libhwasan0-arm64-cross libio-string-perl libitm1-arm64-cross
+  liblsan0-arm64-cross libstdc++-13-dev-arm64-cross libstdc++6-arm64-cross
+  libtsan2-arm64-cross libubsan1-arm64-cross libxml-libxml-perl
+  libxml-namespacesupport-perl libxml-sax-base-perl libxml-sax-expat-perl
+  libxml-sax-perl libxml-simple-perl libyaml-libyaml-perl libyaml-perl
+  linux-libc-dev-arm64-cross
+0 upgraded, 42 newly installed, 0 to remove and 41 not upgraded.
+Need to get 0 B/60.7 MB of archives.
+After this operation, 237 MB of additional disk space will be used.
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 gcc-13-aarch64-linux-gnu-base amd64 13.3.0-6ubuntu2~24.04.1cross1 [51.9 kB]
+Get:2 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 cpp-13-aarch64-linux-gnu amd64 13.3.0-6ubuntu2~24.04.1cross1 [10.8 MB]
+Get:3 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 cpp-aarch64-linux-gnu amd64 4:13.2.0-7ubuntu1 [5332 B]
+Get:4 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 binutils-aarch64-linux-gnu amd64 2.42-4ubuntu2.10 [3711 kB]
+Get:5 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 gcc-13-cross-base all 13.3.0-6ubuntu2~24.04.1cross1 [46.5 kB]
+Get:6 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 gcc-14-cross-base all 14.2.0-4ubuntu2~24.04.1cross1 [46.1 kB]
+Get:7 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libc6-arm64-cross all 2.39-0ubuntu8cross1 [1197 kB]
+Get:8 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libgcc-s1-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [61.9 kB]
+Get:9 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libgomp1-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [110 kB]
+Get:10 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libitm1-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [31.1 kB]
+Get:11 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libatomic1-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [11.5 kB]
+Get:12 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libasan8-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [524 kB]
+Get:13 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 liblsan0-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [238 kB]
+Get:14 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libtsan2-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [500 kB]
+Get:15 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libstdc++6-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [659 kB]
+Get:16 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libubsan1-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [219 kB]
+Get:17 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libhwasan0-arm64-cross all 14.2.0-4ubuntu2~24.04.1cross1 [304 kB]
+Get:18 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libgcc-13-dev-arm64-cross all 13.3.0-6ubuntu2~24.04.1cross1 [2616 kB]
+Get:19 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 gcc-13-aarch64-linux-gnu amd64 13.3.0-6ubuntu2~24.04.1cross1 [21.1 MB]
+Get:20 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 gcc-aarch64-linux-gnu amd64 4:13.2.0-7ubuntu1 [1210 B]
+Get:21 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 linux-libc-dev-arm64-cross all 6.8.0-25.25cross1 [1375 kB]
+Get:22 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libc6-dev-arm64-cross all 2.39-0ubuntu8cross1 [1629 kB]
+Get:23 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libstdc++-13-dev-arm64-cross all 13.3.0-6ubuntu2~24.04.1cross1 [2656 kB]
+Get:24 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 g++-13-aarch64-linux-gnu amd64 13.3.0-6ubuntu2~24.04.1cross1 [12.2 MB]
+Get:25 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 g++-aarch64-linux-gnu amd64 4:13.2.0-7ubuntu1 [962 B]
+Get:26 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libconfig-inifiles-perl all 3.000003-2ubuntu0.1 [38.5 kB]
+Get:27 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libio-string-perl all 1.08-4 [11.1 kB]
+Get:28 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libxml-namespacesupport-perl all 1.12-2 [13.5 kB]
+Get:29 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libxml-sax-base-perl all 1.09-3 [18.9 kB]
+Get:30 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libxml-sax-perl all 1.02+dfsg-3 [57.0 kB]
+Get:31 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libxml-libxml-perl amd64 2.0207+dfsg+really+2.0134-1build4 [304 kB]
+Get:32 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libxml-sax-expat-perl all 0.51-2 [8644 B]
+Get:33 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libxml-simple-perl all 2.25-2 [64.1 kB]
+Get:34 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libyaml-perl all 1.31-1ubuntu0.24.04.1 [56.3 kB]
+Get:35 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libconfig-auto-perl all 0.44-2 [17.1 kB]
+Get:36 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libfile-which-perl all 1.27-2 [12.5 kB]
+Get:37 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libfile-homedir-perl all 1.006-2 [37.0 kB]
+Get:38 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libdebian-dpkgcross-perl all 2.6.20 [15.6 kB]
+Get:39 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 cross-config all 2.6.20 [16.5 kB]
+Get:40 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 dpkg-cross all 2.6.20 [22.2 kB]
+Get:41 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 crossbuild-essential-arm64 all 12.10ubuntu1 [3874 B]
+Get:42 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libyaml-libyaml-perl amd64 0.89+ds-1ubuntu0.24.04.1 [30.7 kB]
+Selecting previously unselected package gcc-13-aarch64-linux-gnu-base:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 110335 files and directories currently installed.)
+Preparing to unpack .../00-gcc-13-aarch64-linux-gnu-base_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb ...
+Unpacking gcc-13-aarch64-linux-gnu-base:amd64 (13.3.0-6ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package cpp-13-aarch64-linux-gnu.
+Preparing to unpack .../01-cpp-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb ...
+Unpacking cpp-13-aarch64-linux-gnu (13.3.0-6ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package cpp-aarch64-linux-gnu.
+Preparing to unpack .../02-cpp-aarch64-linux-gnu_13.2.0-7ubuntu1_amd64.deb ...
+Unpacking cpp-aarch64-linux-gnu (4:13.2.0-7ubuntu1) ...
+Selecting previously unselected package binutils-aarch64-linux-gnu.
+Preparing to unpack .../03-binutils-aarch64-linux-gnu_2.42-4ubuntu2.10_amd64.deb ...
+Unpacking binutils-aarch64-linux-gnu (2.42-4ubuntu2.10) ...
+Selecting previously unselected package gcc-13-cross-base.
+Preparing to unpack .../04-gcc-13-cross-base_13.3.0-6ubuntu2~24.04.1cross1_all.deb ...
+Unpacking gcc-13-cross-base (13.3.0-6ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package gcc-14-cross-base.
+Preparing to unpack .../05-gcc-14-cross-base_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking gcc-14-cross-base (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libc6-arm64-cross.
+Preparing to unpack .../06-libc6-arm64-cross_2.39-0ubuntu8cross1_all.deb ...
+Unpacking libc6-arm64-cross (2.39-0ubuntu8cross1) ...
+Selecting previously unselected package libgcc-s1-arm64-cross.
+Preparing to unpack .../07-libgcc-s1-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libgcc-s1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libgomp1-arm64-cross.
+Preparing to unpack .../08-libgomp1-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libgomp1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libitm1-arm64-cross.
+Preparing to unpack .../09-libitm1-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libitm1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libatomic1-arm64-cross.
+Preparing to unpack .../10-libatomic1-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libatomic1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libasan8-arm64-cross.
+Preparing to unpack .../11-libasan8-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libasan8-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package liblsan0-arm64-cross.
+Preparing to unpack .../12-liblsan0-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking liblsan0-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libtsan2-arm64-cross.
+Preparing to unpack .../13-libtsan2-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libtsan2-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libstdc++6-arm64-cross.
+Preparing to unpack .../14-libstdc++6-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libstdc++6-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libubsan1-arm64-cross.
+Preparing to unpack .../15-libubsan1-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libubsan1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libhwasan0-arm64-cross.
+Preparing to unpack .../16-libhwasan0-arm64-cross_14.2.0-4ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libhwasan0-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package libgcc-13-dev-arm64-cross.
+Preparing to unpack .../17-libgcc-13-dev-arm64-cross_13.3.0-6ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libgcc-13-dev-arm64-cross (13.3.0-6ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package gcc-13-aarch64-linux-gnu.
+Preparing to unpack .../18-gcc-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb ...
+Unpacking gcc-13-aarch64-linux-gnu (13.3.0-6ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package gcc-aarch64-linux-gnu.
+Preparing to unpack .../19-gcc-aarch64-linux-gnu_13.2.0-7ubuntu1_amd64.deb ...
+Unpacking gcc-aarch64-linux-gnu (4:13.2.0-7ubuntu1) ...
+Selecting previously unselected package linux-libc-dev-arm64-cross.
+Preparing to unpack .../20-linux-libc-dev-arm64-cross_6.8.0-25.25cross1_all.deb ...
+Unpacking linux-libc-dev-arm64-cross (6.8.0-25.25cross1) ...
+Selecting previously unselected package libc6-dev-arm64-cross.
+Preparing to unpack .../21-libc6-dev-arm64-cross_2.39-0ubuntu8cross1_all.deb ...
+Unpacking libc6-dev-arm64-cross (2.39-0ubuntu8cross1) ...
+Selecting previously unselected package libstdc++-13-dev-arm64-cross.
+Preparing to unpack .../22-libstdc++-13-dev-arm64-cross_13.3.0-6ubuntu2~24.04.1cross1_all.deb ...
+Unpacking libstdc++-13-dev-arm64-cross (13.3.0-6ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package g++-13-aarch64-linux-gnu.
+Preparing to unpack .../23-g++-13-aarch64-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb ...
+Unpacking g++-13-aarch64-linux-gnu (13.3.0-6ubuntu2~24.04.1cross1) ...
+Selecting previously unselected package g++-aarch64-linux-gnu.
+Preparing to unpack .../24-g++-aarch64-linux-gnu_13.2.0-7ubuntu1_amd64.deb ...
+Unpacking g++-aarch64-linux-gnu (4:13.2.0-7ubuntu1) ...
+Selecting previously unselected package libconfig-inifiles-perl.
+Preparing to unpack .../25-libconfig-inifiles-perl_3.000003-2ubuntu0.1_all.deb ...
+Unpacking libconfig-inifiles-perl (3.000003-2ubuntu0.1) ...
+Selecting previously unselected package libio-string-perl.
+Preparing to unpack .../26-libio-string-perl_1.08-4_all.deb ...
+Unpacking libio-string-perl (1.08-4) ...
+Selecting previously unselected package libxml-namespacesupport-perl.
+Preparing to unpack .../27-libxml-namespacesupport-perl_1.12-2_all.deb ...
+Unpacking libxml-namespacesupport-perl (1.12-2) ...
+Selecting previously unselected package libxml-sax-base-perl.
+Preparing to unpack .../28-libxml-sax-base-perl_1.09-3_all.deb ...
+Unpacking libxml-sax-base-perl (1.09-3) ...
+Selecting previously unselected package libxml-sax-perl.
+Preparing to unpack .../29-libxml-sax-perl_1.02+dfsg-3_all.deb ...
+Unpacking libxml-sax-perl (1.02+dfsg-3) ...
+Selecting previously unselected package libxml-libxml-perl.
+Preparing to unpack .../30-libxml-libxml-perl_2.0207+dfsg+really+2.0134-1build4_amd64.deb ...
+Unpacking libxml-libxml-perl (2.0207+dfsg+really+2.0134-1build4) ...
+Selecting previously unselected package libxml-sax-expat-perl.
+Preparing to unpack .../31-libxml-sax-expat-perl_0.51-2_all.deb ...
+Unpacking libxml-sax-expat-perl (0.51-2) ...
+Selecting previously unselected package libxml-simple-perl.
+Preparing to unpack .../32-libxml-simple-perl_2.25-2_all.deb ...
+Unpacking libxml-simple-perl (2.25-2) ...
+Selecting previously unselected package libyaml-perl.
+Preparing to unpack .../33-libyaml-perl_1.31-1ubuntu0.24.04.1_all.deb ...
+Unpacking libyaml-perl (1.31-1ubuntu0.24.04.1) ...
+Selecting previously unselected package libconfig-auto-perl.
+Preparing to unpack .../34-libconfig-auto-perl_0.44-2_all.deb ...
+Unpacking libconfig-auto-perl (0.44-2) ...
+Selecting previously unselected package libfile-which-perl.
+Preparing to unpack .../35-libfile-which-perl_1.27-2_all.deb ...
+Unpacking libfile-which-perl (1.27-2) ...
+Selecting previously unselected package libfile-homedir-perl.
+Preparing to unpack .../36-libfile-homedir-perl_1.006-2_all.deb ...
+Unpacking libfile-homedir-perl (1.006-2) ...
+Selecting previously unselected package libdebian-dpkgcross-perl.
+Preparing to unpack .../37-libdebian-dpkgcross-perl_2.6.20_all.deb ...
+Unpacking libdebian-dpkgcross-perl (2.6.20) ...
+Selecting previously unselected package cross-config.
+Preparing to unpack .../38-cross-config_2.6.20_all.deb ...
+Unpacking cross-config (2.6.20) ...
+Selecting previously unselected package dpkg-cross.
+Preparing to unpack .../39-dpkg-cross_2.6.20_all.deb ...
+Unpacking dpkg-cross (2.6.20) ...
+Selecting previously unselected package crossbuild-essential-arm64.
+Preparing to unpack .../40-crossbuild-essential-arm64_12.10ubuntu1_all.deb ...
+Unpacking crossbuild-essential-arm64 (12.10ubuntu1) ...
+Selecting previously unselected package libyaml-libyaml-perl.
+Preparing to unpack .../41-libyaml-libyaml-perl_0.89+ds-1ubuntu0.24.04.1_amd64.deb ...
+Unpacking libyaml-libyaml-perl (0.89+ds-1ubuntu0.24.04.1) ...
+Setting up libconfig-inifiles-perl (3.000003-2ubuntu0.1) ...
+Setting up libfile-which-perl (1.27-2) ...
+Setting up libyaml-libyaml-perl (0.89+ds-1ubuntu0.24.04.1) ...
+Setting up libxml-namespacesupport-perl (1.12-2) ...
+Setting up binutils-aarch64-linux-gnu (2.42-4ubuntu2.10) ...
+Setting up gcc-14-cross-base (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up libyaml-perl (1.31-1ubuntu0.24.04.1) ...
+Setting up libxml-sax-base-perl (1.09-3) ...
+Setting up libio-string-perl (1.08-4) ...
+Setting up cross-config (2.6.20) ...
+Setting up gcc-13-cross-base (13.3.0-6ubuntu2~24.04.1cross1) ...
+Setting up libc6-arm64-cross (2.39-0ubuntu8cross1) ...
+Setting up libitm1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up linux-libc-dev-arm64-cross (6.8.0-25.25cross1) ...
+Setting up gcc-13-aarch64-linux-gnu-base:amd64 (13.3.0-6ubuntu2~24.04.1cross1) ...
+Setting up libfile-homedir-perl (1.006-2) ...
+Setting up libgcc-s1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up libatomic1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up liblsan0-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up libgomp1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up cpp-13-aarch64-linux-gnu (13.3.0-6ubuntu2~24.04.1cross1) ...
+Setting up libhwasan0-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up libc6-dev-arm64-cross (2.39-0ubuntu8cross1) ...
+Setting up libxml-sax-perl (1.02+dfsg-3) ...
+update-perl-sax-parsers: Registering Perl SAX parser XML::SAX::PurePerl with priority 10...
+update-perl-sax-parsers: Updating overall Perl SAX parser modules info file...
+
+Creating config file /etc/perl/XML/SAX/ParserDetails.ini with new version
+Setting up libstdc++6-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up cpp-aarch64-linux-gnu (4:13.2.0-7ubuntu1) ...
+Setting up libxml-libxml-perl (2.0207+dfsg+really+2.0134-1build4) ...
+update-perl-sax-parsers: Registering Perl SAX parser XML::LibXML::SAX::Parser with priority 50...
+update-perl-sax-parsers: Registering Perl SAX parser XML::LibXML::SAX with priority 50...
+update-perl-sax-parsers: Updating overall Perl SAX parser modules info file...
+Replacing config file /etc/perl/XML/SAX/ParserDetails.ini with new version
+Setting up libxml-sax-expat-perl (0.51-2) ...
+update-perl-sax-parsers: Registering Perl SAX parser XML::SAX::Expat with priority 50...
+update-perl-sax-parsers: Updating overall Perl SAX parser modules info file...
+Replacing config file /etc/perl/XML/SAX/ParserDetails.ini with new version
+Setting up libasan8-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up libtsan2-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up libubsan1-arm64-cross (14.2.0-4ubuntu2~24.04.1cross1) ...
+Setting up libxml-simple-perl (2.25-2) ...
+Setting up libgcc-13-dev-arm64-cross (13.3.0-6ubuntu2~24.04.1cross1) ...
+Setting up libconfig-auto-perl (0.44-2) ...
+Setting up gcc-13-aarch64-linux-gnu (13.3.0-6ubuntu2~24.04.1cross1) ...
+Setting up libstdc++-13-dev-arm64-cross (13.3.0-6ubuntu2~24.04.1cross1) ...
+Setting up libdebian-dpkgcross-perl (2.6.20) ...
+Setting up g++-13-aarch64-linux-gnu (13.3.0-6ubuntu2~24.04.1cross1) ...
+Setting up gcc-aarch64-linux-gnu (4:13.2.0-7ubuntu1) ...
+Setting up g++-aarch64-linux-gnu (4:13.2.0-7ubuntu1) ...
+Setting up dpkg-cross (2.6.20) ...
+Setting up crossbuild-essential-arm64 (12.10ubuntu1) ...
+Processing triggers for ccache (4.9.1-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+2026-11-05T01:25:12Z install complete: 1 requested packages present
+2026-11-05T01:25:12Z ERROR: nothing selected. Use --profile, --group or --packages (--list shows them). 2
+2026-11-05T01:25:12Z ERROR: unknown profile: nope (try --list) 2
+2026-11-05T01:25:14Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:25:14Z ERROR: repository is incomplete or damaged (see the list above) 14
+2026-11-05T01:25:16Z target OK: Ubuntu 24.04.5 LTS / amd64
+2026-11-05T01:25:16Z packages requested: 2
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline InRelease [1941 B]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  jq libjq1
+0 upgraded, 2 newly installed, 0 to remove and 41 not upgraded.
+Need to get 0 B/208 kB of archives.
+After this operation, 483 kB of additional disk space will be used.
+Get:1 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 libjq1 amd64 1.7.1-3ubuntu0.24.04.2 [142 kB]
+Get:2 file:/mnt/lib/04_APT_OFFLINE_REPOSITORY noble-offline/main amd64 jq amd64 1.7.1-3ubuntu0.24.04.2 [65.7 kB]
+Selecting previously unselected package libjq1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 113662 files and directories currently installed.)
+Preparing to unpack .../libjq1_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Selecting previously unselected package jq.
+Preparing to unpack .../jq_1.7.1-3ubuntu0.24.04.2_amd64.deb ...
+Unpacking jq (1.7.1-3ubuntu0.24.04.2) ...
+Setting up libjq1:amd64 (1.7.1-3ubuntu0.24.04.2) ...
+Setting up jq (1.7.1-3ubuntu0.24.04.2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+2026-11-05T01:25:18Z install complete: 2 requested packages present

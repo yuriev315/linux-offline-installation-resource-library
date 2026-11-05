@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://packages.vmware.com/tools/releases/latest/windows/VMware-tools-windows-13.1.5-25544008.iso.sig
+
+[File]
+Name=VMware-tools-windows-13.1.5-25544008.iso.sig
+Product=VMware Tools
+SizeBytes=3378
+SHA256=435a58a23097bb37f828f71965afa845dc4b217e2a3b86f54417edc34fbfa5ea
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

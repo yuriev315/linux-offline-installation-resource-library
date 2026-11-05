@@ -1,0 +1,46 @@
+PASS no-network-adapter 
+PASS no-internet 
+PASS powershell-syntax 
+PASS wsl-checkonly rc=0
+PASS vmware-signature Valid
+PASS vmware-install exit=0
+PASS vmware-checkonly 
+PASS vm-created-from-template 
+FAIL vm-iso-poweron Error: The operation was canceled
+PASS vmdk-convert 
+FAIL vm-prebuilt-poweron Error: The operation was canceled
+PASS wsl-stage1-features rc=3010
+PASS wsl-install-import-configure rc=0
+PASS wsl-version-2 * Ubuntu-24.04    Stopped         2
+PASS wsl-default-user user=dev
+PASS wsl-fulldev-install rc=0
+PASS wsl-install-import-configure rc=0
+PASS wsl-version-2 * Ubuntu-24.04    Stopped         2
+PASS wsl-default-user user=dev
+PASS wsl-fulldev-install rc=0
+PASS wsl-dev-verify fails=0
+PASS wsl-system-verify fails=0
+PASS wsl-backup 
+PASS wsl-restore gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+PASS wsl-backup 
+PASS wsl-backup-refuses-overwrite 
+PASS wsl-restore gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+PASS wsl-restore-refuses-existing 
+PASS vmware-checkonly 
+--- VMware stage 44 ---
+PASS vm-created-from-template 
+PASS vm-iso-poweron 
+PASS vmdk-convert 
+PASS vm-prebuilt-poweron 
+FAIL open-vm-tools-running-in-vmware installed
+FAIL run-program-in-guest rc=-1
+PASS vmware-checkonly 
+--- VMware stage 44 ---
+PASS vm-created-from-template 
+PASS vm-iso-poweron 
+PASS vmware-checkonly 
+--- VMware stage 46 ---
+PASS vm-created-from-template 
+PASS vm-iso-poweron 
+PASS vmdk-convert 
+PASS vm-prebuilt-poweron 

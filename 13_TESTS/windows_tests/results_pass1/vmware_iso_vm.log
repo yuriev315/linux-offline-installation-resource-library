@@ -1,0 +1,588 @@
+2026-11-05T12:08:23.728Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Log for VMware Workstation pid=4156 version=26.0.1 build=25688693 option=Release
+2026-11-05T12:08:23.728Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] The host is x86_64.
+2026-11-05T12:08:23.728Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Host codepage=windows-1252 encoding=windows-1252
+2026-11-05T12:08:23.728Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Host is Windows 11 Enterprise, 64-bit (Build 26200.6584)
+2026-11-05T12:08:23.728Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Host offset from UTC is +08:00.
+2026-11-05T12:08:23.694Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VTHREAD 4176 "vmx"
+2026-11-05T12:08:23.701Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DictionaryLoad: Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\vsphereFeatures.cfg": The system cannot find the path specified.
+2026-11-05T12:08:23.701Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] [msg.dictionary.load.openFailed] Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\vsphereFeatures.cfg": The system cannot find the path specified.
+2026-11-05T12:08:23.701Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] FeatureStateLib: Error while loading feature config file: C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\vsphereFeatures.cfg, using default feature state values.
+2026-11-05T12:08:23.701Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DictionaryLoad: Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg": The system cannot find the path specified.
+2026-11-05T12:08:23.701Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] [msg.dictionary.load.openFailed] Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg": The system cannot find the path specified.
+2026-11-05T12:08:23.701Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] FeatureStateLib: Error while loading tech preview config file: C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg, using default (disabled) for all Tech Preview features.
+2026-11-05T12:08:23.705Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] LOCALE windows-1252 -> NULL User=409 System=409
+2026-11-05T12:08:23.705Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2026-11-05T12:08:23.710Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DictionaryLoad: Cannot open file "C:\Users\tester\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2026-11-05T12:08:23.710Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Msg_Reset:
+2026-11-05T12:08:23.710Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] [msg.dictionary.load.openFailed] Cannot open file "C:\Users\tester\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2026-11-05T12:08:23.710Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ----------------------------------------
+2026-11-05T12:08:23.710Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Failed to load C:\Users\tester\AppData\Roaming\VMware\config.ini
+2026-11-05T12:08:23.710Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] OBJLIB-LIB: Objlib initialized.
+2026-11-05T12:08:23.712Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DictionaryLoad: Cannot open file "C:\Users\tester\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2026-11-05T12:08:23.712Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] [msg.dictionary.load.openFailed] Cannot open file "C:\Users\tester\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2026-11-05T12:08:23.712Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PREF Optional preferences file not found at C:\Users\tester\AppData\Roaming\VMware\config.ini. Using default values.
+2026-11-05T12:08:23.716Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DictionaryLoad: Cannot open file "C:\Users\tester\AppData\Roaming\VMware\preferences.ini": The system cannot find the file specified.
+2026-11-05T12:08:23.716Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] [msg.dictionary.load.openFailed] Cannot open file "C:\Users\tester\AppData\Roaming\VMware\preferences.ini": The system cannot find the file specified.
+2026-11-05T12:08:23.716Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PREF Optional preferences file not found at C:\Users\tester\AppData\Roaming\VMware\preferences.ini. Using default values.
+2026-11-05T12:08:23.721Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: OpenSSL using default provider
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: Client usage
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: protocol list tls1.2,tls1.3
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: protocol min 0x303 max 0x304
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: protocol list tls1.2,tls1.3 (openssl flags 0x16000000)
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: cipher suites TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: Server usage
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: protocol list tls1.2,tls1.3
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: protocol min 0x303 max 0x304
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: protocol list tls1.2,tls1.3 (openssl flags 0x16000000)
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: cipher suites TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384
+2026-11-05T12:08:23.723Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2026-11-05T12:08:23.777Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Hostname=OFFLINE-TEST
+2026-11-05T12:08:23.786Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] IP=fe80::d08c:b698:488d:2ccb%6
+2026-11-05T12:08:23.788Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] IP=fe80::c047:c330:5d7d:795b%5
+2026-11-05T12:08:23.788Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] IP=192.168.58.1
+2026-11-05T12:08:23.791Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] IP=192.168.99.1
+2026-11-05T12:08:23.822Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] System uptime 29656177 us
+2026-11-05T12:08:23.822Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Command line: "C:\Program Files\VMware\VMware Workstation\x64\vmware-vmx.exe" "-s" "vmx.noUIBuildNumberCheck=TRUE" "-#" "product=1;name=VMware Workstation;version=26.0.1;buildnumber=25688693;licensename=VMware Workstation;licenseversion=17.0;" "-@" "pipe=\\.\pipe\vmx65883e767de72b62;msgs=ui" "C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx"
+2026-11-05T12:08:23.824Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2026-11-05T12:08:23.849Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WQPoolAllocPoll : pollIx = 1, signalHandle = 848
+2026-11-05T12:08:23.851Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WQPoolAllocPoll : pollIx = 2, signalHandle = 840
+2026-11-05T12:08:23.853Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VigorTransport listening on fd 928
+2026-11-05T12:08:23.853Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vigor_Init 1
+2026-11-05T12:08:23.856Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Connecting 'ui' to pipe '\\.\pipe\vmx65883e767de72b62' with user '(null)'
+2026-11-05T12:08:23.858Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMXVmdb: Local connection timeout: 60000 ms.
+2026-11-05T12:08:23.907Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2026-11-05T12:08:23.909Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:490]: VMAutomation: Initializing VMAutomation.
+2026-11-05T12:08:23.909Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:742]: VMAutomationOpenListenerSocket() listening
+2026-11-05T12:08:23.916Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2026-11-05T12:08:23.916Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Transitioned vmx/execState/val to poweredOff
+2026-11-05T12:08:23.918Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2026-11-05T12:08:23.918Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2026-11-05T12:08:23.920Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2026-11-05T12:08:23.920Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] IOPL_Init: KVM detected by CPUID
+2026-11-05T12:08:24.012Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] IOPL_VBSRunning: VBS is set to 0
+2026-11-05T12:08:24.019Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta -2660 pages
+2026-11-05T12:08:24.021Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta 2560 pages
+2026-11-05T12:08:24.023Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta -2560 pages
+2026-11-05T12:08:24.023Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta 2560 pages
+2026-11-05T12:08:24.026Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta -2560 pages
+2026-11-05T12:08:24.028Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta 2560 pages
+2026-11-05T12:08:24.057Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta -2560 pages
+2026-11-05T12:08:24.061Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta 2560 pages
+2026-11-05T12:08:24.061Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta -2560 pages
+2026-11-05T12:08:24.063Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Locked limit delta 2560 pages
+2026-11-05T12:08:24.063Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VerificationOfHostParameters status 0
+2026-11-05T12:08:24.247Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID vendor: AuthenticAMD
+2026-11-05T12:08:24.247Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID family: 0x17 model: 0x71 stepping: 0x0
+2026-11-05T12:08:24.250Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID codename: Zen2
+2026-11-05T12:08:24.250Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID name: AMD Ryzen 5 3600 6-Core Processor              
+2026-11-05T12:08:24.250Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000000, 0: 0x00000010 0x68747541 0x444d4163 0x69746e65
+2026-11-05T12:08:24.252Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000001, 0: 0x00870f10 0x00040800 0xfff83203 0x178bfbff
+2026-11-05T12:08:24.252Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000002, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.254Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.254Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.256Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000005, 0: 0x00000000 0x00000000 0x00000003 0x00000000
+2026-11-05T12:08:24.256Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000006, 0: 0x00000004 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.258Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000007, 0: 0x00000000 0x219c01ab 0x00400004 0xa8000000
+2026-11-05T12:08:24.258Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.261Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.261Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.261Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000b, 0: 0x00000000 0x00000001 0x00000100 0x00000000
+2026-11-05T12:08:24.263Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000b, 1: 0x00000002 0x00000004 0x00000201 0x00000000
+2026-11-05T12:08:24.263Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2026-11-05T12:08:24.263Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.265Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000d, 0: 0x00000007 0x00000340 0x00000340 0x00000000
+2026-11-05T12:08:24.265Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000d, 1: 0x00000007 0x00000340 0x00000000 0x00000000
+2026-11-05T12:08:24.267Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2026-11-05T12:08:24.267Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.267Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.270Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.270Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.272Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.272Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.272Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.274Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 40000000, 0: 0x40000001 0x4b4d564b 0x564b4d56 0x0000004d
+2026-11-05T12:08:24.274Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 40000001, 0: 0x01007afb 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.277Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000000, 0: 0x80000021 0x68747541 0x444d4163 0x69746e65
+2026-11-05T12:08:24.277Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000001, 0: 0x00870f10 0x00000000 0x008003f7 0x2fd3fbff
+2026-11-05T12:08:24.277Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000002, 0: 0x20444d41 0x657a7952 0x2035206e 0x30303633
+2026-11-05T12:08:24.279Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000003, 0: 0x432d3620 0x2065726f 0x636f7250 0x6f737365
+2026-11-05T12:08:24.279Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000004, 0: 0x20202072 0x20202020 0x20202020 0x00202020
+2026-11-05T12:08:24.281Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000005, 0: 0x01ff01ff 0x01ff01ff 0x40020140 0x40020140
+2026-11-05T12:08:24.281Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000006, 0: 0x00000000 0x42004200 0x02008140 0x00808140
+2026-11-05T12:08:24.281Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.283Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000008, 0: 0x00003030 0x03009205 0x00002003 0x00000000
+2026-11-05T12:08:24.283Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.286Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000000a, 0: 0x00000001 0x00000010 0x00000000 0x1001947b
+2026-11-05T12:08:24.286Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.286Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.288Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.288Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.288Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.290Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.290Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.293Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.293Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.295Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000014, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.295Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000015, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.297Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.297Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.297Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000018, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.300Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000019, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.300Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.302Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.302Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.302Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001d, 0: 0x00000121 0x0040003f 0x000001ff 0x00000001
+2026-11-05T12:08:24.304Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001d, 1: 0x00000122 0x0040003f 0x000001ff 0x00000001
+2026-11-05T12:08:24.304Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001d, 2: 0x00000043 0x03c0003f 0x000001ff 0x00000000
+2026-11-05T12:08:24.306Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001d, 3: 0x0000c163 0x03c0003f 0x00003fff 0x00000006
+2026-11-05T12:08:24.306Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.309Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.309Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 8000001f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.309Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000020, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.311Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000020, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.311Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000020, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.314Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000020, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.314Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] hostCPUID level 80000021, 0: 0x10000044 0x00000000 0x00000000 0x00000000
+2026-11-05T12:08:24.316Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] CPUID differences from hostCPUID.
+2026-11-05T12:08:24.316Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Physical APIC IDs: 0-3
+2026-11-05T12:08:24.316Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Physical X2APIC IDs: 0-3
+2026-11-05T12:08:24.318Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Physical Extended APIC IDs: 0-3
+2026-11-05T12:08:24.318Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Physical Compute Unit IDs: 0-3
+2026-11-05T12:08:24.320Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Physical Node IDs: 0(x4)
+2026-11-05T12:08:24.320Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR       0x3a =                  0
+2026-11-05T12:08:24.323Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x480 =                  0
+2026-11-05T12:08:24.323Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x481 =                  0
+2026-11-05T12:08:24.323Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x482 =                  0
+2026-11-05T12:08:24.325Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x483 =                  0
+2026-11-05T12:08:24.325Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x484 =                  0
+2026-11-05T12:08:24.327Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x485 =                  0
+2026-11-05T12:08:24.327Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x486 =                  0
+2026-11-05T12:08:24.327Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x487 =                  0
+2026-11-05T12:08:24.330Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x488 =                  0
+2026-11-05T12:08:24.330Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x489 =                  0
+2026-11-05T12:08:24.332Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x48a =                  0
+2026-11-05T12:08:24.332Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x48b =                  0
+2026-11-05T12:08:24.334Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x48c =                  0
+2026-11-05T12:08:24.334Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x48d =                  0
+2026-11-05T12:08:24.337Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x48e =                  0
+2026-11-05T12:08:24.337Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x48f =                  0
+2026-11-05T12:08:24.339Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x490 =                  0
+2026-11-05T12:08:24.339Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x491 =                  0
+2026-11-05T12:08:24.341Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x492 =                  0
+2026-11-05T12:08:24.344Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x493 =                  0
+2026-11-05T12:08:24.344Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR 0xc0010114 =                  0
+2026-11-05T12:08:24.346Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR       0xce =         0x80000000
+2026-11-05T12:08:24.346Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x10a =                  0
+2026-11-05T12:08:24.346Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x122 =                  0
+2026-11-05T12:08:24.348Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Common: MSR      0x123 =                  0
+2026-11-05T12:08:24.348Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMMon_GetkHzEstimate: Calculated 3600084 kHz
+2026-11-05T12:08:24.351Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] TSC Hz estimates: vmmon 3600084000, remembered 0, osReported 3600000000. Using 3600084000 Hz.
+2026-11-05T12:08:24.351Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] TSC first measured delta 30816
+2026-11-05T12:08:24.353Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] TSC min delta 30816
+2026-11-05T12:08:24.353Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PTSC: RefClockToPTSC 0 @ 100000000Hz -> 0 @ 3600084000Hz
+2026-11-05T12:08:24.355Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PTSC: RefClockToPTSC ((x * 2415975475) >> 26) + -108755525358
+2026-11-05T12:08:24.355Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PTSC: tscOffset -115585524649
+2026-11-05T12:08:24.358Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PTSC: using reference clock
+2026-11-05T12:08:24.381Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PTSC: hardware TSCs are not synchronized.
+2026-11-05T12:08:24.381Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PTSC: hardware TSCs may have been adjusted by the host.
+2026-11-05T12:08:24.383Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PTSC: current PTSC=105874474
+2026-11-05T12:08:24.410Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WQPoolAllocPoll : pollIx = 3, signalHandle = 1132
+2026-11-05T12:08:24.453Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigVMX_Load: Loaded C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx in 627 us
+2026-11-05T12:08:24.453Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigCheck: No rules file found. Checks are disabled.
+2026-11-05T12:08:24.455Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] changing directory to C:\VMs\ubuntu-from-iso\.
+2026-11-05T12:08:24.458Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Config file: C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+2026-11-05T12:08:24.458Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2026-11-05T12:08:24.460Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2026-11-05T12:08:24.462Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] LogRotation: Rotating to a new log file (keepOld 3) took 0.000090 seconds.
+2026-11-05T12:08:24.478Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] LogVMXReplace: Successful switching from temporary to permanent log file took 0.015243 seconds.
+2026-11-05T12:08:24.480Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] distroName is 'ubuntu'
+2026-11-05T12:08:24.496Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting virtualHW.productCompatibility = "hosted"
+2026-11-05T12:08:24.711Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset, default, softOptionTimeout: 0.
+2026-11-05T12:08:24.711Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Tools: sending 'OS_PowerOn' (state = 3) state change request
+2026-11-05T12:08:24.713Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Tools: Delaying state change request to state 3.
+2026-11-05T12:08:24.713Z -WARNING vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PowerOn
+2026-11-05T12:08:24.716Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMX_PowerOn: VMX build 25688693, UI build 25688693
+2026-11-05T12:08:24.716Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MsgHint: msg.vmx.nestedVM
+2026-11-05T12:08:24.716Z +INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Running VMware Workstation in a virtual machine will result in degraded performance. Do you want to continue?---------------------------------------
+2026-11-05T12:08:24.720Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] HostWin32: WIN32 NUMA node 0, CPU mask 0x000000000000000f
+2026-11-05T12:08:24.729Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2026-11-05T12:08:24.729Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting vmxstats.filename = "ubuntu-from-iso.scoreboard"
+2026-11-05T12:08:24.752Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] STATSFILE: StatsFile 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.scoreboard' created
+2026-11-05T12:08:24.752Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] HOST Windows version 10.0, build 26200, platform 2, ""
+2026-11-05T12:08:24.754Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2026-11-05T12:08:24.754Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT          printers.enabled = "FALSE"
+2026-11-05T12:08:24.756Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- NON PERSISTENT (null)
+2026-11-05T12:08:24.756Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- USER PREFERENCES C:\Users\tester\AppData\Roaming\VMware\preferences.ini
+2026-11-05T12:08:24.758Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- USER DEFAULTS C:\Users\tester\AppData\Roaming\VMware\config.ini
+2026-11-05T12:08:24.758Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2026-11-05T12:08:24.758Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT         authd.client.port = "902"
+2026-11-05T12:08:24.760Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2026-11-05T12:08:24.760Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2026-11-05T12:08:24.760Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "24928"
+2026-11-05T12:08:24.763Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.componentDownloadEnabled = "yes"
+2026-11-05T12:08:24.763Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled = "no"
+2026-11-05T12:08:24.763Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled.epoch = "24928"
+2026-11-05T12:08:24.765Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2026-11-05T12:08:24.765Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT         authd.client.port = "902"
+2026-11-05T12:08:24.767Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2026-11-05T12:08:24.767Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2026-11-05T12:08:24.767Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "24928"
+2026-11-05T12:08:24.769Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.componentDownloadEnabled = "yes"
+2026-11-05T12:08:24.769Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled = "no"
+2026-11-05T12:08:24.772Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled.epoch = "24928"
+2026-11-05T12:08:24.772Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- NONPERSISTENT
+2026-11-05T12:08:24.772Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT  vmx.noUIBuildNumberCheck = "TRUE"
+2026-11-05T12:08:24.774Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- COMMAND LINE
+2026-11-05T12:08:24.774Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT  vmx.noUIBuildNumberCheck = "TRUE"
+2026-11-05T12:08:24.774Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- RECORDING
+2026-11-05T12:08:24.776Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT  vmx.noUIBuildNumberCheck = "TRUE"
+2026-11-05T12:08:24.776Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- CONFIGURATION C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx 
+2026-11-05T12:08:24.778Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT            config.version = "8"
+2026-11-05T12:08:24.778Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT         virtualHW.version = "21"
+2026-11-05T12:08:24.778Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT               displayName = "ubuntu-from-iso"
+2026-11-05T12:08:24.780Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT                   guestOS = "ubuntu-64"
+2026-11-05T12:08:24.780Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT                  firmware = "efi"
+2026-11-05T12:08:24.783Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT                  numvcpus = "2"
+2026-11-05T12:08:24.783Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT      cpuid.coresPerSocket = "2"
+2026-11-05T12:08:24.783Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT                   memsize = "2048"
+2026-11-05T12:08:24.785Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT             nvme0.present = "TRUE"
+2026-11-05T12:08:24.785Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT           nvme0:0.present = "TRUE"
+2026-11-05T12:08:24.787Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT          nvme0:0.fileName = "ubuntu-from-iso.vmdk"
+2026-11-05T12:08:24.787Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT             sata0.present = "TRUE"
+2026-11-05T12:08:24.789Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT           sata0:1.present = "TRUE"
+2026-11-05T12:08:24.789Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT        sata0:1.deviceType = "cdrom-image"
+2026-11-05T12:08:24.789Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT          sata0:1.fileName = "D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso"
+2026-11-05T12:08:24.792Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT    sata0:1.startConnected = "TRUE"
+2026-11-05T12:08:24.792Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT         ethernet0.present = "TRUE"
+2026-11-05T12:08:24.794Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT  ethernet0.connectionType = "nat"
+2026-11-05T12:08:24.794Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT      ethernet0.virtualDev = "vmxnet3"
+2026-11-05T12:08:24.794Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT     ethernet0.addressType = "generated"
+2026-11-05T12:08:24.796Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT  ethernet0.startConnected = "TRUE"
+2026-11-05T12:08:24.796Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT               usb.present = "TRUE"
+2026-11-05T12:08:24.798Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT              ehci.present = "TRUE"
+2026-11-05T12:08:24.798Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT          usb_xhci.present = "TRUE"
+2026-11-05T12:08:24.798Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT             sound.present = "FALSE"
+2026-11-05T12:08:24.801Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT              mks.enable3d = "FALSE"
+2026-11-05T12:08:24.801Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT     svga.graphicsMemoryKB = "262144"
+2026-11-05T12:08:24.803Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT            tools.syncTime = "TRUE"
+2026-11-05T12:08:24.803Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT isolation.tools.copy.disable = "FALSE"
+2026-11-05T12:08:24.803Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT isolation.tools.paste.disable = "FALSE"
+2026-11-05T12:08:24.805Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT isolation.tools.dnd.disable = "FALSE"
+2026-11-05T12:08:24.805Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT isolation.tools.hgfs.disable = "FALSE"
+2026-11-05T12:08:24.807Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT       sharedFolder.maxNum = "0"
+2026-11-05T12:08:24.807Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT        extendedConfigFile = "ubuntu-from-iso.vmxf"
+2026-11-05T12:08:24.807Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT virtualHW.productCompatibility = "hosted"
+2026-11-05T12:08:24.810Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT         vmxstats.filename = "ubuntu-from-iso.scoreboard"
+2026-11-05T12:08:24.810Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- USER DEFAULTS C:\Users\tester\AppData\Roaming\VMware\config.ini 
+2026-11-05T12:08:24.812Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2026-11-05T12:08:24.812Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT         authd.client.port = "902"
+2026-11-05T12:08:24.812Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2026-11-05T12:08:24.814Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2026-11-05T12:08:24.814Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "24928"
+2026-11-05T12:08:24.816Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.componentDownloadEnabled = "yes"
+2026-11-05T12:08:24.816Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled = "no"
+2026-11-05T12:08:24.816Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled.epoch = "24928"
+2026-11-05T12:08:24.818Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2026-11-05T12:08:24.818Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT         authd.client.port = "902"
+2026-11-05T12:08:24.821Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2026-11-05T12:08:24.821Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2026-11-05T12:08:24.821Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "24928"
+2026-11-05T12:08:24.823Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.componentDownloadEnabled = "yes"
+2026-11-05T12:08:24.823Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled = "no"
+2026-11-05T12:08:24.825Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT installerDefaults.dataCollectionEnabled.epoch = "24928"
+2026-11-05T12:08:24.825Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2026-11-05T12:08:24.825Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT          printers.enabled = "FALSE"
+2026-11-05T12:08:24.845Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Powering on guestOS 'ubuntu-64' using the configuration for 'ubuntu-64'.
+2026-11-05T12:08:24.852Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: open of C:\Program Files\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2026-11-05T12:08:24.854Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: Unable to read signature file 'C:\Program Files\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2026-11-05T12:08:24.854Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2026-11-05T12:08:24.856Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2026-11-05T12:08:24.856Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2026-11-05T12:08:24.858Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DEVSWAP: GuestOS does not require LSI adapter swap.
+2026-11-05T12:08:24.861Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Monitor Mode: CPL0
+2026-11-05T12:08:24.863Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] FeatureCompat: No EVC masks.
+2026-11-05T12:08:24.869Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] nvmeShared size: 4264, numAdapters: 1
+2026-11-05T12:08:24.874Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] OvhdMem_PowerOn: initial admission: paged   608918 nonpaged    40475 anonymous     6965
+2026-11-05T12:08:24.874Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMMEM: Initial Reservation: 2563MB (MainMem=2048MB)
+2026-11-05T12:08:24.874Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] numa: Invalid NUMA cookie.
+2026-11-05T12:08:24.876Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting numa.autosize.cookie = "20022"
+2026-11-05T12:08:24.876Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting numa.autosize.vcpu.maxPerVirtualNode = "2"
+2026-11-05T12:08:24.892Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] llc: maximum vcpus per LLC: 1
+2026-11-05T12:08:24.892Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] llc: vLLC size: 2
+2026-11-05T12:08:24.896Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MemSched_PowerOn: balloon minGuestSize 104857 (80% of min required size 131072)
+2026-11-05T12:08:24.899Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MemSched: reserved mem (in MB) min 128 max 6396 recommended 6396
+2026-11-05T12:08:24.899Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MemSched: pg 608918 np 40475 anon 6965 mem 524288
+2026-11-05T12:08:25.851Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MemSched: numvm 1 locked pages: num 0 max 1629184
+2026-11-05T12:08:25.853Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MemSched: locked Page Limit: host 1717161 config 1637376
+2026-11-05T12:08:25.853Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MemSched: minmempct 50 minalloc 0 admitted 1
+2026-11-05T12:08:25.856Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PowerOnTiming: Module MemSched took 957837 us
+2026-11-05T12:08:25.858Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="PowerNotifyThread"] VTHREAD 3476 "PowerNotifyThread"
+2026-11-05T12:08:25.858Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="PowerNotifyThread"] PowerNotify thread is alive.
+2026-11-05T12:08:25.862Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] LICENSE: Running unlicensed VMX (VMware Workstation)
+2026-11-05T12:08:25.865Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vthread-4128"] VTHREAD 4128 "vthread-4128"
+2026-11-05T12:08:25.867Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PolicyVMXFindPolicyKey: policy file does not exist.
+2026-11-05T12:08:25.867Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PolicyVMXFindPolicyKey: policy file does not exist.
+2026-11-05T12:08:25.869Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Host PA size: 48 bits. Guest PA size: 45 bits.
+2026-11-05T12:08:25.871Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: Refreshing imageName for 'ubuntu-64' (refreshCount=1, lastCount=1).
+2026-11-05T12:08:25.871Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: open of C:\Program Files\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2026-11-05T12:08:25.874Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: Unable to read signature file 'C:\Program Files\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2026-11-05T12:08:25.874Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2026-11-05T12:08:25.876Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2026-11-05T12:08:25.876Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="deviceThread"] VTHREAD 4140 "deviceThread"
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="deviceThread"] Device thread is alive
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Host AMD-V Capabilities:
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVM Revision:           1
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ASIDs Supported:        16
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Nested Paging:          yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVM GMET:               no
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVM SSS Control:        no
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] LBR Virtualization:     yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVM Lock:               no
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] NRIP Save:              yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] TSC Rate MSR:           yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMCB Clean Bits:        yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Flush by ASID:          yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Decode Assists:         no
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Pause Filter:           yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Pause Filter Threshold: yes
+2026-11-05T12:08:25.878Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Monitor_PowerOn: hostedVSMPMaxSkew is 1500 us (5400126 cycles)
+2026-11-05T12:08:25.895Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] vmm-modules: [vmm.vmm, vmce-vmce.vmm, viommu-none.vmm, vprobe-none.vmm, hv-svm.vmm, gphys-npt.vmm, callstack-none.vmm, vmxnet3-vmxnet3.vmm, ahci-ahci.vmm, nvme-nvme.vmm, !nvmeShared=0x0, !ahciShared=0x10c0, !vmxnet3UMShared=0x1cc0, !vmxnet3UMKShared=0x1d00, !tdxSharedVMData=0x2a80, !vmSamples=0x2a80, !theIOSpace=0x2ac0, !ttGPPerVcpu=0x98c0, {UseUnwind}=0x0, numVCPUsAsAddr=0x2, {SharedAreaReservations}=0x9900, {rodataSize}=0x270ad, {textAddr}=0xfffffffffc000000, {textSize}=0x8ff5b, <MonSrcFile>]
+2026-11-05T12:08:25.895Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] vmm-vcpus:   2
+2026-11-05T12:08:25.980Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] KHZEstimate 3600084
+2026-11-05T12:08:25.980Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MHZEstimate 3600
+2026-11-05T12:08:25.983Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] NumVCPUs 2
+2026-11-05T12:08:25.985Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] UUID: host doesn't appear to have a UUID, using SID
+2026-11-05T12:08:25.987Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] UUID: Writing uuid.bios value: '56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88'
+2026-11-05T12:08:25.987Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting uuid.bios = "56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88"
+2026-11-05T12:08:25.987Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] UUID: Writing uuid.location value: '56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88'
+2026-11-05T12:08:25.990Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting uuid.location = "56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88"
+2026-11-05T12:08:26.008Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] AIOGNRC: numThreads=1 ide=0, scsi=0, passthru=0
+2026-11-05T12:08:26.008Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WORKER: Creating new group with maxThreads=1 (1)
+2026-11-05T12:08:26.014Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WORKER: Creating new group with maxThreads=1 (2)
+2026-11-05T12:08:26.017Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MainMem: CPT Host WZ=0 PF=2048 D=0
+2026-11-05T12:08:26.017Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2026-11-05T12:08:26.019Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] UUID: host doesn't appear to have a UUID, using SID
+2026-11-05T12:08:26.023Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MainMem: Opened paging file, 'C:\VMs\ubuntu-from-iso\564d9bbb-627d-d68e-bd74-912d98e9ae88.vmem'.
+2026-11-05T12:08:26.023Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MStat: Creating Stat vm.uptime
+2026-11-05T12:08:26.023Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MStat: Creating Stat vm.suspendTime
+2026-11-05T12:08:26.026Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MStat: Creating Stat vm.powerOnTimeStamp
+2026-11-05T12:08:26.026Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="aioCompletion"] VTHREAD 4076 "aioCompletion"
+2026-11-05T12:08:26.028Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMXAIOMGR: Using: simple=Compl
+2026-11-05T12:08:26.032Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WORKER: Creating new group with maxThreads=1 (3)
+2026-11-05T12:08:26.037Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WORKER: Creating new group with maxThreads=1 (4)
+2026-11-05T12:08:26.039Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WORKER: Creating new group with maxThreads=14 (18)
+2026-11-05T12:08:26.041Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] FeatureCompat: No VM masks.
+2026-11-05T12:08:26.041Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] TimeTracker host to guest rate conversion 6076641940 @ 3600084000Hz -> 0 @ 3600084000Hz
+2026-11-05T12:08:26.044Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -6076641940
+2026-11-05T12:08:26.044Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Disabling TimeTracker fast path because host TSCs are not synchronized.
+2026-11-05T12:08:26.044Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Disabling TSC offsetting because TimeTracker fast-path is disabled.
+2026-11-05T12:08:26.046Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Disabling TSC scaling since offsetting was not enabled.
+2026-11-05T12:08:26.046Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] timeTracker.globalProgressMaxAllowanceMS: 2000
+2026-11-05T12:08:26.048Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] timeTracker.globalProgressToAllowanceNS: 1000
+2026-11-05T12:08:26.064Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MKS PowerOn
+2026-11-05T12:08:26.066Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] VTHREAD 4068 "mks"
+2026-11-05T12:08:26.068Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKS thread is alive
+2026-11-05T12:08:26.068Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="svga"] VTHREAD 4132 "svga"
+2026-11-05T12:08:26.068Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="svga"] SVGA thread is alive
+2026-11-05T12:08:26.071Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2026-11-05T12:08:26.073Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mouse"] VTHREAD 4136 "mouse"
+2026-11-05T12:08:26.073Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: The system cannot find the file specified (2)
+2026-11-05T12:08:26.075Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="kbh"] VTHREAD 4192 "kbh"
+2026-11-05T12:08:26.077Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSWin32: Registering top level window (0x30198) to receive session change notification.
+2026-11-05T12:08:26.082Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSWin32: Disabled power throttling.
+2026-11-05T12:08:26.082Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] Current Display Settings:
+2026-11-05T12:08:26.084Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"]    Display: 0 size: 1280x800  position: (0, 0) name: \\.\DISPLAY1  
+2026-11-05T12:08:26.084Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSWin32: MIL: 0x3000
+2026-11-05T12:08:26.084Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: PowerOn allowed BasicOps 
+2026-11-05T12:08:26.086Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: ISB enabled by config
+2026-11-05T12:08:26.086Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: Collecting RenderOps caps from BasicOps
+2026-11-05T12:08:26.089Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: Starting BasicOps
+2026-11-05T12:08:26.089Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: Started BasicOps
+2026-11-05T12:08:26.091Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: Found Full Renderer: MKSBasicOps
+2026-11-05T12:08:26.091Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: maxTextureSize=32768
+2026-11-05T12:08:26.093Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] KHBKL: Unable to parse keystring at: ''
+2026-11-05T12:08:26.093Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRemoteMgr: Set default display name: ubuntu-from-iso
+2026-11-05T12:08:26.095Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRemoteMgr: Loading VNC Configuration from VM config file
+2026-11-05T12:08:26.095Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRemoteMgr: Using default VNC keymap table "us"
+2026-11-05T12:08:26.097Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2026-11-05T12:08:26.097Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2026-11-05T12:08:26.100Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Chipset version: 0x13
+2026-11-05T12:08:26.100Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] The EFI ROM is EFI2.7 64-bit.
+2026-11-05T12:08:26.111Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SOUNDLIB: Creating the Wave sound backend.
+2026-11-05T12:08:26.118Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Device usb requested without secondary PCI slots available.
+2026-11-05T12:08:26.120Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting usb.pciSlotNumber = "16"
+2026-11-05T12:08:26.120Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Device ethernet0 requested without secondary PCI slots available.
+2026-11-05T12:08:26.122Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting ethernet0.pciSlotNumber = "21"
+2026-11-05T12:08:26.122Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Device ehci requested without secondary PCI slots available.
+2026-11-05T12:08:26.122Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting ehci.pciSlotNumber = "17"
+2026-11-05T12:08:26.124Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Device usb_xhci requested without secondary PCI slots available.
+2026-11-05T12:08:26.124Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting usb_xhci.pciSlotNumber = "22"
+2026-11-05T12:08:26.127Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Device sata0 requested without secondary PCI slots available.
+2026-11-05T12:08:26.127Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting sata0.pciSlotNumber = "18"
+2026-11-05T12:08:26.127Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Device nvme0 requested without secondary PCI slots available.
+2026-11-05T12:08:26.129Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting nvme0.pciSlotNumber = "23"
+2026-11-05T12:08:26.167Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MigrateBusMemPrealloc: BusMem preallocation begins.
+2026-11-05T12:08:26.169Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MigrateBusMemPrealloc: BusMem preallocation completes.
+2026-11-05T12:08:26.171Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting nvme0:0.redo = ""
+2026-11-05T12:08:26.171Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DISK: OPEN nvme0:0 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk' persistent R[]
+2026-11-05T12:08:26.178Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DiskGetGeometry: Reading of disk partition table
+2026-11-05T12:08:26.180Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DISK: Disk 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk' has UUID '60 00 c2 93 5e f2 20 39-c7 0d 76 18 21 d7 32 37'
+2026-11-05T12:08:26.180Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DISK: OPEN 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk' Geo (3916/255/63) BIOS Geo (0/0/0)
+2026-11-05T12:08:26.185Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Reported rotation rate = 0
+2026-11-05T12:08:26.207Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DISK: Opening disks took 36 ms.
+2026-11-05T12:08:26.210Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USBArbLib: USBArbLib initialized successfully, retryIntervalStart(5), retryIntervalMax(120), arbSocketName(\\.\pipe\vmware-usbarbpipe), useLocking(yes), tryUpgrading(no).
+2026-11-05T12:08:26.210Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] UsbEnum: Initializing UsbEnum library, disableLocking(no), allowBootableHid(yes).
+2026-11-05T12:08:26.212Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'Virtual Hub' backend
+2026-11-05T12:08:26.212Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'Generic' backend
+2026-11-05T12:08:26.214Z -WARNING vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USBArbLib: OUT SET_AUTO_CONNECT: Not connected to arbitrator, autoconnect(0) for client 'ubuntu-from-iso', connectState(1).
+2026-11-05T12:08:26.214Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'Virtual HID' backend
+2026-11-05T12:08:26.216Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="sensorThread"] VTHREAD 7656 "sensorThread"
+2026-11-05T12:08:26.216Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'Remote Device' backend
+2026-11-05T12:08:26.219Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] RemoteUSBVMX: Retrieved hostId [00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00].
+2026-11-05T12:08:26.219Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] RemoteUSBVMX: Protocol version min:15 current:20
+2026-11-05T12:08:26.219Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] RemoteUSBVMX: no delay setting is TRUE.
+2026-11-05T12:08:26.221Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'Virtual Mass Storage' backend
+2026-11-05T12:08:26.224Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'Virtual CCID' backend
+2026-11-05T12:08:26.226Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2026-11-05T12:08:26.257Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2026-11-05T12:08:26.266Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="usbCCIDEnumCards"] VTHREAD 4240 "usbCCIDEnumCards"
+2026-11-05T12:08:26.266Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="usbCCIDEnumCards"] USB-CCID: Card enum thread created.
+2026-11-05T12:08:26.266Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'Virtual Video' backend
+2026-11-05T12:08:26.277Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USBGW: Skipping disk backing for path(C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx).
+2026-11-05T12:08:26.277Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USBGW: Skipping disk backing for path(C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk).
+2026-11-05T12:08:26.280Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USBGW: Skipping disk backing for path(C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmsd).
+2026-11-05T12:08:26.284Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] OBJLIB-FILEBE : FileBEOpen: can't open 'nvram' : Could not find the file (393218).
+2026-11-05T12:08:26.284Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="usbCCIDEnumCards"] USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2026-11-05T12:08:26.300Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] OBJLIB-FILEBE : FileBEOpen: can't open 'nvram' : Could not find the file (393218).
+2026-11-05T12:08:26.302Z -WARNING vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] NVRAMMGR: No valid NVRAM file found, will create default NVRAM.
+2026-11-05T12:08:26.309Z -WARNING vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Device vide configured to use lock chains but base supportin workerlib is disabled
+2026-11-05T12:08:26.311Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: Config settings: autodetect=1, numDisplays=1, maxWidth=2560, maxHeight=1600
+2026-11-05T12:08:26.311Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: Desired maximum display topology: wh(6688, 5016)
+2026-11-05T12:08:26.313Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: Autodetected target framebuffer size = 268435456
+2026-11-05T12:08:26.313Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: Autodetected target primary size = 268435456
+2026-11-05T12:08:26.313Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: Using Initial       gfbSize = 134217728
+2026-11-05T12:08:26.316Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: MaxPrimaryMem      register = 268435456
+2026-11-05T12:08:26.316Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: Max wh(6688, 5016), number of displays: 10
+2026-11-05T12:08:26.318Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA-GFB: Allocated gfbSize=134217728
+2026-11-05T12:08:26.318Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting svga.vramSize = "268435456"
+2026-11-05T12:08:26.320Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting vmotion.checkpointFBSize = "134217728"
+2026-11-05T12:08:26.320Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting vmotion.checkpointSVGAPrimarySize = "268435456"
+2026-11-05T12:08:26.320Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA: SVGA DeviceLabel: svga2
+2026-11-05T12:08:26.322Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting vmotion.svga.mobMaxSize = "268435456"
+2026-11-05T12:08:26.322Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting vmotion.svga.graphicsMemoryKB = "262144"
+2026-11-05T12:08:26.324Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA: mobMaxSize=268435456
+2026-11-05T12:08:26.324Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA: graphicsMemoryKB=262144
+2026-11-05T12:08:26.324Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA: FIFO capabilities 0x0000077f
+2026-11-05T12:08:26.327Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.supports3D bool 0
+2026-11-05T12:08:26.327Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.baseCapsLevel num 11
+2026-11-05T12:08:26.329Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.maxPointSize num 0
+2026-11-05T12:08:26.329Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.maxTextureSize num 32768
+2026-11-05T12:08:26.331Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.maxVolumeExtent num 0
+2026-11-05T12:08:26.331Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.maxTextureAnisotropy num 0
+2026-11-05T12:08:26.331Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.lineStipple bool 0
+2026-11-05T12:08:26.333Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.dxMaxConstantBuffers num 0
+2026-11-05T12:08:26.333Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.dxProvokingVertex bool 0
+2026-11-05T12:08:26.336Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.sm41 bool 0
+2026-11-05T12:08:26.336Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.multisample2x bool 0
+2026-11-05T12:08:26.336Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.multisample4x bool 0
+2026-11-05T12:08:26.338Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.msFullQuality bool 0
+2026-11-05T12:08:26.338Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.logicOps bool 0
+2026-11-05T12:08:26.340Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.bc67 num 0
+2026-11-05T12:08:26.340Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.sm5 bool 0
+2026-11-05T12:08:26.340Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.multisample8x bool 0
+2026-11-05T12:08:26.342Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.logicBlendOps bool 0
+2026-11-05T12:08:26.342Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.maxForcedSampleCount num 0
+2026-11-05T12:08:26.345Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (before clamping) svga.gl43 bool 0
+2026-11-05T12:08:26.345Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.supports3D bool 0
+2026-11-05T12:08:26.347Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.baseCapsLevel num 0
+2026-11-05T12:08:26.347Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.maxPointSize num 0
+2026-11-05T12:08:26.347Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.maxTextureSize num 0
+2026-11-05T12:08:26.349Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.maxVolumeExtent num 0
+2026-11-05T12:08:26.349Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.maxTextureAnisotropy num 0
+2026-11-05T12:08:26.351Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.lineStipple bool 0
+2026-11-05T12:08:26.351Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.dxMaxConstantBuffers num 0
+2026-11-05T12:08:26.351Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.dxProvokingVertex bool 0
+2026-11-05T12:08:26.354Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.sm41 bool 0
+2026-11-05T12:08:26.354Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.multisample2x bool 0
+2026-11-05T12:08:26.356Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.multisample4x bool 0
+2026-11-05T12:08:26.356Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.msFullQuality bool 0
+2026-11-05T12:08:26.358Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.logicOps bool 0
+2026-11-05T12:08:26.358Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.bc67 num 0
+2026-11-05T12:08:26.358Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.sm5 bool 0
+2026-11-05T12:08:26.360Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.multisample8x bool 0
+2026-11-05T12:08:26.360Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.logicBlendOps bool 0
+2026-11-05T12:08:26.363Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.maxForcedSampleCount num 0
+2026-11-05T12:08:26.363Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGAFeature renderer (after  clamping) svga.gl43 bool 0
+2026-11-05T12:08:26.363Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp: Renderer Provides     BC67Level:     0 (    0,     0)
+2026-11-05T12:08:26.365Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp: Renderer Provides BaseCapsLevel:     0 (    0,     0)
+2026-11-05T12:08:26.365Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp: Renderer Provides    ClampLevel:     0 (    0,     0)
+2026-11-05T12:08:26.367Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dCaps: host, at power on (3d disabled)
+2026-11-05T12:08:26.367Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"]   cap[ 19]: 0x00002000 (MAX_TEXTURE_WIDTH)
+2026-11-05T12:08:26.367Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"]   cap[ 20]: 0x00002000 (MAX_TEXTURE_HEIGHT)
+2026-11-05T12:08:26.370Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"]   cap[ 93]: 0x00000001 (TS_COLOR_KEY)
+2026-11-05T12:08:26.370Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp:     Host Provides     BC67Level:     0 (    0,     0)
+2026-11-05T12:08:26.372Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp:     Host Provides BaseCapsLevel:     0 (    0,     4)
+2026-11-05T12:08:26.372Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp:     Host Provides    ClampLevel:     0 (    0,     0)
+2026-11-05T12:08:26.372Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dCaps: Disabling 3d support
+2026-11-05T12:08:26.374Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dCaps: guest, compatibility level: 10
+2026-11-05T12:08:26.374Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"]   cap[ 19]: 0x00002000 (MAX_TEXTURE_WIDTH)
+2026-11-05T12:08:26.376Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"]   cap[ 20]: 0x00002000 (MAX_TEXTURE_HEIGHT)
+2026-11-05T12:08:26.376Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp:    Guest Requires     BC67Level:     0 (    0,     0)
+2026-11-05T12:08:26.376Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp:    Guest Requires BaseCapsLevel:     0 (    0,     0)
+2026-11-05T12:08:26.379Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SVGA3dClamp:    Guest Requires    ClampLevel:     0 (    0,     0)
+2026-11-05T12:08:26.381Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] USB: Initializing 'UHCI' host controller.
+2026-11-05T12:08:26.381Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting ethernet0.generatedAddress = "00:0c:29:e9:ae:88"
+2026-11-05T12:08:26.383Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting ethernet0.generatedAddressOffset = "0"
+2026-11-05T12:08:26.383Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Ethernet0 MAC Address: 00:0c:29:e9:ae:88
+2026-11-05T12:08:26.405Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Ethernet0 MAC Address: 00:0c:29:e9:ae:88
+2026-11-05T12:08:26.408Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Msg_Post: Error
+2026-11-05T12:08:26.408Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] [msg.pci.noslotavail] No PCIe slot available for Ethernet0.  Remove Ethernet0 and try again.
+2026-11-05T12:08:26.410Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ----------------------------------------
+2026-11-05T12:08:26.419Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vmxnet3 PCI: failed to reserve slot for vmxnet3 PCIe device
+2026-11-05T12:08:26.419Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Module 'DevicePowerOn' power on failed.
+2026-11-05T12:08:26.419Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PowerOnTiming: ALL took 1690453 us
+2026-11-05T12:08:26.421Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMX_PowerOn: ModuleTable_PowerOn = 0
+2026-11-05T12:08:26.421Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Stopping MKS/SVGA threads
+2026-11-05T12:08:26.423Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MKSThread: Requesting MKS exit
+2026-11-05T12:08:26.423Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="svga"] MKSThread: SVGA thread is skipping the main loop
+2026-11-05T12:08:26.426Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] MKS/SVGA threads are stopped
+2026-11-05T12:08:26.428Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="usbCCIDEnumCards"] USB-CCID: Card enum thread exiting.
+2026-11-05T12:08:26.430Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] SOUNDLIB: Closing Wave sound backend.
+2026-11-05T12:08:26.433Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: Stopping BasicOps
+2026-11-05T12:08:26.433Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKSRenderMain: Stopped BasicOps
+2026-11-05T12:08:26.439Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKS PowerOff
+2026-11-05T12:08:26.439Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="svga"] SVGA thread is exiting
+2026-11-05T12:08:26.442Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="mks"] MKS thread is exiting
+2026-11-05T12:08:26.442Z -WARNING vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Guest: 
+2026-11-05T12:08:26.444Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] nvme0:0: numIOs = 1 numMergedIOs = 0 numSplitIOs = 0 ( 0.0%)
+2026-11-05T12:08:26.444Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Closing disk 'nvme0:0'
+2026-11-05T12:08:26.451Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] AIOWIN32C: asyncOps=1 syncOps=7 bufSize=0Kb fixedOps=0
+2026-11-05T12:08:26.451Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="aioCompletion"] AIO thread processed 1 completions
+2026-11-05T12:08:26.453Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="deviceThread"] Device thread is exiting
+2026-11-05T12:08:26.456Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:1173]: VMAutomationPowerOff: Powering off.
+2026-11-05T12:08:26.458Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] PolicyVMX_Exit: Could not write out policies: 15.
+2026-11-05T12:08:26.458Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WORKER: asyncOps=1 maxActiveOps=1 maxPending=1 maxCompleted=0
+2026-11-05T12:08:26.460Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="PowerNotifyThread"] PowerNotify thread exiting.
+2026-11-05T12:08:26.462Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2026-11-05T12:08:26.465Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] STATSFILE: Amount of dynamic storage used: 592
+2026-11-05T12:08:26.467Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] STATSFILE: Number of entries made: 60
+2026-11-05T12:08:26.467Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2026-11-05T12:08:26.469Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Transitioned vmx/execState/val to poweredOff
+2026-11-05T12:08:26.469Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=0 additionalError=0
+2026-11-05T12:08:26.472Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4209]: Error VIX_E_FAIL in VMAutomation_ReportPowerOpFinished(): Unknown error
+2026-11-05T12:08:26.474Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:4171]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2026-11-05T12:08:26.474Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Transitioned vmx/execState/val to poweredOff
+2026-11-05T12:08:26.481Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] WQPoolFreePoll : pollIx = 3, signalHandle = 1132
+2026-11-05T12:08:26.481Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:819]: VMAutomation_LateShutdown()
+2026-11-05T12:08:26.483Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Vix: [mainDispatch.c:774]: VMAutomationCloseListenerSocket. Closing listener socket.
+2026-11-05T12:08:26.485Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Flushing VMX VMDB connections
+2026-11-05T12:08:26.485Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VmdbPipeStreamsOvlError: write failed, draining reads
+2026-11-05T12:08:26.488Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VmdbPipeStreamsOvlError Couldn't initiate write: (0) The operation completed successfully.
+2026-11-05T12:08:26.490Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (-31)
+2026-11-05T12:08:26.506Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VigorTransport_ServerDestroy: server destroyed.
+2026-11-05T12:08:26.508Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] VMX exit (0).
+2026-11-05T12:08:26.508Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] OBJLIB-LIB: ObjLib cleanup done.
+2026-11-05T12:08:26.508Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] AIOMGR-S : stat o=5 r=12 w=15 i=0 br=111616 bw=8768

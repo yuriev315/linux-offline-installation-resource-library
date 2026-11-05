@@ -1,0 +1,4 @@
+rustfmt-1.91
+rust-1.91-clippy
+rust-1.91-src
+rust-1.91-gdb

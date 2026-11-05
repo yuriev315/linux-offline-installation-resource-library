@@ -1,0 +1,53 @@
+# Integrity checks run 2026-11-05T01:50:59Z
+## ISO internal md5sum.txt and structure
+Ubuntu 24.04.5 LTS "Noble Numbat" - Release amd64 (20260914)
+md5sum rc=0
+21
+01_UBUNTU_ISO/ubuntu_desktop/ubuntu-24.04.5.1-desktop-amd64.iso official-sha256 MATCH
+Ubuntu-Server 24.04.5 LTS "Noble Numbat" - Release amd64 (20260909)
+md5sum rc=0
+5
+01_UBUNTU_ISO/ubuntu_server/ubuntu-24.04.5-live-server-amd64.iso official-sha256 MATCH
+## WSL rootfs
+49190 entries; tar rc=0
+official-sha256 MATCH
+## Microsoft Authenticode signatures
+/lib_root/02_WSL2/wsl_installers/wsl.3.0.3.0.x64.msi
+		Subject: /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Corporation
+Failed
+Failed signing certificate chain retrieved from the signature:
+Number of verified signatures: 1
+Signature verification: failed
+/lib_root/02_WSL2/wsl_kernel/wsl_update_x64.msi
+		Subject: /C=US/ST=Washington/L=Redmond/O=Microsoft Corporation/CN=Microsoft Corporation
+Failed
+Failed signing certificate chain retrieved from the signature:
+Number of verified signatures: 1
+Signature verification: failed
+## Node.js
+5888
+gpgv: Good signature from "Antoine du Hamel <antoine.duhamel@platformatic.dev>"
+## VS Code Server tar
+4436
+code deb readable
+## Repository chain
+checked 1293 pool files against official signed indexes; problems: 0
+## Authenticode chain, using Microsoft Root CA 2011 from www.microsoft.com/pki/certs
+sha256 Fingerprint=84:7D:F6:A7:84:97:94:3F:27:FC:72:EB:93:F9:A6:37:32:0A:02:B5:61:D0:A9:1B:09:E8:7A:78:07:ED:7C:61
+/lib_root/02_WSL2/wsl_installers/wsl.3.0.3.0.x64.msi
+Number of verified signatures: 1
+Signature verification: ok
+Succeeded
+Timestamp is not available
+/lib_root/02_WSL2/wsl_kernel/wsl_update_x64.msi
+	Error: certificate has expired
+4049FAD178790000:error:10800075:PKCS7 routines:PKCS7_verify:certificate verify error:../crypto/pkcs7/pk7_smime.c:296:Ver
+Failed
+Failed signing certificate chain retrieved from the signature:
+Number of verified signatures: 1
+Signature verification: failed
+Timestamp is not available
+## wsl_update_x64.msi, chain evaluated at its claimed signing time (2021-04-14). The timestamp countersignature itself was not validated.
+Signature verification time: Apr 14 16:55:28 2021 GMT
+Signature verification: ok
+Succeeded

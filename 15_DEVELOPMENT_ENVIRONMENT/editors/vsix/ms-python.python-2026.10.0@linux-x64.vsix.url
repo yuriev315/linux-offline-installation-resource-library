@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-python/vsextensions/python/2026.10.0/vspackage?targetPlatform=linux-x64
+
+[File]
+Name=ms-python.python-2026.10.0@linux-x64.vsix
+Product=Visual Studio Code
+SizeBytes=18107627
+SHA256=9a84de731b622ee440e0bd979965f6a7577afa48bea6c3d4257d8865efc74780
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

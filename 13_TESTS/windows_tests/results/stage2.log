@@ -1,0 +1,61 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105040819
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 4936
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T04:08:19 VMware checks
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+PASS vmware-checkonly
+
+DisplayName                     Status
+-----------                     ------
+VMware Authorization Service   Running
+VMware DHCP Service            Running
+VMware USB Arbitration Service Running
+VMware NAT Service             Running
+VMware Autostart Service       Stopped
+
+
+=== 2026-11-05T04:08:20 VM from the local ISO, using the script and template
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+Creating disk 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk'
+Virtual disk creation successful.
+Created C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+PASS vm-created-from-template
+start: Error: The operation was canceled rc=-1
+FAIL vm-iso-poweron Error: The operation was canceled
+2026-11-05T12:08:24.789Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT           sata0:1.present = "TRUE"
+2026-11-05T12:08:24.789Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT        sata0:1.deviceType = "cdrom-image"
+2026-11-05T12:08:24.789Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT          sata0:1.fileName = "D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso"
+2026-11-05T12:08:24.792Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DICT    sata0:1.startConnected = "TRUE"
+2026-11-05T12:08:24.861Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] Monitor Mode: CPL0
+2026-11-05T12:08:25.987Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] UUID: Writing uuid.bios value: '56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88'
+2026-11-05T12:08:25.987Z -NOTICE vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] ConfigDB: Setting uuid.bios = "56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88"
+2026-11-05T12:08:26.180Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] DISK: OPEN 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk' Geo (3916/255/63) BIOS Geo (0/0/0)
+2026-11-05T12:08:26.210Z -INFO vmware-vmx.exe 4156 [ws@4413 threadName="vmx"] UsbEnum: Initializing UsbEnum library, disableLocking(no), allowBootableHid(yes).
+=== 2026-11-05T04:08:26 Prebuilt Ubuntu in VMware: tools, shared folder, snapshot
+Creating disk 'C:\VMs\prebuilt\prebuilt.vmdk'
+  Convert: 100% done.
+Virtual disk conversion successful.
+PASS vmdk-convert
+start: Error: The operation was canceled
+FAIL vm-prebuilt-poweron Error: The operation was canceled
+**********************
+Windows PowerShell transcript end
+End time: 20261105041303
+**********************

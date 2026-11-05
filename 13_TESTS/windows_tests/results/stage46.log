@@ -1,0 +1,87 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105072017
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 5096
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T07:20:17 VMware checks
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+PASS vmware-checkonly
+
+DisplayName                     Status
+-----------                     ------
+VMware Authorization Service   Running
+VMware DHCP Service            Running
+VMware USB Arbitration Service Running
+VMware NAT Service             Running
+VMware Autostart Service       Stopped
+
+
+=== 2026-11-05T07:20:17 VM from the local ISO, using the script and template
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+Creating disk 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk'
+Virtual disk creation successful.
+Created C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+PASS vm-created-from-template
+start:  rc=0
+PASS vm-iso-poweron
+Total running VMs: 1
+C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+
+2026-11-05T15:20:21.634Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] DICT           sata0:1.present = "TRUE"
+2026-11-05T15:20:21.634Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] DICT        sata0:1.deviceType = "cdrom-image"
+2026-11-05T15:20:21.636Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] DICT          sata0:1.fileName = "D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso"
+2026-11-05T15:20:21.636Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] DICT    sata0:1.startConnected = "TRUE"
+2026-11-05T15:20:21.727Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] Monitor Mode: CPL0
+2026-11-05T15:20:22.789Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] UUID: Writing uuid.bios value: '56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88'
+2026-11-05T15:20:22.789Z -NOTICE vmware-vmx.exe 912 [ws@4413 threadName="vmx"] ConfigDB: Setting uuid.bios = "56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88"
+2026-11-05T15:20:22.957Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] DISK: OPEN 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk' Geo (3916/255/63) BIOS Geo (0/0/0)
+2026-11-05T15:20:23.419Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] UsbEnum: Initializing UsbEnum library, disableLocking(no), allowBootableHid(yes).
+2026-11-05T15:20:23.586Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] SCSI DEVICE (sata0:1): Computed value of sata0:1.useBounceBuffers: default
+2026-11-05T15:20:23.586Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] DISKUTIL: sata0:1 : capacity=0 logical sector size=2048
+2026-11-05T15:20:23.588Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] AHCI:Creating ATAPI CDROM on SATA adapter.
+2026-11-05T15:20:23.588Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] AHCI:Successfully created device: sata0:1
+2026-11-05T15:20:23.648Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] pvnvram: SecureBootMode value: 0
+2026-11-05T15:20:23.650Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] pvnvram: Transitioning to: SecureBootModeDisabled.
+2026-11-05T15:20:23.961Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2026-11-05T15:20:23.963Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2026-11-05T15:20:23.963Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_AHCIBIOS                   :      16     16      - |      0      0      -
+2026-11-05T15:20:23.966Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_NVMEBIOS                   :       2      2      - |      0      0      -
+2026-11-05T15:20:24.009Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vmx"] OvhdMem OvhdMon_Bootstrap                   :    2303   2303      - |      0      0      -
+2026-11-05T15:20:24.174Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] CDROM: Connecting sata0:1 to 'D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso'. type=2 remote=0
+2026-11-05T15:20:24.185Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] CDROM: Checking initial physical media state...
+2026-11-05T15:20:24.185Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] CDROM:  initial physical CDROM state is 1 (sense)
+2026-11-05T15:20:24.945Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] pvnvram: SecureBootMode value: 0
+2026-11-05T15:20:24.945Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] pvnvram: Transitioning to: SecureBootModeDisabled.
+2026-11-05T15:20:25.405Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] BIOS-UUID is 56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88
+2026-11-05T15:20:27.623Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:1: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T15:20:27.635Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:10: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T15:20:27.635Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:11: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T15:20:27.636Z -INFO vmware-vmx.exe 912 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:12: PxSCTL.DET already 0. Ignoring write 0.
+=== 2026-11-05T07:24:27 Prebuilt Ubuntu in VMware: tools, shared folder, snapshot
+Creating disk 'C:\VMs\prebuilt\prebuilt.vmdk'
+  Convert: 100% done.
+Virtual disk conversion successful.
+PASS vmdk-convert
+start:
+PASS vm-prebuilt-poweron
+t=30s tools=installed
+t=60s tools=installed
+t=90s tools=installed
+t=120s tools=installed
+t=150s tools=installed
+t=180s tools=installed

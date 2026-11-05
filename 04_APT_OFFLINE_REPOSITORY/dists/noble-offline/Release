@@ -1,0 +1,22 @@
+Origin: LinuxOfflineLibrary
+Label: Ubuntu 24.04 offline subset
+Suite: noble-offline
+Codename: noble-offline
+Version: 24.04
+Date: Thu, 05 Nov 2026 03:06:00 UTC
+Architectures: amd64
+Components: main restricted universe multiverse
+Description: Dependency-closed subset of official Ubuntu 24.04 noble, noble-updates, noble-security
+SHA256:
+ 2766dc8517c831cebbcf40884872dcce0b459af1c580a3fc4bc4539bda034e12      2887242 main/binary-amd64/Packages
+ 5e0609a97459c921da876a517bb41e235b09589ec7daea7f9965787a7942dbc6       676015 main/binary-amd64/Packages.gz
+ d150a8eef606f8f1051b1005e1ead21b3f7866d1d723a07679bf5b95b5066720          122 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855            0 multiverse/binary-amd64/Packages
+ 6d800e59ca41dddf7c8435ac74029513bc8ee65af025cb0e4e8ce077d30f80f5           29 multiverse/binary-amd64/Packages.gz
+ 8d34630a96603929be8201fb6923bbb8c162146ca0b01fa1ef37a00d825b4c0d          128 multiverse/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855            0 restricted/binary-amd64/Packages
+ 6d800e59ca41dddf7c8435ac74029513bc8ee65af025cb0e4e8ce077d30f80f5           29 restricted/binary-amd64/Packages.gz
+ c01b9a0c585d3ba676436afd9a3e8b5b601289bf42a6f719b29d64614eea0047          128 restricted/binary-amd64/Release
+ 84a24125e8ebae1e4ee596e64bd0f4241fc348d60ef9b02f30036c3efc46f909       215655 universe/binary-amd64/Packages
+ 61ec556537459453fb98553d67604d2c5ca7d02d71c652637e46e4796c3610dd        64132 universe/binary-amd64/Packages.gz
+ 821e50ff67e7bc4706eb480a5081fd278430e602ea14ec96789313a667d9572d          126 universe/binary-amd64/Release

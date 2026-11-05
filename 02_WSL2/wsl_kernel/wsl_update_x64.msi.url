@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+[File]
+Name=wsl_update_x64.msi
+Product=Microsoft WSL kernel update
+SizeBytes=17104896
+SHA256=4d09c776c8d45f70a202281d18e19be1118f53159b0c217a5274a31ce18525fe
+DirectDownload=yes
+Checked=2026-11-05 HTTP 206
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

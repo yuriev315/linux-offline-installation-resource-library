@@ -1,0 +1,9 @@
+tar
+gzip
+bzip2
+xz-utils
+zstd
+zip
+unzip
+p7zip-full
+rsync

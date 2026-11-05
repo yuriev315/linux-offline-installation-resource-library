@@ -1,0 +1,14 @@
+gdb
+lldb
+valgrind
+strace
+ltrace
+linux-tools-generic-hwe-24.04
+binutils
+gcc
+lcov
+python3-pytest
+cmake
+googletest
+libgtest-dev
+libgmock-dev

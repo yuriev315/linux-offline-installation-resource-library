@@ -1,0 +1,242 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105062333
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 1328
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T06:23:33 VMware checks
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+PASS vmware-checkonly
+
+DisplayName                     Status
+-----------                     ------
+VMware Authorization Service   Running
+VMware DHCP Service            Running
+VMware USB Arbitration Service Running
+VMware NAT Service             Running
+VMware Autostart Service       Stopped
+
+
+=== 2026-11-05T06:23:33 VM from the local ISO, using the script and template
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+Creating disk 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk'
+Virtual disk creation successful.
+Created C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+PASS vm-created-from-template
+start:  rc=0
+PASS vm-iso-poweron
+Total running VMs: 1
+C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+
+2026-11-05T14:23:36.150Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] DICT           sata0:1.present = "TRUE"
+2026-11-05T14:23:36.150Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] DICT        sata0:1.deviceType = "cdrom-image"
+2026-11-05T14:23:36.150Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] DICT          sata0:1.fileName = "D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso"
+2026-11-05T14:23:36.150Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] DICT    sata0:1.startConnected = "TRUE"
+2026-11-05T14:23:36.162Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] Monitor Mode: ULM
+2026-11-05T14:23:36.978Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] UUID: Writing uuid.bios value: '56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88'
+2026-11-05T14:23:36.978Z -NOTICE vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] ConfigDB: Setting uuid.bios = "56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88"
+2026-11-05T14:23:37.076Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] DISK: OPEN 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk' Geo (3916/255/63) BIOS Geo (0/0/0)
+2026-11-05T14:23:37.103Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] UsbEnum: Initializing UsbEnum library, disableLocking(no), allowBootableHid(yes).
+2026-11-05T14:23:37.167Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] SCSI DEVICE (sata0:1): Computed value of sata0:1.useBounceBuffers: default
+2026-11-05T14:23:37.167Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] DISKUTIL: sata0:1 : capacity=0 logical sector size=2048
+2026-11-05T14:23:37.167Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] AHCI:Creating ATAPI CDROM on SATA adapter.
+2026-11-05T14:23:37.167Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] AHCI:Successfully created device: sata0:1
+2026-11-05T14:23:37.203Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] pvnvram: SecureBootMode value: 0
+2026-11-05T14:23:37.203Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] pvnvram: Transitioning to: SecureBootModeDisabled.
+2026-11-05T14:23:37.441Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2026-11-05T14:23:37.441Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2026-11-05T14:23:37.441Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_AHCIBIOS                   :      16     16      - |      0      0      -
+2026-11-05T14:23:37.441Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_NVMEBIOS                   :       2      2      - |      0      0      -
+2026-11-05T14:23:37.442Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vmx"] OvhdMem OvhdMon_Bootstrap                   :    2300   2300      - |      0      0      -
+2026-11-05T14:23:37.566Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] CDROM: Connecting sata0:1 to 'D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso'. type=2 remote=0
+2026-11-05T14:23:37.587Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] CDROM: Checking initial physical media state...
+2026-11-05T14:23:37.587Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] CDROM:  initial physical CDROM state is 1 (sense)
+2026-11-05T14:23:39.015Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] pvnvram: SecureBootMode value: 0
+2026-11-05T14:23:39.015Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] pvnvram: Transitioning to: SecureBootModeDisabled.
+2026-11-05T14:23:39.609Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] BIOS-UUID is 56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88
+2026-11-05T14:23:41.286Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:1: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T14:23:41.291Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:10: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T14:23:41.293Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:11: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T14:23:41.294Z -INFO vmware-vmx.exe 3924 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:12: PxSCTL.DET already 0. Ignoring write 0.
+=== 2026-11-05T06:27:43 Prebuilt Ubuntu in VMware: tools, shared folder, snapshot
+Creating disk 'C:\VMs\prebuilt\prebuilt.vmdk'
+  Convert: 100% done.
+Virtual disk conversion successful.
+PASS vmdk-convert
+start:
+PASS vm-prebuilt-poweron
+t=30s tools=installed
+t=60s tools=installed
+t=90s tools=installed
+t=120s tools=installed
+t=150s tools=installed
+t=180s tools=installed
+t=210s tools=installed
+t=240s tools=installed
+t=270s tools=installed
+t=300s tools=installed
+t=330s tools=installed
+t=360s tools=installed
+t=390s tools=installed
+t=420s tools=installed
+t=450s tools=installed
+t=480s tools=installed
+t=510s tools=installed
+t=540s tools=installed
+t=570s tools=installed
+t=600s tools=installed
+t=630s tools=installed
+t=660s tools=installed
+t=690s tools=installed
+t=720s tools=installed
+t=750s tools=installed
+t=780s tools=installed
+t=810s tools=installed
+t=840s tools=installed
+t=870s tools=installed
+t=900s tools=installed
+t=930s tools=installed
+t=960s tools=installed
+t=990s tools=installed
+t=1020s tools=installed
+t=1050s tools=installed
+t=1080s tools=installed
+t=1110s tools=installed
+t=1140s tools=installed
+t=1170s tools=installed
+t=1200s tools=installed
+t=1230s tools=installed
+t=1260s tools=installed
+t=1290s tools=installed
+t=1320s tools=installed
+t=1350s tools=installed
+t=1380s tools=installed
+t=1410s tools=installed
+t=1440s tools=installed
+t=1470s tools=installed
+t=1500s tools=installed
+t=1530s tools=installed
+t=1560s tools=installed
+t=1590s tools=installed
+t=1620s tools=installed
+t=1650s tools=installed
+t=1680s tools=installed
+t=1710s tools=installed
+t=1740s tools=installed
+t=1770s tools=installed
+t=1800s tools=installed
+FAIL open-vm-tools-running-in-vmware installed
+Error: The VMware Tools are not running in the virtual machine: C:\VMs\prebuilt\prebuilt.vmx
+FAIL run-program-in-guest rc=-1
+Error: The VMware Tools are not running in the virtual machine: C:\VMs\prebuilt\prebuilt.vmx
+**********************
+Windows PowerShell transcript start
+Start time: 20261105071332
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 1228
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T07:13:32 VMware checks
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+PASS vmware-checkonly
+
+DisplayName                     Status
+-----------                     ------
+VMware Authorization Service   Running
+VMware DHCP Service            Running
+VMware USB Arbitration Service Running
+VMware NAT Service             Running
+VMware Autostart Service       Stopped
+
+
+=== 2026-11-05T07:13:33 VM from the local ISO, using the script and template
+VMware Workstation 26.0.1 build-25688693 at C:\Program Files\VMware\VMware Workstation
+VMware NAT Service : Running
+Creating disk 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk'
+Virtual disk creation successful.
+Created C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+PASS vm-created-from-template
+start:  rc=0
+PASS vm-iso-poweron
+Total running VMs: 1
+C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmx
+
+2026-11-05T15:13:37.165Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] DICT           sata0:1.present = "TRUE"
+2026-11-05T15:13:37.165Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] DICT        sata0:1.deviceType = "cdrom-image"
+2026-11-05T15:13:37.167Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] DICT          sata0:1.fileName = "D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso"
+2026-11-05T15:13:37.167Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] DICT    sata0:1.startConnected = "TRUE"
+2026-11-05T15:13:37.268Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] Monitor Mode: ULM
+2026-11-05T15:13:38.438Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] UUID: Writing uuid.bios value: '56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88'
+2026-11-05T15:13:38.441Z -NOTICE vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] ConfigDB: Setting uuid.bios = "56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88"
+2026-11-05T15:13:38.989Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] DISK: OPEN 'C:\VMs\ubuntu-from-iso\ubuntu-from-iso.vmdk' Geo (3916/255/63) BIOS Geo (0/0/0)
+2026-11-05T15:13:39.047Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] UsbEnum: Initializing UsbEnum library, disableLocking(no), allowBootableHid(yes).
+2026-11-05T15:13:39.738Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] SCSI DEVICE (sata0:1): Computed value of sata0:1.useBounceBuffers: default
+2026-11-05T15:13:39.738Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] DISKUTIL: sata0:1 : capacity=0 logical sector size=2048
+2026-11-05T15:13:39.740Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] AHCI:Creating ATAPI CDROM on SATA adapter.
+2026-11-05T15:13:39.740Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] AHCI:Successfully created device: sata0:1
+2026-11-05T15:13:39.821Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] pvnvram: SecureBootMode value: 0
+2026-11-05T15:13:39.823Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] pvnvram: Transitioning to: SecureBootModeDisabled.
+2026-11-05T15:13:40.575Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2026-11-05T15:13:40.577Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2026-11-05T15:13:40.577Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_AHCIBIOS                   :      16     16      - |      0      0      -
+2026-11-05T15:13:40.580Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] OvhdMem OvhdUser_NVMEBIOS                   :       2      2      - |      0      0      -
+2026-11-05T15:13:40.623Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vmx"] OvhdMem OvhdMon_Bootstrap                   :    2300   2300      - |      0      0      -
+2026-11-05T15:13:40.712Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] CDROM: Connecting sata0:1 to 'D:\Linux_Offline_Installation_Resource_Library\01_UBUNTU_ISO\ubuntu_server\ubuntu-24.04.5-live-server-amd64.iso'. type=2 remote=0
+2026-11-05T15:13:40.726Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] CDROM: Checking initial physical media state...
+2026-11-05T15:13:40.726Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] CDROM:  initial physical CDROM state is 1 (sense)
+2026-11-05T15:13:41.712Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] pvnvram: SecureBootMode value: 0
+2026-11-05T15:13:41.712Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] pvnvram: Transitioning to: SecureBootModeDisabled.
+2026-11-05T15:13:42.231Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] BIOS-UUID is 56 4d 9b bb 62 7d d6 8e-bd 74 91 2d 98 e9 ae 88
+2026-11-05T15:13:43.944Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:1: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T15:13:43.965Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:10: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T15:13:43.969Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:11: PxSCTL.DET already 0. Ignoring write 0.
+2026-11-05T15:13:43.971Z -INFO vmware-vmx.exe 2288 [ws@4413 threadName="vcpu-0"] AHCI-VMM: sata0:12: PxSCTL.DET already 0. Ignoring write 0.
+=== 2026-11-05T07:17:43 Prebuilt Ubuntu in VMware: tools, shared folder, snapshot
+**********************
+Windows PowerShell transcript start
+Start time: 20261105071931
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 4984
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Windows PowerShell transcript end
+End time: 20261105071931
+**********************

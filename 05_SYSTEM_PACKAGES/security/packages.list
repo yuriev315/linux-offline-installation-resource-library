@@ -1,0 +1,5 @@
+openssl
+ca-certificates
+gnupg
+openssh-client
+openssh-server

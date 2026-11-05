@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-python/vsextensions/debugpy/2026.6.0/vspackage?targetPlatform=linux-x64
+
+[File]
+Name=ms-python.debugpy-2026.6.0@linux-x64.vsix
+Product=Visual Studio Code
+SizeBytes=13888374
+SHA256=3ae417f78bce17992b9e0efba160a43a85a8b695bd387e150d4df24e366c7b01
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

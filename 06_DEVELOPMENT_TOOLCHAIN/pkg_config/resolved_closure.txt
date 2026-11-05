@@ -1,0 +1,9 @@
+gcc-14-base_14.2.0-4ubuntu2~24.04.1_amd64.deb
+libc6_2.39-0ubuntu8.9_amd64.deb
+libgcc-s1_14.2.0-4ubuntu2~24.04.1_amd64.deb
+libidn2-0_2.3.7-2build1.1_amd64.deb
+libpkgconf3_1.8.1-2build1_amd64.deb
+libunistring5_1.1-2build1.1_amd64.deb
+pkg-config_1.8.1-2build1_amd64.deb
+pkgconf-bin_1.8.1-2build1_amd64.deb
+pkgconf_1.8.1-2build1_amd64.deb

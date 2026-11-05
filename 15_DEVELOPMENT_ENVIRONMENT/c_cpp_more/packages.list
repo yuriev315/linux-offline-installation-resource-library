@@ -1,0 +1,14 @@
+cmake-curses-gui
+clang-format
+clang-tools
+clang-tidy
+libc++-dev
+libc++abi-dev
+gfortran
+doxygen
+gdbserver
+gdb-multiarch
+libpcap-dev
+libnuma-dev
+libsystemd-dev
+libudev-dev

@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-vscode/vsextensions/cmake-tools/1.24.42/vspackage
+
+[File]
+Name=ms-vscode.cmake-tools-1.24.42.vsix
+Product=Visual Studio Code
+SizeBytes=6878189
+SHA256=14d6df3a11619915d5a1fa2a46cf254dff634ee34e06f6a464668aafa7d55ebb
+DirectDownload=yes
+Checked=2026-11-05 HTTP 200
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

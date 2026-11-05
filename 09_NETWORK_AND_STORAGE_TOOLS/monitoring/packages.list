@@ -1,0 +1,9 @@
+htop
+iotop
+sysstat
+procps
+lsof
+strace
+fio
+stress-ng
+linux-tools-generic-hwe-24.04

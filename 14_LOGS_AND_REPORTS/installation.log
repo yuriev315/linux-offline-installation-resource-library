@@ -1,0 +1,14 @@
+VM test: server (KVM, no network device). Phases:
+install exit=0
+firstboot exit=0
+secondboot exit=0
+finished
+Full console: 13_TESTS/installation_tests/results_server/console.log
+VM test: desktop (KVM, no network device). Phases:
+install exit=0
+firstboot exit=0
+secondboot exit=0
+finished
+Full console: 13_TESTS/installation_tests/results_desktop/console.log
+Isolated WSL rootfs test: 13_TESTS/apt_dependency_tests/results_wsl_rootfs_isolated/console.log
+Extra scripts test: 13_TESTS/apt_dependency_tests/results_extra_scripts_isolated/console.log

@@ -1,0 +1,31 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105041303
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 4936
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T04:13:03 WSL: enable Windows features
+2026-11-05T04:13:04 Windows build 26200, arch AMD64
+2026-11-05T04:13:06 Firmware virtualization enabled: True; hypervisor already running: True
+2026-11-05T04:13:36 SHA256 OK: wsl.3.0.3.0.x64.msi
+2026-11-05T04:14:08 SHA256 OK: ubuntu-24.04.5-wsl-amd64.wsl
+2026-11-05T04:14:09 Feature Microsoft-Windows-Subsystem-Linux: Disabled
+2026-11-05T04:14:14 Feature VirtualMachinePlatform: Disabled
+2026-11-05T04:14:25 Windows features enabled. REBOOT, then run this script again.
+PASS wsl-stage1-features rc=3010
+**********************
+Windows PowerShell transcript end
+End time: 20261105041425
+**********************

@@ -1,0 +1,65 @@
+05_SYSTEM_PACKAGES/base_system	systemd systemd-sysv apt apt-utils dpkg libc6 libgcc-s1 libstdc++6 bash coreutils util-linux procps grep sed findutils tar gzip xz-utils bzip2 unzip zip ca-certificates openssl sudo locales tzdata gnupg ubuntu-keyring ubuntu-minimal ubuntu-standard
+05_SYSTEM_PACKAGES/kernel	linux-generic linux-image-generic linux-headers-generic linux-tools-generic linux-generic-hwe-24.04 linux-image-generic-hwe-24.04 linux-headers-generic-hwe-24.04 linux-tools-generic-hwe-24.04 initramfs-tools
+05_SYSTEM_PACKAGES/firmware	linux-firmware intel-microcode amd64-microcode
+05_SYSTEM_PACKAGES/networking	iproute2 network-manager netplan.io
+05_SYSTEM_PACKAGES/storage	fdisk parted gdisk lvm2 mdadm cryptsetup smartmontools
+05_SYSTEM_PACKAGES/filesystem	e2fsprogs xfsprogs btrfs-progs dosfstools ntfs-3g exfatprogs fuse3
+05_SYSTEM_PACKAGES/security	openssl ca-certificates gnupg openssh-client openssh-server
+05_SYSTEM_PACKAGES/system_management	htop tmux screen lsof strace rsync cron logrotate smartmontools lm-sensors pciutils usbutils dmidecode nvme-cli hdparm sysstat
+06_DEVELOPMENT_TOOLCHAIN/build_essentials	build-essential dpkg-dev patch autoconf automake libtool
+06_DEVELOPMENT_TOOLCHAIN/gcc_gpp	gcc g++ binutils
+06_DEVELOPMENT_TOOLCHAIN/clang_llvm	clang llvm lld lldb libclang-dev
+06_DEVELOPMENT_TOOLCHAIN/cmake	cmake
+06_DEVELOPMENT_TOOLCHAIN/ninja	ninja-build
+06_DEVELOPMENT_TOOLCHAIN/make	make
+06_DEVELOPMENT_TOOLCHAIN/pkg_config	pkg-config
+06_DEVELOPMENT_TOOLCHAIN/git	git
+06_DEVELOPMENT_TOOLCHAIN/openssh	openssh-client openssh-server
+06_DEVELOPMENT_TOOLCHAIN/gdb	gdb
+06_DEVELOPMENT_TOOLCHAIN/cross_compilation	crossbuild-essential-arm64
+07_PYTHON_BASE_ENVIRONMENT/python_installers	python3 python3.12 python3-dev python3-venv
+07_PYTHON_BASE_ENVIRONMENT/pip	python3-pip
+07_PYTHON_BASE_ENVIRONMENT/setuptools	python3-setuptools
+07_PYTHON_BASE_ENVIRONMENT/wheel	python3-wheel
+07_PYTHON_BASE_ENVIRONMENT/virtualenv	python3-virtualenv
+08_SYSTEM_LIBRARIES/openssl	libssl-dev
+08_SYSTEM_LIBRARIES/zlib	zlib1g-dev
+08_SYSTEM_LIBRARIES/libffi	libffi-dev
+08_SYSTEM_LIBRARIES/sqlite	libsqlite3-dev sqlite3
+08_SYSTEM_LIBRARIES/libxml	libxml2-dev
+08_SYSTEM_LIBRARIES/libxslt	libxslt1-dev
+08_SYSTEM_LIBRARIES/blas	libblas-dev libopenblas-dev
+08_SYSTEM_LIBRARIES/lapack	liblapack-dev
+08_SYSTEM_LIBRARIES/openmp	libomp-dev libgomp1
+08_SYSTEM_LIBRARIES/protobuf	libprotobuf-dev protobuf-compiler
+08_SYSTEM_LIBRARIES/other_libraries	libcurl4-openssl-dev libevent-dev libbz2-dev liblzma-dev libreadline-dev libncurses-dev
+09_NETWORK_AND_STORAGE_TOOLS/network_utilities	iproute2 iputils-ping net-tools bind9-dnsutils traceroute tcpdump netcat-openbsd socat nmap ethtool network-manager
+09_NETWORK_AND_STORAGE_TOOLS/ssh_sftp	openssh-client openssh-server openssh-sftp-server
+09_NETWORK_AND_STORAGE_TOOLS/rsync	rsync
+09_NETWORK_AND_STORAGE_TOOLS/curl_wget	curl wget
+09_NETWORK_AND_STORAGE_TOOLS/disk_management	fdisk parted gdisk lvm2 mdadm cryptsetup smartmontools
+09_NETWORK_AND_STORAGE_TOOLS/filesystem_tools	e2fsprogs xfsprogs btrfs-progs dosfstools ntfs-3g exfatprogs
+09_NETWORK_AND_STORAGE_TOOLS/archive_tools	tar gzip bzip2 xz-utils zstd zip unzip p7zip-full rsync
+09_NETWORK_AND_STORAGE_TOOLS/monitoring	htop iotop sysstat procps lsof strace fio stress-ng linux-tools-generic-hwe-24.04
+03_VMWARE/open_vm_tools	open-vm-tools open-vm-tools-desktop fuse3 network-manager xserver-xorg-video-vmware
+06_DEVELOPMENT_TOOLCHAIN/c_cpp_extras	libstdc++-14-dev libtool-bin valgrind ccache git-lfs libc6-dev libstdc++-13-dev linux-libc-dev
+15_DEVELOPMENT_ENVIRONMENT/python_dev	python3-dbg python3-pytest python3-pip python3-venv libgdbm-dev libgdbm-compat-dev tk-dev uuid-dev libexpat1-dev libnss3-dev
+15_DEVELOPMENT_ENVIRONMENT/shell_tools	bash zsh shellcheck shfmt coreutils findutils sed grep jq yq perl ruby expect
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/java	openjdk-21-jdk
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/go	golang-1.26-go
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/rust	rustc-1.91 cargo-1.91
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/php	php-cli
+15_DEVELOPMENT_ENVIRONMENT/editors/terminal_editors	vim neovim emacs-nox tig gitk git-gui
+15_DEVELOPMENT_ENVIRONMENT/editors/vscode_dependencies	bubblewrap ca-certificates libasound2t64 libatk-bridge2.0-0t64 libatk1.0-0t64 libatspi2.0-0t64 libc6 libcairo2 libcups2t64 libcurl3t64-gnutls libdbus-1-3 libexpat1 libgbm1 libglib2.0-0t64 libgtk-3-0t64 libnspr4 libnss3 libpango-1.0-0 libudev1 libvulkan1 libx11-6 libxcb1 libxcomposite1 libxdamage1 libxext6 libxfixes3 libxkbcommon0 libxkbfile1 libxrandr2 socat xdg-utils
+15_DEVELOPMENT_ENVIRONMENT/debug_and_profiling	gdb lldb valgrind strace ltrace linux-tools-generic-hwe-24.04 binutils gcc lcov python3-pytest cmake googletest libgtest-dev libgmock-dev
+04_APT_OFFLINE_REPOSITORY/package_manifests/apt_tools	apt-offline apt-rdepends aptly apt-utils dpkg-dev
+05_SYSTEM_PACKAGES/desktop	ubuntu-desktop ubuntu-desktop-minimal language-pack-zh-hans language-pack-gnome-zh-hans fonts-noto-cjk ibus-libpinyin
+05_SYSTEM_PACKAGES/system_extras	rsyslog dkms
+02_WSL2/ubuntu_packages	ubuntu-wsl wsl-setup wslu
+03_VMWARE/open_vm_tools_extras	open-vm-tools-dev open-vm-tools-sdmp libfuse3-dev
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/rust_extras	rustfmt-1.91 rust-1.91-clippy rust-1.91-src rust-1.91-gdb
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/php_extras	php-dev php-curl php-xml php-mbstring
+15_DEVELOPMENT_ENVIRONMENT/language_runtimes/java_extras	maven
+15_DEVELOPMENT_ENVIRONMENT/c_cpp_more	cmake-curses-gui clang-format clang-tools clang-tidy libc++-dev libc++abi-dev gfortran doxygen gdbserver gdb-multiarch libpcap-dev libnuma-dev libsystemd-dev libudev-dev
+15_DEVELOPMENT_ENVIRONMENT/python_more	python3-tk python3-gdbm
+15_DEVELOPMENT_ENVIRONMENT/editors/gui_editors	vim-gtk3

@@ -1,0 +1,33 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105052113
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 5212
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T05:21:14 WSL: full development environment from the local repository
+zip is already the newest version (3.0-13ubuntu0.2).
+zlib1g-dev is already the newest version (1:1.3.dfsg-3.1ubuntu2.3).
+zsh is already the newest version (5.9-6ubuntu2).
+zstd is already the newest version (1.5.5+dfsg2-2build1.1).
+0 upgraded, 0 newly installed, 0 to remove and 41 not upgraded.
+2026-11-05T13:22:19Z install complete: 168 requested packages present
+2026-11-05T13:22:20Z Node.js node-v24.22.2 at /opt/node-current
+2026-11-05T13:22:20Z development environment installed. Open a new shell, or run: .
+/etc/profile.d/linux-offline-dev-paths.sh
+PASS wsl-fulldev-install rc=0
+**********************
+Windows PowerShell transcript end
+End time: 20261105052220
+**********************

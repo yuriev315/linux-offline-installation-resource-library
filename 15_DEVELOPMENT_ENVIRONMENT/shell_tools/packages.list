@@ -1,0 +1,13 @@
+bash
+zsh
+shellcheck
+shfmt
+coreutils
+findutils
+sed
+grep
+jq
+yq
+perl
+ruby
+expect

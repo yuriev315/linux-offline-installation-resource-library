@@ -1,0 +1,16 @@
+htop
+tmux
+screen
+lsof
+strace
+rsync
+cron
+logrotate
+smartmontools
+lm-sensors
+pciutils
+usbutils
+dmidecode
+nvme-cli
+hdparm
+sysstat

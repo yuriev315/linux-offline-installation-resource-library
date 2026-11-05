@@ -1,0 +1,8 @@
+# Copy to %USERPROFILE%\.wslconfig and adjust. Applies to every WSL2 distro after wsl --shutdown.
+[wsl2]
+memory=8GB
+processors=4
+swap=4GB
+# NAT is the default. Mirrored networking needs Windows 11 22H2 or later.
+networkingMode=nat
+localhostForwarding=true

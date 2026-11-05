@@ -1,0 +1,13 @@
+ubuntu-24.04.5-wsl-amd64.wsl	bb415d824822c4b878125729af451a5d18fb13d1cf5cbed9a7393ad64ac6039e	388975696	file	02_WSL2/ubuntu_rootfs/ubuntu-24.04.5-wsl-amd64.wsl
+ubuntu-24.04.5.1-desktop-amd64.iso.part-000	2238a1005e72bdd59f44fa874caa9b28e818bb48e7993fb73991ca9bce7f616e	1468006400	part	01_UBUNTU_ISO/ubuntu_desktop/ubuntu-24.04.5.1-desktop-amd64.iso
+ubuntu-24.04.5.1-desktop-amd64.iso.part-001	b46bb8313f547e3149b46015967cabd0277cad5b0fb155394df3b56d337980db	1468006400	part	01_UBUNTU_ISO/ubuntu_desktop/ubuntu-24.04.5.1-desktop-amd64.iso
+ubuntu-24.04.5.1-desktop-amd64.iso.part-002	7c3d67639179e29232ffe7ca7ce6b4cf7b740b5511416577c2bacebbcd9e4170	1468006400	part	01_UBUNTU_ISO/ubuntu_desktop/ubuntu-24.04.5.1-desktop-amd64.iso
+ubuntu-24.04.5.1-desktop-amd64.iso.part-003	5e9fd561c199ba858902809a26f4cca36e14798f007000a168faf17e06fb5722	1468006400	part	01_UBUNTU_ISO/ubuntu_desktop/ubuntu-24.04.5.1-desktop-amd64.iso
+ubuntu-24.04.5.1-desktop-amd64.iso.part-004	79d5af9e9aac2b09706a989e9b8ca91bb59098827122636e6ac0547bbd9f314a	378306560	part	01_UBUNTU_ISO/ubuntu_desktop/ubuntu-24.04.5.1-desktop-amd64.iso
+ubuntu-24.04.5-live-server-amd64.iso.part-000	fd1d1225797120624f56bc5483f5dc58efae9b01b7ce0959218c3249a0ffc23a	1468006400	part	01_UBUNTU_ISO/ubuntu_server/ubuntu-24.04.5-live-server-amd64.iso
+ubuntu-24.04.5-live-server-amd64.iso.part-001	f9c74d031eeb8d51809016d092386e3fec5da085ee22ba1e8bf5017020e3cfdd	1468006400	part	01_UBUNTU_ISO/ubuntu_server/ubuntu-24.04.5-live-server-amd64.iso
+ubuntu-24.04.5-live-server-amd64.iso.part-002	1d46961d925ea87fc13462b444b6f4eba562d073769b8c186346d3fb7fe6e37d	1144473600	part	01_UBUNTU_ISO/ubuntu_server/ubuntu-24.04.5-live-server-amd64.iso
+apt-pool.tar.part-000	e82c5909b3423cea67c2f53797ce390e88ad2fc13ea2f77168cec8fba64655f7	1468006400	tarpart	apt-pool.tar
+apt-pool.tar.part-001	16b684ce9d7c1e07df10abc515ea779458d21298907665c9ab081739dfdd8a2c	1468006400	tarpart	apt-pool.tar
+apt-pool.tar.part-002	44cc6b14d71cbc9169632a51e508d940b8ba356bf243cc4d6b302ff13c2579f2	245800960	tarpart	apt-pool.tar
+language-runtimes.tar	da71e461e013045e6243ca026832e55aed3cd3f86b9cc22eeb63953427a6d5de	46520320	tar	.

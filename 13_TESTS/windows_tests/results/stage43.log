@@ -1,0 +1,109 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105052346
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 5212
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T05:23:46 WSL: backup and restore
+The operation completed successfully.
+Export in progress, this may take a few minutes. (5550 MB)bsdtar: ./var/spool/postfix/private/bounce: ./var/spool/postfi
+x/private/bounce: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/discard: ./var/spool/postfix/private/discard: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/error: ./var/spool/postfix/private/error: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/trace: ./var/spool/postfix/private/trace: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/rewrite: ./var/spool/postfix/private/rewrite: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/defer: ./var/spool/postfix/private/defer: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/verify: ./var/spool/postfix/private/verify: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/scache: ./var/spool/postfix/private/scache: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/lmtp: ./var/spool/postfix/private/lmtp: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/retry: ./var/spool/postfix/private/retry: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/smtp: ./var/spool/postfix/private/smtp: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/local: ./var/spool/postfix/private/local: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/tlsmgr: ./var/spool/postfix/private/tlsmgr: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/anvil: ./var/spool/postfix/private/anvil: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/virtual: ./var/spool/postfix/private/virtual: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/uucp: ./var/spool/postfix/private/uucp: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/relay: ./var/spool/postfix/private/relay: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/private/proxywrite: ./var/spool/postfix/private/proxywrite: pax format cannot archive socket
+s
+bsdtar: ./var/spool/postfix/private/proxymap: ./var/spool/postfix/private/proxymap: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/dev/log: ./var/spool/postfix/dev/log: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/public/flush: ./var/spool/postfix/public/flush: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/public/postlog: ./var/spool/postfix/public/postlog: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/public/cleanup: ./var/spool/postfix/public/cleanup: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/public/showq: ./var/spool/postfix/public/showq: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/public/qmgr: ./var/spool/postfix/public/qmgr: pax format cannot archive sockets
+bsdtar: ./var/spool/postfix/public/pickup: ./var/spool/postfix/public/pickup: pax format cannot archive sockets
+ (5603 MB)
+
+The operation completed successfully.
+Backup: C:\offline_test\backup.tar  SHA256: 0907f2562c559bd771e38a7439c6cd777c568c6263c70eda06415db9b0b3e421
+PASS wsl-backup
+wsl: Nested virtualization is not supported on this machine.
+The operation completed successfully.
+Restored as Ubuntu-restored
+PASS wsl-restore gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+PS>TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+>> TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+>> TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+>> TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+>> TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+>> TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+>> TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+>> TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+Distro 'Ubuntu-restored' already exists; choose another name.
+Distro 'Ubuntu-restored' already exists; choose another name.
+At D:\Linux_Offline_Installation_Resource_Library\10_INSTALLATION_SCRIPTS\ubuntu_wsl\wsl_restore.ps1:13 char:40
++ ... stroName) { throw "Distro '$DistroName' already exists; choose anothe ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Distro 'Ubuntu-...e another name.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Distro 'Ubuntu-restored' already exists; choose another name.
+
+**********************
+Windows PowerShell transcript end
+End time: 20261105055009
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261105061245
+Username: OFFLINE-TEST\tester
+RunAs User: OFFLINE-TEST\tester
+Configuration Name: 
+Machine: OFFLINE-TEST (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File D:\Linux_Offline_Installation_Resource_Library\13_TESTS\windows_tests\run_windows_test.ps1
+Process ID: 1328
+PSVersion: 5.1.26100.6584
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6584
+BuildVersion: 10.0.26100.6584
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== 2026-11-05T06:13:04 WSL: backup and restore
+PASS wsl-backup
+PS>TerminatingError(): "Refusing to overwrite C:\offline_test\backup.tar"
+refused: Refusing to overwrite C:\offline_test\backup.tar
+PASS wsl-backup-refuses-overwrite
+PASS wsl-restore gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+PS>TerminatingError(): "Distro 'Ubuntu-restored' already exists; choose another name."
+refused: Distro 'Ubuntu-restored' already exists; choose another name.
+PASS wsl-restore-refuses-existing
+
+**********************
+Windows PowerShell transcript end
+End time: 20261105062333
+**********************

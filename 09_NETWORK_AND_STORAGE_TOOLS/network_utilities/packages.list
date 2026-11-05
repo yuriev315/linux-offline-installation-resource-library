@@ -1,0 +1,11 @@
+iproute2
+iputils-ping
+net-tools
+bind9-dnsutils
+traceroute
+tcpdump
+netcat-openbsd
+socat
+nmap
+ethtool
+network-manager

@@ -1,0 +1,7 @@
+fdisk
+parted
+gdisk
+lvm2
+mdadm
+cryptsetup
+smartmontools

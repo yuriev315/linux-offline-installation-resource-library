@@ -1,0 +1,6 @@
+libcurl4-openssl-dev
+libevent-dev
+libbz2-dev
+liblzma-dev
+libreadline-dev
+libncurses-dev

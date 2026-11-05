@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=https://vscode.download.prss.microsoft.com/dbazure/download/stable/a717861c07586a53d83b80d742cd3f59b20a6273/code_1.145.0-1793749366_amd64.deb
+
+[File]
+Name=code_1.145.0-1793749366_amd64.deb
+Product=Visual Studio Code
+SizeBytes=263019110
+SHA256=64cb445811a347df1b5118a17117cfd5ac0ab7e2cc41832351b938364d17cacd
+DirectDownload=yes
+Checked=2026-11-05 HTTP 206
+Note=Direct download. Not stored in this repository because of its licence. See 12_CHECKSUMS_AND_METADATA/LICENSES.md

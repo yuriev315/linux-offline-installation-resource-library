@@ -1,0 +1,4 @@
+install exit=0
+firstboot exit=0
+secondboot exit=0
+finished

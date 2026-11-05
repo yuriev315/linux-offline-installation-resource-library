@@ -1,0 +1,5 @@
+Archive: noble-offline
+Component: restricted
+Origin: LinuxOfflineLibrary
+Label: Ubuntu 24.04 offline subset
+Architecture: amd64
