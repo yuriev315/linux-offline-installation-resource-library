@@ -78,7 +78,7 @@ a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
 <tr>
 <td><code>linux_python_offline_03_env_py310_part1_cn_en.tar</code></td>
 <td>Python 3.10 环境组：01_scientific_notebook_py310 … 06_bayesian_mcmc_py310</td>
-<td style="text-align: right;">1,423 MiB</td>
+<td style="text-align: right;">1,428 MiB</td>
 </tr>
 <tr>
 <td><code>linux_python_offline_04_env_py310_part2_cn_en.tar</code></td>
@@ -88,22 +88,22 @@ a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
 <tr>
 <td><code>linux_python_offline_05_env_py310_part3_cn_en.tar</code></td>
 <td>Python 3.10 环境组：09_huggingface_llm_py310 … 13_stats_timeseries_py310</td>
-<td style="text-align: right;">1,419 MiB</td>
+<td style="text-align: right;">1,420 MiB</td>
 </tr>
 <tr>
 <td><code>linux_python_offline_06_env_py310_part4_cn_en.tar</code></td>
 <td>Python 3.10 环境组：14_ml_tooling_py310 … 20_documents_py310</td>
-<td style="text-align: right;">1,513 MiB</td>
+<td style="text-align: right;">1,514 MiB</td>
 </tr>
 <tr>
 <td><code>linux_python_offline_07_env_py310_part5_cn_en.tar</code></td>
 <td>Python 3.10 环境组：21_viz_dashboard_py310 … 23_general_utils_py310</td>
-<td style="text-align: right;">618 MiB</td>
+<td style="text-align: right;">619 MiB</td>
 </tr>
 <tr>
 <td><code>linux_python_offline_08_env_py312_part1_cn_en.tar</code></td>
 <td>Python 3.12 环境组：01_scientific_notebook_py312 … 06_bayesian_mcmc_py312</td>
-<td style="text-align: right;">1,431 MiB</td>
+<td style="text-align: right;">1,436 MiB</td>
 </tr>
 <tr>
 <td><code>linux_python_offline_09_env_py312_part2_cn_en.tar</code></td>
@@ -118,12 +118,12 @@ a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
 <tr>
 <td><code>linux_python_offline_11_env_py312_part4_cn_en.tar</code></td>
 <td>Python 3.12 环境组：13_stats_timeseries_py312 … 17_web_services_py312</td>
-<td style="text-align: right;">1,476 MiB</td>
+<td style="text-align: right;">1,478 MiB</td>
 </tr>
 <tr>
 <td><code>linux_python_offline_12_env_py312_part5_cn_en.tar</code></td>
 <td>Python 3.12 环境组：18_database_py312 … 23_general_utils_py312</td>
-<td style="text-align: right;">1,018 MiB</td>
+<td style="text-align: right;">1,019 MiB</td>
 </tr>
 <tr>
 <td><code>linux_python_offline_13_embedded_tools_boards_part1_cn_en.tar</code></td>
@@ -231,4 +231,4 @@ sha256sum environments/04_pytorch_cpu_py312/wheelhouse/*.whl
 <li>Playwright 浏览器内核（官方地址下载失败，见 <a href="external_dependencies_cn.html"><code>external_dependencies_cn.csv</code></a>）。</li>
 </ul>
 <h2>状态</h2>
-<p>本库只做了静态检查（wheel 平台标签、glibc 下限、依赖闭包、校验和），<strong>没有在目标机上实际安装、烧录或上板验证</strong>。</p></body></html>
+<p>50 个 Python 环境组已在一台 x86-64 Linux 主机（Ubuntu 26.04，glibc 2.43）上用各组的 <code>install_offline_en.sh</code> 做了离线安装测试：50 组全部装成，32 组检查脚本全部通过，其余失败原因（仅有源码包、测试主机缺系统库等）见 <a href="offline_install_test_cn.html"><code>offline_install_test_cn.md</code></a>。系统 deb、嵌入式资源与开发板镜像只做了下载与校验，<strong>没有安装、烧录或上板验证</strong>。</p></body></html>

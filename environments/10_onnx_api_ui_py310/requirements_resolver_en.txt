@@ -11,3 +11,4 @@ pydantic
 gradio
 streamlit
 Pillow
+huggingface-hub<1.0

@@ -116,7 +116,7 @@ patsy==1.0.3
 pexpect==4.9.0
 pillow==13.0.0
 pip==26.3
-plotly==7.1.0
+plotly==5.24.1
 polyfactory==3.5.0
 prettytable==3.18.0
 prompt_toolkit==3.0.53
@@ -134,7 +134,7 @@ pydantic==2.14.3
 pydantic_core==2.50.4
 Pygments==2.21.0
 pyparsing==3.3.3
-python-dateutil==4.0.0
+python-dateutil==2.9.0.post0
 python-dotenv==1.2.4
 python-multipart==0.0.33
 PyYAML==6.0.3
@@ -147,7 +147,7 @@ SALib==1.6.0
 scikit-learn==1.9.1
 scikit-optimize==0.10.2
 scipy==1.18.1
-setuptools==84.2.1
+setuptools==80.10.2
 shap==0.54.1
 shellingham==1.5.4
 six==1.17.0
@@ -169,7 +169,6 @@ typer==0.27.3
 typing-inspect==0.9.0
 typing-inspection==0.4.5
 typing_extensions==4.16.0
-tzdata==2026.6
 ujson==6.1.0
 urllib3==2.8.0
 uuid6==2025.0.1

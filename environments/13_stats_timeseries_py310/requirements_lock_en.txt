@@ -52,10 +52,10 @@ protobuf==7.36.2
 pyarrow==25.0.1
 pycparser==3.11
 pyhdfe==0.2.1
-pykalman==0.11.2
+pykalman==0.9.7
 pyluach==2.3.0
 pyparsing==3.3.3
-python-dateutil==3.0.0
+python-dateutil==2.9.0.post0
 pytz==2026.6
 PyWavelets==1.8.0
 PyYAML==6.0.3

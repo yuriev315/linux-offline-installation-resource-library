@@ -116,4 +116,9 @@ bash ./install_offline_en.sh
 <li>源码包（不能当 wheel 安装）：无</li>
 <li>系统库（OpenMP、FFmpeg、Graphviz、音频等）见仓库根目录 <a href="../../external_dependencies_cn.html"><code>external_dependencies_cn.csv</code></a> 与 <a href="../../system_dependencies/"><code>system_dependencies/</code></a>。</li>
 <li>本轮 <strong>没有</strong> 在目标 Ubuntu 22.04/24.04 上创建 venv 或执行导入检查。</li>
-</ul></body></html>
+</ul>
+<h2>离线安装测试（2026-11-06）</h2>
+<p>主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：<strong>ok</strong>；检查脚本：<strong>FAIL</strong>。
+说明：pip check 无冲突；jieba：仅有源码包，未构建，见 <a href="sdist_needs_build/"><code>sdist_needs_build/</code></a>。
+测试前修正：锁定清单离线重新解析；3.10 补下 <code>async-timeout</code> 4.x（langchain-classic 要求 &lt;5）。
+汇总见库根目录 <a href="../../offline_install_test_cn.html"><code>offline_install_test_cn.md</code></a>。</p></body></html>

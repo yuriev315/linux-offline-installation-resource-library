@@ -51,3 +51,10 @@ bash ./install_offline_en.sh
 - 源码包（不能当 wheel 安装）：无
 - 系统库（OpenMP、FFmpeg、Graphviz、音频等）见仓库根目录 `external_dependencies_cn.csv` 与 `system_dependencies/`。
 - 本轮 **没有** 在目标 Ubuntu 22.04/24.04 上创建 venv 或执行导入检查。
+
+## 离线安装测试（2026-11-06）
+
+主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**ok**。
+说明：pip check 无冲突。
+测试前修正：`nvidia-ml-py` 是纯 Python 的 NVML 绑定（BSD），不是 GPU 二进制，准备脚本的 GPU 过滤误移到 `rejected_not_default/`；scalene 需要它，已放回 wheelhouse，并离线重新解析锁定清单。
+汇总见库根目录 `offline_install_test_cn.md`。

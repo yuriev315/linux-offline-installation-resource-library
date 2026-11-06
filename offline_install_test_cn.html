@@ -1,0 +1,59 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>offline_install_test_cn.csv</title><style>body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;max-width:1100px;margin:2em auto;padding:0 16px;line-height:1.6;color:#1f2328;background:#fff}
+table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #d0d7de;padding:4px 8px;vertical-align:top;text-align:left}
+th{background:#f6f8fa}code{background:#f6f8fa;padding:0 3px;border-radius:3px}pre{background:#f6f8fa;padding:10px;overflow:auto}
+a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
+@media (prefers-color-scheme: dark){body{background:#0d1117;color:#e6edf3}th{background:#161b22}code,pre{background:#161b22}th,td{border-color:#30363d}a{color:#4493f8}}</style></head><body><div class="nav"><a href="index_cn.html">离线首页 index_cn.html</a></div><h1>offline_install_test_cn.csv</h1>
+<p>50 行。原始数据见同名 CSV。</p>
+<table>
+<tr><th>环境组</th><th>离线安装</th><th>检查脚本</th><th>导入成功</th><th>导入失败</th><th>说明</th><th>测试前修正</th></tr>
+<tr><td>01_scientific_notebook_py310</td><td>ok</td><td>ok</td><td>8</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>01_scientific_notebook_py312</td><td>ok</td><td>ok</td><td>8</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>02_ml_stats_timeseries_em_py310</td><td>ok</td><td>ok</td><td>6</td><td>0</td><td>pip check 无冲突</td><td>xgboost 的 manylinux_2_28 wheel 依赖 NVIDIA NCCL GPU wheel（已排除），改用官方 CPU 版 `xgboost-cpu`（同版本）；`xgboost` wheel 移入 `rejected_not_default/`</td></tr>
+<tr><td>02_ml_stats_timeseries_em_py312</td><td>ok</td><td>ok</td><td>6</td><td>0</td><td>pip check 无冲突</td><td>xgboost 的 manylinux_2_28 wheel 依赖 NVIDIA NCCL GPU wheel（已排除），改用官方 CPU 版 `xgboost-cpu`（同版本）；`xgboost` wheel 移入 `rejected_not_default/`</td></tr>
+<tr><td>03_signal_audio_image_py310</td><td>ok</td><td>ok</td><td>8</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>03_signal_audio_image_py312</td><td>ok</td><td>ok</td><td>8</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>04_pytorch_cpu_py310</td><td>ok</td><td>ok</td><td>4</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>04_pytorch_cpu_py312</td><td>ok</td><td>ok</td><td>4</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>05_gpr_bayesopt_py310</td><td>ok</td><td>ok</td><td>4</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>05_gpr_bayesopt_py312</td><td>ok</td><td>ok</td><td>4</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>06_bayesian_mcmc_py310</td><td>ok</td><td>ok</td><td>5</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>06_bayesian_mcmc_py312</td><td>ok</td><td>ok</td><td>5</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>07_tensorflow_cpu_py310</td><td>ok</td><td>ok</td><td>3</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>07_tensorflow_cpu_py312</td><td>ok</td><td>ok</td><td>3</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>07b_gpflow_tf218_py310</td><td>ok</td><td>ok</td><td>3</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>07b_gpflow_tf218_py312</td><td>ok</td><td>ok</td><td>3</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>08_rl_basics_py310</td><td>ok</td><td>ok</td><td>4</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>08_rl_basics_py312</td><td>ok</td><td>ok</td><td>4</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>09_huggingface_llm_py310</td><td>ok</td><td>ok</td><td>8</td><td>0</td><td>pip check 无冲突</td><td>锁定清单改为在本 wheelhouse 内用目标解释器离线解析的结果（脚本生成的清单按每个包的最高版本生成，fsspec 版本互相冲突）</td></tr>
+<tr><td>09_huggingface_llm_py312</td><td>ok</td><td>ok</td><td>8</td><td>0</td><td>pip check 无冲突</td><td>锁定清单改为在本 wheelhouse 内用目标解释器离线解析的结果（脚本生成的清单按每个包的最高版本生成，fsspec 版本互相冲突）</td></tr>
+<tr><td>10_onnx_api_ui_py310</td><td>ok</td><td>ok</td><td>7</td><td>0</td><td>pip check 无冲突</td><td>锁定清单离线重新解析，并加约束 `huggingface-hub&lt;1.0`（gradio 仍导入 1.0 已删除的 `HfFolder`）</td></tr>
+<tr><td>10_onnx_api_ui_py312</td><td>ok</td><td>ok</td><td>7</td><td>0</td><td>pip check 无冲突</td><td>锁定清单离线重新解析，并加约束 `huggingface-hub&lt;1.0`（gradio 仍导入 1.0 已删除的 `HfFolder`）</td></tr>
+<tr><td>11_optimization_control_py310</td><td>ok</td><td>ok</td><td>7</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>11_optimization_control_py312</td><td>ok</td><td>ok</td><td>7</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>12_data_storage_py310</td><td>ok</td><td>ok</td><td>9</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>12_data_storage_py312</td><td>ok</td><td>ok</td><td>9</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>13_stats_timeseries_py310</td><td>ok</td><td>FAIL</td><td>8</td><td>1</td><td>pip check 无冲突；ta：仅有源码包，未构建，见 `sdist_needs_build/`</td><td>wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析</td></tr>
+<tr><td>13_stats_timeseries_py312</td><td>ok</td><td>FAIL</td><td>8</td><td>1</td><td>pip check 无冲突；ta：仅有源码包，未构建，见 `sdist_needs_build/`</td><td>wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析</td></tr>
+<tr><td>14_ml_tooling_py310</td><td>ok</td><td>FAIL</td><td>8</td><td>1</td><td>pip check 无冲突；lime：仅有源码包，未构建，见 `sdist_needs_build/`</td><td>锁定清单离线重新解析，并加约束 `setuptools&lt;81`（featuretools 仍需 `pkg_resources`）</td></tr>
+<tr><td>14_ml_tooling_py312</td><td>ok</td><td>FAIL</td><td>7</td><td>2</td><td>pip check 无冲突；lime：仅有源码包，未构建，见 `sdist_needs_build/`；evidently：evidently 与本组 pandas 版本不兼容（导入 pandas 内部函数失败），未修正</td><td>锁定清单离线重新解析，并加约束 `setuptools&lt;81`（featuretools 仍需 `pkg_resources`）</td></tr>
+<tr><td>15_nlp_retrieval_py310</td><td>ok</td><td>FAIL</td><td>9</td><td>1</td><td>pip check 无冲突；jieba：仅有源码包，未构建，见 `sdist_needs_build/`</td><td>锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 &lt;5）</td></tr>
+<tr><td>15_nlp_retrieval_py312</td><td>ok</td><td>FAIL</td><td>9</td><td>1</td><td>pip check 无冲突；jieba：仅有源码包，未构建，见 `sdist_needs_build/`</td><td>锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 &lt;5）</td></tr>
+<tr><td>16_media_ocr_py310</td><td>ok</td><td>FAIL</td><td>7</td><td>2</td><td>pip check 无冲突；cv2：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）；rapidocr_onnxruntime：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）</td><td></td></tr>
+<tr><td>16_media_ocr_py312</td><td>ok</td><td>FAIL</td><td>7</td><td>2</td><td>pip check 无冲突；cv2：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）；rapidocr_onnxruntime：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）</td><td></td></tr>
+<tr><td>17_web_services_py310</td><td>ok</td><td>FAIL</td><td>10</td><td>0</td><td>pip check 无冲突；检查脚本固定做 numpy 运算，本组不含 numpy，属检查脚本误报；全部目标导入成功</td><td></td></tr>
+<tr><td>17_web_services_py312</td><td>ok</td><td>FAIL</td><td>10</td><td>0</td><td>pip check 无冲突；检查脚本固定做 numpy 运算，本组不含 numpy，属检查脚本误报；全部目标导入成功</td><td></td></tr>
+<tr><td>18_database_py310</td><td>ok</td><td>ok</td><td>10</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>18_database_py312</td><td>ok</td><td>ok</td><td>10</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>19_scraping_automation_py310</td><td>ok</td><td>FAIL</td><td>7</td><td>0</td><td>pip check 无冲突；检查脚本固定做 numpy 运算，本组不含 numpy，属检查脚本误报；全部目标导入成功</td><td></td></tr>
+<tr><td>19_scraping_automation_py312</td><td>ok</td><td>FAIL</td><td>7</td><td>0</td><td>pip check 无冲突；检查脚本固定做 numpy 运算，本组不含 numpy，属检查脚本误报；全部目标导入成功</td><td></td></tr>
+<tr><td>20_documents_py310</td><td>ok</td><td>FAIL</td><td>9</td><td>1</td><td>pip check 无冲突；weasyprint：测试主机缺系统库 Pango，见 `system_dependencies/*/expansion_debs/`</td><td></td></tr>
+<tr><td>20_documents_py312</td><td>ok</td><td>FAIL</td><td>9</td><td>1</td><td>pip check 无冲突；weasyprint：测试主机缺系统库 Pango，见 `system_dependencies/*/expansion_debs/`</td><td></td></tr>
+<tr><td>21_viz_dashboard_py310</td><td>ok</td><td>ok</td><td>9</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>21_viz_dashboard_py312</td><td>ok</td><td>ok</td><td>9</td><td>0</td><td>pip check 无冲突</td><td></td></tr>
+<tr><td>21b_desktop_pyside6_py310</td><td>ok</td><td>FAIL</td><td>2</td><td>1</td><td>pip check 无冲突；pyqtgraph：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）</td><td></td></tr>
+<tr><td>21b_desktop_pyside6_py312</td><td>ok</td><td>FAIL</td><td>0</td><td>0</td><td></td><td></td></tr>
+<tr><td>22_engineering_py310</td><td>ok</td><td>ok</td><td>10</td><td>0</td><td>pip check 无冲突</td><td>`nvidia-ml-py` 是纯 Python 的 NVML 绑定（BSD），不是 GPU 二进制，准备脚本的 GPU 过滤误移到 `rejected_not_default/`；scalene 需要它，已放回 wheelhouse，并离线重新解析锁定清单</td></tr>
+<tr><td>22_engineering_py312</td><td>ok</td><td>ok</td><td>10</td><td>0</td><td>pip check 无冲突</td><td>`nvidia-ml-py` 是纯 Python 的 NVML 绑定（BSD），不是 GPU 二进制，准备脚本的 GPU 过滤误移到 `rejected_not_default/`；scalene 需要它，已放回 wheelhouse，并离线重新解析锁定清单</td></tr>
+<tr><td>23_general_utils_py310</td><td>ok</td><td>FAIL</td><td>10</td><td>0</td><td>pip check 无冲突；检查脚本固定做 numpy 运算，本组不含 numpy，属检查脚本误报；全部目标导入成功</td><td>锁定清单离线重新解析，并加约束 `setuptools&lt;81`（hydra 仍需 `pkg_resources`）</td></tr>
+<tr><td>23_general_utils_py312</td><td>ok</td><td>FAIL</td><td>10</td><td>0</td><td>pip check 无冲突；检查脚本固定做 numpy 运算，本组不含 numpy，属检查脚本误报；全部目标导入成功</td><td>锁定清单离线重新解析，并加约束 `setuptools&lt;81`（hydra 仍需 `pkg_resources`）</td></tr>
+</table></body></html>

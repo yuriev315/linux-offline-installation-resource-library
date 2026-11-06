@@ -73,3 +73,10 @@ bash ./install_offline_en.sh
 - 源码包（不能当 wheel 安装）：无
 - 系统库（OpenMP、FFmpeg、Graphviz、音频等）见仓库根目录 `external_dependencies_cn.csv` 与 `system_dependencies/`。
 - 本轮 **没有** 在目标 Ubuntu 22.04/24.04 上创建 venv 或执行导入检查。
+
+## 离线安装测试（2026-11-06）
+
+主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**FAIL**。
+说明：pip check 无冲突；ta：仅有源码包，未构建，见 `sdist_needs_build/`。
+测试前修正：wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析。
+汇总见库根目录 `offline_install_test_cn.md`。

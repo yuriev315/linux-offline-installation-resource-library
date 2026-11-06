@@ -24,16 +24,16 @@ NVIDIA Jetson L4T 包受 NVIDIA 许可约束，本库不分发：`embedded/linux
 | --- | --- | ---: |
 | `linux_python_offline_01_common_docs_runtimes_cn_en.tar` | 离线首页 index_cn.html、库根说明与登记表、guides、Python 运行时（runtimes/、external_runtimes/）、scripts、state、受限文件占位清单（必下） | 193 MiB |
 | `linux_python_offline_02_system_debs_ubuntu_cn_en.tar` | Ubuntu 22.04 / 24.04 系统依赖 deb（运行、编译、扩展三类） | 762 MiB |
-| `linux_python_offline_03_env_py310_part1_cn_en.tar` | Python 3.10 环境组：01_scientific_notebook_py310 … 06_bayesian_mcmc_py310 | 1,423 MiB |
+| `linux_python_offline_03_env_py310_part1_cn_en.tar` | Python 3.10 环境组：01_scientific_notebook_py310 … 06_bayesian_mcmc_py310 | 1,428 MiB |
 | `linux_python_offline_04_env_py310_part2_cn_en.tar` | Python 3.10 环境组：07_tensorflow_cpu_py310 … 08_rl_basics_py310 | 1,526 MiB |
-| `linux_python_offline_05_env_py310_part3_cn_en.tar` | Python 3.10 环境组：09_huggingface_llm_py310 … 13_stats_timeseries_py310 | 1,419 MiB |
-| `linux_python_offline_06_env_py310_part4_cn_en.tar` | Python 3.10 环境组：14_ml_tooling_py310 … 20_documents_py310 | 1,513 MiB |
-| `linux_python_offline_07_env_py310_part5_cn_en.tar` | Python 3.10 环境组：21_viz_dashboard_py310 … 23_general_utils_py310 | 618 MiB |
-| `linux_python_offline_08_env_py312_part1_cn_en.tar` | Python 3.12 环境组：01_scientific_notebook_py312 … 06_bayesian_mcmc_py312 | 1,431 MiB |
+| `linux_python_offline_05_env_py310_part3_cn_en.tar` | Python 3.10 环境组：09_huggingface_llm_py310 … 13_stats_timeseries_py310 | 1,420 MiB |
+| `linux_python_offline_06_env_py310_part4_cn_en.tar` | Python 3.10 环境组：14_ml_tooling_py310 … 20_documents_py310 | 1,514 MiB |
+| `linux_python_offline_07_env_py310_part5_cn_en.tar` | Python 3.10 环境组：21_viz_dashboard_py310 … 23_general_utils_py310 | 619 MiB |
+| `linux_python_offline_08_env_py312_part1_cn_en.tar` | Python 3.12 环境组：01_scientific_notebook_py312 … 06_bayesian_mcmc_py312 | 1,436 MiB |
 | `linux_python_offline_09_env_py312_part2_cn_en.tar` | Python 3.12 环境组：07_tensorflow_cpu_py312 … 08_rl_basics_py312 | 1,529 MiB |
 | `linux_python_offline_10_env_py312_part3_cn_en.tar` | Python 3.12 环境组：09_huggingface_llm_py312 … 12_data_storage_py312 | 1,171 MiB |
-| `linux_python_offline_11_env_py312_part4_cn_en.tar` | Python 3.12 环境组：13_stats_timeseries_py312 … 17_web_services_py312 | 1,476 MiB |
-| `linux_python_offline_12_env_py312_part5_cn_en.tar` | Python 3.12 环境组：18_database_py312 … 23_general_utils_py312 | 1,018 MiB |
+| `linux_python_offline_11_env_py312_part4_cn_en.tar` | Python 3.12 环境组：13_stats_timeseries_py312 … 17_web_services_py312 | 1,478 MiB |
+| `linux_python_offline_12_env_py312_part5_cn_en.tar` | Python 3.12 环境组：18_database_py312 … 23_general_utils_py312 | 1,019 MiB |
 | `linux_python_offline_13_embedded_tools_boards_part1_cn_en.tar` | 嵌入式（电脑端工具链、开发板核心与 ARM wheel/deb、固件、清单、Jetson L4T 占位链接）：README_cn.html … esp32s3-libs-3.3.9.zip | 1,480 MiB |
 | `linux_python_offline_14_embedded_tools_boards_part2_cn_en.tar` | 嵌入式（电脑端工具链、开发板核心与 ARM wheel/deb、固件、清单、Jetson L4T 占位链接）：esptool-v5.3.0-linux-amd64.tar.gz … Tegra_Linux_Sample-Root-Filesystem_R35.5.0_aarch64.tbz2.url | 811 MiB |
 | `linux_python_offline_15_board_images_part1_cn_en.tar` | 开发板系统镜像：armbian_bananapif3_trixie … armbian_cuboxi_trixie | 1,316 MiB |
@@ -99,4 +99,4 @@ sha256sum environments/04_pytorch_cpu_py312/wheelhouse/*.whl
 
 ## 状态
 
-本库只做了静态检查（wheel 平台标签、glibc 下限、依赖闭包、校验和），**没有在目标机上实际安装、烧录或上板验证**。
+50 个 Python 环境组已在一台 x86-64 Linux 主机（Ubuntu 26.04，glibc 2.43）上用各组的 `install_offline_en.sh` 做了离线安装测试：50 组全部装成，32 组检查脚本全部通过，其余失败原因（仅有源码包、测试主机缺系统库等）见 `offline_install_test_cn.md`。系统 deb、嵌入式资源与开发板镜像只做了下载与校验，**没有安装、烧录或上板验证**。
