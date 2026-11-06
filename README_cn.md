@@ -29,6 +29,7 @@
 - 下载与解压：`download_restore_cn.md`；每个文件所在的 tar 包：`archive_index_cn.csv`
 - 离线首页：解压后用浏览器打开 `index_cn.html`；每个 `.md` 和 `.csv` 都有同名 `.html`
 - 中文使用说明：`guides/`；开发板总览：`embedded/linux_sbcs/OVERVIEW_cn.md`
+- 缺失与未完成项汇总：`missing_items_cn.md`
 - 不能再分发的文件（NVIDIA Jetson L4T、NVIDIA NCCL wheel）以 `.url` 占位，内含官方链接、字节数与 SHA-256，见 `restricted_placeholders_cn.csv`
 - 50 个 Python 环境组已在一台 x86-64 Linux 主机上做了离线安装测试：50 组全部装成，32 组检查脚本全部通过，其余原因见 `offline_install_test_cn.md`
 - 系统 deb、嵌入式资源与开发板镜像只做了下载与校验，未安装、未上板验证
