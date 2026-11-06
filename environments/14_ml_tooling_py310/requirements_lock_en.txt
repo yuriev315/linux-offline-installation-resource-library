@@ -67,6 +67,7 @@ httpx==0.28.1
 huey==3.5.4
 hyperopt==0.3.0
 idna==3.20
+ImageIO==2.38.0
 imbalanced-learn==0.14.2
 importlib_metadata==9.0.1
 importlib_resources==7.1.0
@@ -83,6 +84,8 @@ Jinja2==3.1.6
 joblib==1.6.0
 jupyterlab_widgets==3.0.17
 kiwisolver==1.5.1
+lazy-loader==0.6
+lime==0.2.0.1
 litestar-htmx==0.5.0
 litestar==2.25.0
 llvmlite==0.50.0
@@ -149,6 +152,7 @@ retrying==1.4.2
 rich-click==1.9.9
 rich==15.0.0
 SALib==1.6.0
+scikit-image==0.25.2
 scikit-learn==1.7.2
 scikit-optimize==0.10.2
 scipy==1.15.3
@@ -168,6 +172,7 @@ starlette==1.7.0
 statsmodels==0.15.0
 tenacity==9.2.1
 threadpoolctl==3.8.0
+tifffile==2025.5.10
 tomli==2.5.0
 tqdm==4.70.1
 traitlets==5.16.1

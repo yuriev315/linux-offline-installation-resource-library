@@ -75,7 +75,7 @@ bash ./install_offline_en.sh
 
 ## 离线安装测试（2026-11-06）
 
-主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**FAIL**。
-说明：pip check 无冲突；lime：仅有源码包，未构建，见 `sdist_needs_build/`；evidently：evidently 与本组 pandas 版本不兼容（导入 pandas 内部函数失败），未修正。
-测试前修正：锁定清单离线重新解析，并加约束 `setuptools<81`（featuretools 仍需 `pkg_resources`）。
+主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**ok**。
+说明：pip check 无冲突。
+测试前修正：锁定清单离线重新解析，并加约束 `setuptools<81`（featuretools 仍需 `pkg_resources`）；由官方源码包构建纯 Python wheel `lime` 并补齐其依赖 scikit-image；3.12 组约束 `pandas<3`（evidently 与 pandas 3.x 不兼容）。
 汇总见库根目录 `offline_install_test_cn.md`。

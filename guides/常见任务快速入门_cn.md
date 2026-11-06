@@ -53,7 +53,7 @@ print("sharpe", qs.stats.sharpe(returns))
 print("max DD", qs.stats.max_drawdown(returns))
 ```
 
-Prophet 还需要 **未下载的 CmdStan**，本页不给运行示例。
+Prophet 还需要 CmdStan：库中只有源码发行包 `external_runtimes/cmdstan/cmdstan-2.40.0.tar.gz`，要先在目标机编译，本页不给运行示例。
 
 ---
 
@@ -202,7 +202,7 @@ Scrapy 抓远程站点需要网络与目标站点授权，此处不给爬取示�
 Playwright 在浏览器官方安装完成前不要运行：
 
 ```python
-# 示例未验证。本库未能获取 Playwright 浏览器内核，预期失败。
+# 示例未验证。先把 external_runtimes/playwright_browsers_linux_x64/ 中的 Firefox 或 WebKit 解压到 PLAYWRIGHT_BROWSERS_PATH；Chromium 只有 .url 占位，需联网下载。
 # from playwright.sync_api import sync_playwright
 ```
 

@@ -220,9 +220,9 @@ libssh-4
 librtmp1
 libpsl5t64
 libnghttp2-14
-libtesseract5
 liblept5
 libgif7
+libtesseract5
 libcurl4t64
 libarchive13t64
 tesseract-ocr-chi-sim

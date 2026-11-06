@@ -24,5 +24,6 @@ scipy==1.15.3
 scs==3.3.1
 setuptools==84.2.1
 six==1.17.0
+slycot==0.7.1
 tzdata==2026.6
 wheel==0.48.0

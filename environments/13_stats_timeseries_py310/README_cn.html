@@ -20,7 +20,7 @@ a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
 <p>默认集合 <strong>不适用于</strong>：ARM64、Alpine/musl、非 glibc 系统、GPU/CUDA。
 Ubuntu 22.04 需要 glibc ≥ 2.35 且不高于本环境实际 wheel 需求；若最低 glibc 标记 ≤ 2.35，则 22.04 与 24.04 都可作为候选。若某 wheel 需要更新的 glibc，22.04 不可用。</p>
 <h2>本组能做什么</h2>
-<p>做计量、波动率、变点、时序预测和基于本地收益率的绩效指标。quantstats 拉基准行情会走 yfinance 网络。Prophet 缺 CmdStan。</p>
+<p>做计量、波动率、变点、时序预测和基于本地收益率的绩效指标。quantstats 拉基准行情会走 yfinance 网络。Prophet 需要 CmdStan（库中为源码包，需编译）。</p>
 <p>目标解释器：<strong>CPython 3.10</strong>（Linux x86-64 glibc）。本轮未在目标机安装或运行，不能写成开箱即用。</p>
 <p>详细对照见 <a href="../../guides/常用工具与包用途索引_cn.html"><code>../../guides/常用工具与包用途索引_cn.md</code></a>；安装步骤见 <a href="../../guides/离线安装与使用_cn.html"><code>../../guides/离线安装与使用_cn.md</code></a>；最小示例见 <a href="../../guides/常见任务快速入门_cn.html"><code>../../guides/常见任务快速入门_cn.md</code></a>。</p>
 <h2>常用包说明</h2>
@@ -81,7 +81,7 @@ Ubuntu 22.04 需要 glibc ≥ 2.35 且不高于本环境实际 wheel 需求；�
 <td><code>prophet</code></td>
 <td>1.5.0</td>
 <td>加法模型</td>
-<td>需要未下载的 CmdStan</td>
+<td>需要 CmdStan（库中为源码包，需编译）</td>
 <td><a href="https://facebook.github.io/prophet/">prophet 文档</a></td>
 </tr>
 </tbody>
@@ -118,7 +118,7 @@ bash ./install_offline_en.sh
 <li>本轮 <strong>没有</strong> 在目标 Ubuntu 22.04/24.04 上创建 venv 或执行导入检查。</li>
 </ul>
 <h2>离线安装测试（2026-11-06）</h2>
-<p>主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：<strong>ok</strong>；检查脚本：<strong>FAIL</strong>。
-说明：pip check 无冲突；ta：仅有源码包，未构建，见 <a href="sdist_needs_build/"><code>sdist_needs_build/</code></a>。
-测试前修正：wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析。
+<p>主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：<strong>ok</strong>；检查脚本：<strong>ok</strong>。
+说明：pip check 无冲突。
+测试前修正：wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析；由官方源码包构建纯 Python wheel <code>ta</code>（见 <a href="locally_built_wheels_cn.html"><code>locally_built_wheels_cn.csv</code></a>）；pandas-ta 只有要求 Python ≥3.12 的版本，3.10 组改补同用途的 TA-Lib。
 汇总见库根目录 <a href="../../offline_install_test_cn.html"><code>offline_install_test_cn.md</code></a>。</p></body></html>

@@ -100,3 +100,9 @@ sha256sum environments/04_pytorch_cpu_py312/wheelhouse/*.whl
 ## 状态
 
 50 个 Python 环境组已在一台 x86-64 Linux 主机（Ubuntu 26.04，glibc 2.43）上用各组的 `install_offline_en.sh` 做了离线安装测试：50 组全部装成，32 组检查脚本全部通过，其余失败原因（仅有源码包、测试主机缺系统库等）见 `offline_install_test_cn.md`。系统 deb、嵌入式资源与开发板镜像只做了下载与校验，**没有安装、烧录或上板验证**。
+
+## 增量更新 1（Release `python-offline-update1-2026.11.06`）
+
+Release `python-offline-update1-2026.11.06` 补齐了 `missing_items_cn.md` 中可以补齐的项目：Playwright Firefox / WebKit、CmdStan 源码包、slycot，`ta` / `lime` / `jieba` / `langdetect` 的 wheel（由官方源码包构建），TA-Lib，ESP32 全部芯片库、dfu-util、stlink、picotool、USBImager，以及几项固件和 Arduino 库的现行版本；同时更新了相关环境组的锁定清单、清单表、说明和测试报告。逐条明细见 `missing_filled_cn.csv`。
+
+用法：先按上文解压 `python-offline-2026.11.06` 的 tar 包，**最后**把 `linux_python_offline_27_update1_cn_en.tar` 解压到同一目录并覆盖同名文件。更新包里只有新增和改动的文件。`archive_index_cn.csv` 中，这些文件的“所在 tar”已改为更新包。

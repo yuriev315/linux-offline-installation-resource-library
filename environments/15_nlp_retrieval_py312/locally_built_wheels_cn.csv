@@ -1,0 +1,3 @@
+﻿wheel,built_from,sdist_sha256,wheel_sha256,builder,note
+jieba-0.42.1-py3-none-any.whl,jieba-0.42.1.tar.gz,055ca12f62674fafed09427f176506079bc135638a14e23e25be909131928db2,231c5c6e388713415ceeba5e5a8c25771df1b78eddcc22d0bcf4773e3fb09690,pip wheel --no-deps，python-build-standalone python,纯 Python wheel，由官方源码包在本库构建
+langdetect-1.0.9-py3-none-any.whl,langdetect-1.0.9.tar.gz,cbc1fef89f8d062739774bd51eda3da3274006b3661d199c2655f6b3f6d605a0,eaa52eb02f0f6ec1e5877e820a25bb46af8fc24f79a6401759d94e736abc8b11,pip wheel --no-deps，python-build-standalone python,纯 Python wheel，由官方源码包在本库构建

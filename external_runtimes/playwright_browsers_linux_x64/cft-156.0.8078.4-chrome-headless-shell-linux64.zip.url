@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://storage.googleapis.com/chrome-for-testing-public/156.0.8078.4/linux64/chrome-headless-shell-linux64.zip
+
+[File]
+Name=cft-156.0.8078.4-chrome-headless-shell-linux64.zip
+SizeBytes=125797539
+SHA256=c3e50596aef52c58f8fda3c6b3411c33d34c88b177b3ed1c2243359fd3b8ba20
+Reason=Chrome for Testing 二进制按 Google Chrome 服务条款提供，不再分发；Playwright 的 chromium 1248 就是这个版本
+DirectDownload=yes
+Checked=2026-11-06

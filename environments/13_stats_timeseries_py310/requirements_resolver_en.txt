@@ -28,3 +28,4 @@ quantstats
 lifetimes
 matplotlib
 seaborn
+TA-Lib

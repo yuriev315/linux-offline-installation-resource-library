@@ -1,0 +1,2 @@
+﻿wheel,built_from,sdist_sha256,wheel_sha256,builder,note
+ta-0.11.0-py3-none-any.whl,ta-0.11.0.tar.gz,de86af43418420bd6b088a2ea9b95483071bf453c522a8441bc2f12bcf8493fd,fdb1c4ce9f0c71645b8a8bfee812899645add57d1beb8fb40319ccfa188e6e74,pip wheel --no-deps，python-build-standalone python,纯 Python wheel，由官方源码包在本库构建

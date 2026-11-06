@@ -76,7 +76,7 @@ bash ./install_offline_en.sh
 
 ## 离线安装测试（2026-11-06）
 
-主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**FAIL**。
-说明：pip check 无冲突；jieba：仅有源码包，未构建，见 `sdist_needs_build/`。
-测试前修正：锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 <5）。
+主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**ok**。
+说明：pip check 无冲突。
+测试前修正：锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 <5）；由官方源码包构建纯 Python wheel `jieba`、`langdetect`。
 汇总见库根目录 `offline_install_test_cn.md`。

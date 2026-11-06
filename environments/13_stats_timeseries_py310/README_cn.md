@@ -21,7 +21,7 @@ Ubuntu 22.04 需要 glibc ≥ 2.35 且不高于本环境实际 wheel 需求；�
 
 ## 本组能做什么
 
-做计量、波动率、变点、时序预测和基于本地收益率的绩效指标。quantstats 拉基准行情会走 yfinance 网络。Prophet 缺 CmdStan。
+做计量、波动率、变点、时序预测和基于本地收益率的绩效指标。quantstats 拉基准行情会走 yfinance 网络。Prophet 需要 CmdStan（库中为源码包，需编译）。
 
 目标解释器：**CPython 3.10**（Linux x86-64 glibc）。本轮未在目标机安装或运行，不能写成开箱即用。
 
@@ -37,7 +37,7 @@ Ubuntu 22.04 需要 glibc ≥ 2.35 且不高于本环境实际 wheel 需求；�
 | `backtesting` | 0.6.6 | OHLC 回测 | 数据自备 | [backtesting 文档](https://kernc.github.io/backtesting.py/) |
 | `statsforecast` | 2.1.1 | 预测 | 否 | [statsforecast 文档](https://nixtlaverse.nixtla.io/statsforecast) |
 | `sktime` | 1.2.0 | 时序 ML | 否 | [sktime 文档](https://www.sktime.net/) |
-| `prophet` | 1.5.0 | 加法模型 | 需要未下载的 CmdStan | [prophet 文档](https://facebook.github.io/prophet/) |
+| `prophet` | 1.5.0 | 加法模型 | 需要 CmdStan（库中为源码包，需编译） | [prophet 文档](https://facebook.github.io/prophet/) |
 
 传递依赖只列在 `requirements_lock_en.txt` / `wheel_inventory_cn.csv`，不逐个写教程。
 
@@ -76,7 +76,7 @@ bash ./install_offline_en.sh
 
 ## 离线安装测试（2026-11-06）
 
-主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**FAIL**。
-说明：pip check 无冲突；ta：仅有源码包，未构建，见 `sdist_needs_build/`。
-测试前修正：wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析。
+主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**ok**。
+说明：pip check 无冲突。
+测试前修正：wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析；由官方源码包构建纯 Python wheel `ta`（见 `locally_built_wheels_cn.csv`）；pandas-ta 只有要求 Python ≥3.12 的版本，3.10 组改补同用途的 TA-Lib。
 汇总见库根目录 `offline_install_test_cn.md`。

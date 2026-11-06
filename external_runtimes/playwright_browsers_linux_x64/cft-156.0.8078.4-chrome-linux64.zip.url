@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://storage.googleapis.com/chrome-for-testing-public/156.0.8078.4/linux64/chrome-linux64.zip
+
+[File]
+Name=cft-156.0.8078.4-chrome-linux64.zip
+SizeBytes=200345244
+SHA256=43fd31766c7533a02dda2ded5ad50c2f861cd5400be7509c0abad71129f79d79
+Reason=Chrome for Testing 二进制按 Google Chrome 服务条款提供，不再分发；Playwright 的 chromium 1248 就是这个版本
+DirectDownload=yes
+Checked=2026-11-06

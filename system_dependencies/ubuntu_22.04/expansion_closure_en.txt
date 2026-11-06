@@ -208,9 +208,9 @@ libsqlite3-0
 libnspr4
 liblept5
 libgif7
+libtesseract4
+libarchive13
 tesseract-ocr-chi-sim
 tesseract-ocr-osd
 tesseract-ocr-eng
 tesseract-ocr
-libtesseract4
-libarchive13

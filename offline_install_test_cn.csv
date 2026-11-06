@@ -21,16 +21,16 @@
 09_huggingface_llm_py312,ok,ok,8,0,pip check 无冲突,锁定清单改为在本 wheelhouse 内用目标解释器离线解析的结果（脚本生成的清单按每个包的最高版本生成，fsspec 版本互相冲突）
 10_onnx_api_ui_py310,ok,ok,7,0,pip check 无冲突,锁定清单离线重新解析，并加约束 `huggingface-hub<1.0`（gradio 仍导入 1.0 已删除的 `HfFolder`）
 10_onnx_api_ui_py312,ok,ok,7,0,pip check 无冲突,锁定清单离线重新解析，并加约束 `huggingface-hub<1.0`（gradio 仍导入 1.0 已删除的 `HfFolder`）
-11_optimization_control_py310,ok,ok,7,0,pip check 无冲突,
-11_optimization_control_py312,ok,ok,7,0,pip check 无冲突,
+11_optimization_control_py310,ok,ok,7,0,pip check 无冲突,补下 slycot 0.7.1 官方 manylinux wheel（python-control 可选依赖），离线重新解析锁定清单
+11_optimization_control_py312,ok,ok,7,0,pip check 无冲突,补下 slycot 0.7.1 官方 manylinux wheel（python-control 可选依赖），离线重新解析锁定清单
 12_data_storage_py310,ok,ok,9,0,pip check 无冲突,
 12_data_storage_py312,ok,ok,9,0,pip check 无冲突,
-13_stats_timeseries_py310,ok,FAIL,8,1,pip check 无冲突；ta：仅有源码包，未构建，见 `sdist_needs_build/`,wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析
-13_stats_timeseries_py312,ok,FAIL,8,1,pip check 无冲突；ta：仅有源码包，未构建，见 `sdist_needs_build/`,wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析
-14_ml_tooling_py310,ok,FAIL,8,1,pip check 无冲突；lime：仅有源码包，未构建，见 `sdist_needs_build/`,锁定清单离线重新解析，并加约束 `setuptools<81`（featuretools 仍需 `pkg_resources`）
-14_ml_tooling_py312,ok,FAIL,7,2,pip check 无冲突；lime：仅有源码包，未构建，见 `sdist_needs_build/`；evidently：evidently 与本组 pandas 版本不兼容（导入 pandas 内部函数失败），未修正,锁定清单离线重新解析，并加约束 `setuptools<81`（featuretools 仍需 `pkg_resources`）
-15_nlp_retrieval_py310,ok,FAIL,9,1,pip check 无冲突；jieba：仅有源码包，未构建，见 `sdist_needs_build/`,锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 <5）
-15_nlp_retrieval_py312,ok,FAIL,9,1,pip check 无冲突；jieba：仅有源码包，未构建，见 `sdist_needs_build/`,锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 <5）
+13_stats_timeseries_py310,ok,ok,9,0,pip check 无冲突,wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析；由官方源码包构建纯 Python wheel `ta`（见 `locally_built_wheels_cn.csv`）；pandas-ta 只有要求 Python ≥3.12 的版本，3.10 组改补同用途的 TA-Lib
+13_stats_timeseries_py312,ok,ok,9,0,pip check 无冲突,wheelhouse 中 sktime 与 pykalman 的版本无法同时满足；按同样的平台与 glibc 限制补下一组可共同解析的 wheel 后离线重新解析；由官方源码包构建纯 Python wheel `ta`（见 `locally_built_wheels_cn.csv`）；pandas-ta 只有要求 Python ≥3.12 的版本，3.10 组改补同用途的 TA-Lib
+14_ml_tooling_py310,ok,ok,9,0,pip check 无冲突,锁定清单离线重新解析，并加约束 `setuptools<81`（featuretools 仍需 `pkg_resources`）；由官方源码包构建纯 Python wheel `lime` 并补齐其依赖 scikit-image；3.12 组约束 `pandas<3`（evidently 与 pandas 3.x 不兼容）
+14_ml_tooling_py312,ok,ok,9,0,pip check 无冲突,锁定清单离线重新解析，并加约束 `setuptools<81`（featuretools 仍需 `pkg_resources`）；由官方源码包构建纯 Python wheel `lime` 并补齐其依赖 scikit-image；3.12 组约束 `pandas<3`（evidently 与 pandas 3.x 不兼容）
+15_nlp_retrieval_py310,ok,ok,10,0,pip check 无冲突,锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 <5）；由官方源码包构建纯 Python wheel `jieba`、`langdetect`
+15_nlp_retrieval_py312,ok,ok,10,0,pip check 无冲突,锁定清单离线重新解析；3.10 补下 `async-timeout` 4.x（langchain-classic 要求 <5）；由官方源码包构建纯 Python wheel `jieba`、`langdetect`
 16_media_ocr_py310,ok,FAIL,7,2,pip check 无冲突；cv2：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）；rapidocr_onnxruntime：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）,
 16_media_ocr_py312,ok,FAIL,7,2,pip check 无冲突；cv2：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）；rapidocr_onnxruntime：测试主机缺系统库 libGL.so.1，见 `system_dependencies/`（libgl1）,
 17_web_services_py310,ok,FAIL,10,0,pip check 无冲突；检查脚本固定做 numpy 运算，本组不含 numpy，属检查脚本误报；全部目标导入成功,

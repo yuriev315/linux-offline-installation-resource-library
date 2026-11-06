@@ -21,7 +21,7 @@ Ubuntu 22.04 需要 glibc ≥ 2.35 且不高于本环境实际 wheel 需求；�
 
 ## 本组能做什么
 
-用 PyMC、ArviZ、emcee 做贝叶斯推断与诊断。cmdstanpy 只是 Python 包，CmdStan 编译器未下载。
+用 PyMC、ArviZ、emcee 做贝叶斯推断与诊断。cmdstanpy 只是 Python 包，CmdStan 只有源码发行包（`external_runtimes/cmdstan/`），需在目标机编译。
 
 目标解释器：**CPython 3.12**（Linux x86-64 glibc）。本轮未在目标机安装或运行，不能写成开箱即用。
 
@@ -34,7 +34,7 @@ Ubuntu 22.04 需要 glibc ≥ 2.35 且不高于本环境实际 wheel 需求；�
 | `pymc` | 6.4.0 | 概率编程 | 否 | [pymc 文档](https://www.pymc.io/) |
 | `arviz` | 1.3.0 | 后验诊断 | 否 | [arviz 文档](https://python.arviz.org/) |
 | `emcee` | 3.1.6 | MCMC | 否 | [emcee 文档](https://emcee.readthedocs.io/) |
-| `cmdstanpy` | 1.3.2 | Stan 前端 | 需要未收录的 CmdStan | [cmdstanpy 文档](https://mc-stan.org/cmdstanpy/) |
+| `cmdstanpy` | 1.3.2 | Stan 前端 | 需要 CmdStan（库中为源码包，需编译） | [cmdstanpy 文档](https://mc-stan.org/cmdstanpy/) |
 
 传递依赖只列在 `requirements_lock_en.txt` / `wheel_inventory_cn.csv`，不逐个写教程。
 

@@ -84,7 +84,7 @@ L4T BSP 与 Sample RootFS 受 NVIDIA Software License 约束，本库不分发�
 ## 主机 x86-64 写卡/恢复工具（独立目录）
 
 已落盘：`rpi-imager_2.0.4_amd64.deb`、`balenaEtcher-linux-x64-2.1.9.zip`、`rkdeveloptool` 源码、`bmap-tools` 源码、EEPROM recovery JSON。  
-USBImager 预编译包与源码包 URL 均无效，未下载。交叉编译器 deb 未下。
+USBImager 1.0.10：`usbimager_1.0.10-amd64.deb` 与 `usbimager_1.0.10-x86_64-linux-x11.zip`（作者 GitLab 仓库 binaries 分支）。交叉编译器 deb 未下。
 
 ## 共享缓存说明
 

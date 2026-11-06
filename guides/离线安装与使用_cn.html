@@ -56,7 +56,7 @@ a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
 </table>
 <p>未完成、不要当作已交付：</p>
 <ul>
-<li>Jetson CUDA、Playwright 浏览器内核、CmdStan 可执行文件、多数模型权重：未纳入默认集合。</li>
+<li>Jetson CUDA、多数模型权重：未纳入默认集合。CmdStan 只有源码发行包，需在目标机编译。Playwright 的 Chromium（Chrome for Testing）只有 <code>.url</code> 占位；Firefox、WebKit 已下载。</li>
 <li>NVIDIA Jetson L4T 包受 NVIDIA 许可约束，库中只有 <code>.url</code> 占位文件，见 <a href="../restricted_placeholders_cn.html"><code>restricted_placeholders_cn.csv</code></a>。</li>
 </ul>
 <h2>2. 选择解释器</h2>
@@ -256,8 +256,8 @@ bash ./install_offline_en.sh
 <tr>
 <td>Prophet / cmdstanpy</td>
 <td>CmdStan</td>
-<td><strong>未下载</strong></td>
-<td>仅有 Python 包</td>
+<td>源码发行包 <a href="../external_runtimes/cmdstan/"><code>external_runtimes/cmdstan/</code></a></td>
+<td>需在目标机 <code>make build</code>，未编译</td>
 </tr>
 <tr>
 <td>Graphviz 出图</td>

@@ -1,0 +1,2 @@
+﻿wheel,built_from,sdist_sha256,wheel_sha256,builder,note
+lime-0.2.0.1-py3-none-any.whl,lime-0.2.0.1.tar.gz,76960e4f055feb53e89b5022383bafc87b63f25bac6265984b0a333d1a57f781,d2f7b87928a174a88676018aa3647b5772fae690aac88851d6bbc5591a99c2ea,pip wheel --no-deps，python-build-standalone python,纯 Python wheel，由官方源码包在本库构建

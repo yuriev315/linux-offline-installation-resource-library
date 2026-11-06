@@ -9,3 +9,4 @@ osqp
 clarabel
 control
 casadi
+slycot

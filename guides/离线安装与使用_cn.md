@@ -17,7 +17,7 @@
 
 未完成、不要当作已交付：
 
-- Jetson CUDA、Playwright 浏览器内核、CmdStan 可执行文件、多数模型权重：未纳入默认集合。
+- Jetson CUDA、多数模型权重：未纳入默认集合。CmdStan 只有源码发行包，需在目标机编译。Playwright 的 Chromium（Chrome for Testing）只有 `.url` 占位；Firefox、WebKit 已下载。
 - NVIDIA Jetson L4T 包受 NVIDIA 许可约束，库中只有 `.url` 占位文件，见 `restricted_placeholders_cn.csv`。
 
 ## 2. 选择解释器
@@ -111,7 +111,7 @@ Python wheel 装成功 **不等于** 下列工具可用。按 Ubuntu 版本安�
 | pypandoc | Pandoc 可执行文件 | `external_runtimes/pandoc/` 目前主要是元数据，**不能**当成已齐备的 pandoc 二进制 | 需自行准备 pandoc |
 | Playwright | 浏览器内核 | **未下载** | 官方 `playwright install` 默认要联网 |
 | Selenium | 浏览器 + 驱动 | **未下载**；`webdriver-manager` 会试图联网取驱动 | 离线需自备浏览器 |
-| Prophet / cmdstanpy | CmdStan | **未下载** | 仅有 Python 包 |
+| Prophet / cmdstanpy | CmdStan | 源码发行包 `external_runtimes/cmdstan/` | 需在目标机 `make build`，未编译 |
 | Graphviz 出图 | `dot` | runtime_debs | python 绑定不够 |
 | 官方 CPython 源码构建 | gcc 等 | `build_debs` | 未编译 |
 

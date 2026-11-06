@@ -1201,6 +1201,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 11_optimization_control_py310,3.10,scs,3.3.1,scs-3.3.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,43243329,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 11_optimization_control_py310,3.10,setuptools,84.2.1,setuptools-84.2.1-py3-none-any.whl,876263,any,purelib/any,https://pypi.org/simple,yes
 11_optimization_control_py310,3.10,six,1.17.0,six-1.17.0-py2.py3-none-any.whl,11050,any,purelib/any,https://pypi.org/simple,yes
+11_optimization_control_py310,3.10,slycot,0.7.1,slycot-0.7.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,10522000,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 11_optimization_control_py310,3.10,tzdata,2026.6,tzdata-2026.6-py2.py3-none-any.whl,348210,any,purelib/any,https://pypi.org/simple,yes
 11_optimization_control_py310,3.10,wheel,0.48.0,wheel-0.48.0-py3-none-any.whl,33320,any,purelib/any,https://pypi.org/simple,yes
 11_optimization_control_py312,3.12,casadi,3.8.2,casadi-3.8.2-cp311-abi3-manylinux2014_x86_64.whl,92352869,manylinux2014_x86_64,unknown,https://pypi.org/simple,yes
@@ -1230,6 +1231,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 11_optimization_control_py312,3.12,scipy,1.18.1,scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,35344199,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 11_optimization_control_py312,3.12,scs,3.3.1,scs-3.3.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,43243897,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 11_optimization_control_py312,3.12,setuptools,84.2.1,setuptools-84.2.1-py3-none-any.whl,876263,any,purelib/any,https://pypi.org/simple,yes
+11_optimization_control_py312,3.12,slycot,0.7.1,slycot-0.7.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,10534101,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 11_optimization_control_py312,3.12,sparsediffpy,0.6.1,sparsediffpy-0.6.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,12127462,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 11_optimization_control_py312,3.12,tzdata,2026.6,tzdata-2026.6-py2.py3-none-any.whl,348210,any,purelib/any,https://pypi.org/simple,yes
 11_optimization_control_py312,3.12,wheel,0.48.0,wheel-0.48.0-py3-none-any.whl,33320,any,purelib/any,https://pypi.org/simple,yes
@@ -1491,6 +1493,8 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 13_stats_timeseries_py310,3.10,statsforecast,2.1.1,statsforecast-2.1.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,499548,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 13_stats_timeseries_py310,3.10,statsmodels,0.15.0,statsmodels-0.15.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,12109474,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 13_stats_timeseries_py310,3.10,stumpy,1.14.1,stumpy-1.14.1-py3-none-any.whl,183983,any,purelib/any,https://pypi.org/simple,yes
+13_stats_timeseries_py310,3.10,ta,0.11.0,ta-0.11.0-py3-none-any.whl,29482,any,purelib/any,https://pypi.org/simple,yes
+13_stats_timeseries_py310,3.10,TA-Lib,0.8.1,ta_lib-0.8.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,3696579,manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 13_stats_timeseries_py310,3.10,tabulate,0.10.0,tabulate-0.10.0-py3-none-any.whl,39814,any,purelib/any,https://pypi.org/simple,yes
 13_stats_timeseries_py310,3.10,tbats,1.2.0,tbats-1.2.0-py3-none-any.whl,45178,any,purelib/any,https://pypi.org/simple,yes
 13_stats_timeseries_py310,3.10,threadpoolctl,3.8.0,threadpoolctl-3.8.0-py3-none-any.whl,32091,any,purelib/any,https://pypi.org/simple,yes
@@ -1593,6 +1597,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 13_stats_timeseries_py312,3.12,statsforecast,2.1.1,statsforecast-2.1.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,500972,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 13_stats_timeseries_py312,3.12,statsmodels,0.15.0,statsmodels-0.15.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,12042643,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 13_stats_timeseries_py312,3.12,stumpy,1.14.1,stumpy-1.14.1-py3-none-any.whl,183983,any,purelib/any,https://pypi.org/simple,yes
+13_stats_timeseries_py312,3.12,ta,0.11.0,ta-0.11.0-py3-none-any.whl,29482,any,purelib/any,https://pypi.org/simple,yes
 13_stats_timeseries_py312,3.12,tabulate,0.10.0,tabulate-0.10.0-py3-none-any.whl,39814,any,purelib/any,https://pypi.org/simple,yes
 13_stats_timeseries_py312,3.12,tbats,1.2.0,tbats-1.2.0-py3-none-any.whl,45178,any,purelib/any,https://pypi.org/simple,yes
 13_stats_timeseries_py312,3.12,threadpoolctl,3.8.0,threadpoolctl-3.8.0-py3-none-any.whl,32091,any,purelib/any,https://pypi.org/simple,yes
@@ -1679,6 +1684,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py310,3.10,huey,3.5.4,huey-3.5.4-py3-none-any.whl,135393,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,hyperopt,0.3.0,hyperopt-0.3.0-py3-none-any.whl,973547,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,idna,3.20,idna-3.20-py3-none-any.whl,69583,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py310,3.10,ImageIO,2.38.0,imageio-2.38.0-py3-none-any.whl,328055,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,imbalanced-learn,0.14.2,imbalanced_learn-0.14.2-py3-none-any.whl,236073,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,importlib_metadata,9.0.1,importlib_metadata-9.0.1-py3-none-any.whl,27920,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,importlib_resources,7.1.0,importlib_resources-7.1.0-py3-none-any.whl,37232,any,purelib/any,https://pypi.org/simple,yes
@@ -1695,6 +1701,8 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py310,3.10,joblib,1.6.0,joblib-1.6.0-py3-none-any.whl,306115,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,jupyterlab_widgets,3.0.17,jupyterlab_widgets-3.0.17-py3-none-any.whl,217292,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,kiwisolver,1.5.1,kiwisolver-1.5.1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl,1628782,manylinux_2_12_x86_64.manylinux2010_x86_64,2.12,https://pypi.org/simple,yes
+14_ml_tooling_py310,3.10,lazy-loader,0.6,lazy_loader-0.6-py3-none-any.whl,8791,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py310,3.10,lime,0.2.0.1,lime-0.2.0.1-py3-none-any.whl,283913,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,litestar,2.25.0,litestar-2.25.0-py3-none-any.whl,584699,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,litestar-htmx,0.5.0,litestar_htmx-0.5.0-py3-none-any.whl,9970,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,llvmlite,0.50.0,llvmlite-0.50.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,59696589,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
@@ -1763,6 +1771,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py310,3.10,rich,15.0.0,rich-15.0.0-py3-none-any.whl,310654,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,rich-click,1.9.9,rich_click-1.9.9-py3-none-any.whl,71910,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,SALib,1.6.0,salib-1.6.0-py3-none-any.whl,800081,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py310,3.10,scikit-image,0.25.2,scikit_image-0.25.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,14767545,manylinux_2_17_x86_64.manylinux2014_x86_64,2.17,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,scikit-learn,1.7.2,scikit_learn-1.7.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,9660938,manylinux2014_x86_64.manylinux_2_17_x86_64,2.17,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,scikit-optimize,0.10.2,scikit_optimize-0.10.2-py2.py3-none-any.whl,107794,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,scipy,1.15.3,scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl,37662964,manylinux_2_17_x86_64.manylinux2014_x86_64,2.17,https://pypi.org/simple,yes
@@ -1783,6 +1792,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py310,3.10,statsmodels,0.15.0,statsmodels-0.15.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,12109474,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,tenacity,9.2.1,tenacity-9.2.1-py3-none-any.whl,32310,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,threadpoolctl,3.8.0,threadpoolctl-3.8.0-py3-none-any.whl,32091,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py310,3.10,tifffile,2025.5.10,tifffile-2025.5.10-py3-none-any.whl,226533,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,tomli,2.5.0,tomli-2.5.0-py3-none-any.whl,14765,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,tqdm,4.70.1,tqdm-4.70.1-py3-none-any.whl,80199,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py310,3.10,traitlets,5.16.1,traitlets-5.16.1-py3-none-any.whl,86211,any,purelib/any,https://pypi.org/simple,yes
@@ -1876,6 +1886,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py312,3.12,huey,3.5.4,huey-3.5.4-py3-none-any.whl,135393,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,hyperopt,0.3.0,hyperopt-0.3.0-py3-none-any.whl,973547,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,idna,3.20,idna-3.20-py3-none-any.whl,69583,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py312,3.12,ImageIO,2.38.1,imageio-2.38.1-py3-none-any.whl,328389,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,imbalanced-learn,0.14.2,imbalanced_learn-0.14.2-py3-none-any.whl,236073,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,importlib_metadata,10.1.0,importlib_metadata-10.1.0-py3-none-any.whl,32221,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,importlib_resources,7.1.0,importlib_resources-7.1.0-py3-none-any.whl,37232,any,purelib/any,https://pypi.org/simple,yes
@@ -1893,6 +1904,8 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py312,3.12,joblib,1.6.0,joblib-1.6.0-py3-none-any.whl,306115,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,jupyterlab_widgets,3.0.17,jupyterlab_widgets-3.0.17-py3-none-any.whl,217292,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,kiwisolver,1.5.1,kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl,1477929,manylinux2014_x86_64.manylinux_2_17_x86_64,2.17,https://pypi.org/simple,yes
+14_ml_tooling_py312,3.12,lazy-loader,0.6,lazy_loader-0.6-py3-none-any.whl,8791,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py312,3.12,lime,0.2.0.1,lime-0.2.0.1-py3-none-any.whl,283913,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,litestar,2.25.0,litestar-2.25.0-py3-none-any.whl,584699,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,litestar-htmx,0.5.0,litestar_htmx-0.5.0-py3-none-any.whl,9970,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,Mako,1.4.3,mako-1.4.3-py3-none-any.whl,80164,any,purelib/any,https://pypi.org/simple,yes
@@ -1922,6 +1935,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py312,3.12,opentelemetry-semantic-conventions,0.66b2,opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl,206280,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,optuna,5.0.0,optuna-5.0.0-py3-none-any.whl,442352,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,packaging,26.3,packaging-26.3-py3-none-any.whl,129956,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py312,3.12,pandas,2.3.3,pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,12362693,manylinux_2_24_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,pandas,3.1.1,pandas-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,12031410,manylinux_2_24_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,parso,0.8.7,parso-0.8.7-py2.py3-none-any.whl,107025,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,patsy,1.0.3,patsy-1.0.3-py2.py3-none-any.whl,233318,any,purelib/any,https://pypi.org/simple,yes
@@ -1951,6 +1965,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py312,3.12,python-dateutil,4.0.0,python_dateutil-4.0.0-py3-none-any.whl,92853,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,python-dotenv,1.2.4,python_dotenv-1.2.4-py3-none-any.whl,23266,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,python-multipart,0.0.33,python_multipart-0.0.33-py3-none-any.whl,32253,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py312,3.12,pytz,2026.6,pytz-2026.6-py2.py3-none-any.whl,506321,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,PyYAML,6.0.3,pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,807870,manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,regex,2026.9.29,regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl,807783,manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,requests,2.34.2,requests-2.34.2-py3-none-any.whl,73075,any,purelib/any,https://pypi.org/simple,yes
@@ -1958,6 +1973,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py312,3.12,rich,15.0.0,rich-15.0.0-py3-none-any.whl,310654,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,rich-click,1.9.9,rich_click-1.9.9-py3-none-any.whl,71910,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,SALib,1.6.0,salib-1.6.0-py3-none-any.whl,800081,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py312,3.12,scikit-image,0.26.0,scikit_image-0.26.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl,13561683,manylinux_2_24_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,scikit-learn,1.9.1,scikit_learn-1.9.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,9166043,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,scikit-optimize,0.10.2,scikit_optimize-0.10.2-py2.py3-none-any.whl,107794,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,scipy,1.18.1,scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,35344199,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
@@ -1978,6 +1994,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 14_ml_tooling_py312,3.12,statsmodels,0.15.0,statsmodels-0.15.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,12042643,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,tenacity,9.2.1,tenacity-9.2.1-py3-none-any.whl,32310,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,threadpoolctl,3.8.0,threadpoolctl-3.8.0-py3-none-any.whl,32091,any,purelib/any,https://pypi.org/simple,yes
+14_ml_tooling_py312,3.12,tifffile,2026.10.15,tifffile-2026.10.15-py3-none-any.whl,276988,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,tqdm,4.70.1,tqdm-4.70.1-py3-none-any.whl,80199,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,traitlets,5.16.1,traitlets-5.16.1-py3-none-any.whl,86211,any,purelib/any,https://pypi.org/simple,yes
 14_ml_tooling_py312,3.12,typer,0.27.3,typer-0.27.3-py3-none-any.whl,123312,any,purelib/any,https://pypi.org/simple,yes
@@ -2072,6 +2089,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 15_nlp_retrieval_py310,3.10,idna,3.20,idna-3.20-py3-none-any.whl,69583,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,importlib_metadata,9.0.1,importlib_metadata-9.0.1-py3-none-any.whl,27920,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,importlib_resources,7.1.0,importlib_resources-7.1.0-py3-none-any.whl,37232,any,purelib/any,https://pypi.org/simple,yes
+15_nlp_retrieval_py310,3.10,jieba,0.42.1,jieba-0.42.1-py3-none-any.whl,19314509,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,Jinja2,3.1.6,jinja2-3.1.6-py3-none-any.whl,134899,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,joblib,1.6.0,joblib-1.6.0-py3-none-any.whl,306115,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,jsonpatch,1.43,jsonpatch-1.43-py3-none-any.whl,23165,any,purelib/any,https://pypi.org/simple,yes
@@ -2088,6 +2106,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 15_nlp_retrieval_py310,3.10,langchain-core,1.7.6,langchain_core-1.7.6-py3-none-any.whl,580547,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,langchain-protocol,0.0.21,langchain_protocol-0.0.21-py3-none-any.whl,7418,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,langchain-text-splitters,1.1.3,langchain_text_splitters-1.1.3-py3-none-any.whl,38217,any,purelib/any,https://pypi.org/simple,yes
+15_nlp_retrieval_py310,3.10,langdetect,1.0.9,langdetect-1.0.9-py3-none-any.whl,993332,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,langgraph,1.2.20,langgraph-1.2.20-py3-none-any.whl,263611,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,langgraph-checkpoint,4.3.1,langgraph_checkpoint-4.3.1-py3-none-any.whl,58093,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py310,3.10,langgraph-prebuilt,1.1.1,langgraph_prebuilt-1.1.1-py3-none-any.whl,42254,any,purelib/any,https://pypi.org/simple,yes
@@ -2263,6 +2282,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 15_nlp_retrieval_py312,3.12,idna,3.20,idna-3.20-py3-none-any.whl,69583,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,importlib_metadata,10.1.0,importlib_metadata-10.1.0-py3-none-any.whl,32221,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,importlib_resources,7.1.0,importlib_resources-7.1.0-py3-none-any.whl,37232,any,purelib/any,https://pypi.org/simple,yes
+15_nlp_retrieval_py312,3.12,jieba,0.42.1,jieba-0.42.1-py3-none-any.whl,19314509,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,Jinja2,3.1.6,jinja2-3.1.6-py3-none-any.whl,134899,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,joblib,1.6.0,joblib-1.6.0-py3-none-any.whl,306115,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,jsonpatch,1.43,jsonpatch-1.43-py3-none-any.whl,23165,any,purelib/any,https://pypi.org/simple,yes
@@ -2279,6 +2299,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 15_nlp_retrieval_py312,3.12,langchain-core,1.7.6,langchain_core-1.7.6-py3-none-any.whl,580547,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,langchain-protocol,0.0.21,langchain_protocol-0.0.21-py3-none-any.whl,7418,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,langchain-text-splitters,1.1.3,langchain_text_splitters-1.1.3-py3-none-any.whl,38217,any,purelib/any,https://pypi.org/simple,yes
+15_nlp_retrieval_py312,3.12,langdetect,1.0.9,langdetect-1.0.9-py3-none-any.whl,993332,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,langgraph,1.2.20,langgraph-1.2.20-py3-none-any.whl,263611,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,langgraph-checkpoint,4.3.1,langgraph_checkpoint-4.3.1-py3-none-any.whl,58093,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,langgraph-prebuilt,1.1.1,langgraph_prebuilt-1.1.1-py3-none-any.whl,42254,any,purelib/any,https://pypi.org/simple,yes
@@ -2347,6 +2368,7 @@ environment,python,name,version,filename,size_bytes,platform,min_glibc,source,co
 15_nlp_retrieval_py312,3.12,sentencepiece,0.2.3,sentencepiece-0.2.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl,1716727,manylinux_2_27_x86_64.manylinux_2_28_x86_64,2.28,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,setuptools,84.2.1,setuptools-84.2.1-py3-none-any.whl,876263,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,shellingham,1.5.4,shellingham-1.5.4-py2.py3-none-any.whl,9755,any,purelib/any,https://pypi.org/simple,yes
+15_nlp_retrieval_py312,3.12,six,1.17.0,six-1.17.0-py2.py3-none-any.whl,11050,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,smart_open,9.0.2,smart_open-9.0.2-py3-none-any.whl,76047,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,sniffio,1.3.1,sniffio-1.3.1-py3-none-any.whl,10235,any,purelib/any,https://pypi.org/simple,yes
 15_nlp_retrieval_py312,3.12,soupsieve,4.0.1,soupsieve-4.0.1-py3-none-any.whl,50688,any,purelib/any,https://pypi.org/simple,yes

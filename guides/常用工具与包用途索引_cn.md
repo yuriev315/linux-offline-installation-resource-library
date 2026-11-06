@@ -46,7 +46,7 @@
 | quantstats | 回测绩效指标与报告 | 策略评估 | 13 | 3.10 / 3.12（0.0.86） | **拉行情要网**（yfinance） | 否 | 否 | 否 |
 | backtesting | 简易 OHLC 回测 | 规则策略 | 13 | 3.10 / 3.12（0.6.6） | 数据要自备 | 否 | 否 | 否 |
 | statsforecast / sktime / pmdarima | 预测模型 | 时序预测 | 13 | 3.10 / 3.12 | 否 | 否 | 否 | CPU |
-| prophet | 加法时序模型 | 业务预测 | 13 | 3.10 / 3.12 | 否 | 否 | **CmdStan 未下载** | CPU |
+| prophet | 加法时序模型 | 业务预测 | 13 | 3.10 / 3.12 | 否 | 否 | CmdStan 需从源码编译 | CPU |
 | hmmlearn | 隐马尔可夫 | 状态序列 | 02、13 | 3.10 / 3.12 | 否 | 否 | 否 | CPU |
 
 `ta`（Technical Analysis）在 13 组直接依赖中列出，**未进入 py310 wheel 清单**，不要当已安装。`pandas-ta` 在 3.12 lock 中有 0.4.71b0，3.10 清单未见，使用前先看该环境 `wheel_inventory_cn.csv`。

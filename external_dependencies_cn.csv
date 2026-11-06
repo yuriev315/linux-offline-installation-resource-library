@@ -1,14 +1,14 @@
-component,category,needed_by,ubuntu_22.04,ubuntu_24.04,offline_status,official_docs,notes_cn
+﻿component,category,needed_by,ubuntu_22.04,ubuntu_24.04,offline_status,official_docs,notes_cn
 glibc,c_runtime,all_wheels_and_runtimes,"libc6 2.35, assumed present","libc6 2.39, assumed present",not_downloaded_base_system,distro base,默认 wheel 按最高 manylinux_2_35 选择，覆盖 22.04/24.04。
 OpenMP libgomp,c_runtime,numpy/sklearn/xgboost/lightgbm 等,libgomp1,libgomp1,runtime_debs_if_resolved,https://packages.ubuntu.com/libgomp1,多数 manylinux wheel 已捆绑；仍登记系统包。
 libgfortran,c_runtime,scipy 等,libgfortran5,libgfortran5,runtime_debs_if_resolved,https://packages.ubuntu.com/libgfortran5,scipy 的 manylinux wheel 通常捆绑 Fortran 运行库。
 FFmpeg,audio_video,librosa/部分音视频 I/O,ffmpeg,ffmpeg,runtime_debs_if_resolved,https://ffmpeg.org/,Python 包安装完成不等于系统 FFmpeg 已具备。
 Graphviz,graphics,部分可视化、模型图,graphviz,graphviz,runtime_debs_if_resolved,https://graphviz.org/download/,python-graphviz 只是绑定，需要系统 graphviz 可执行文件。
 libsndfile,audio,soundfile,libsndfile1,libsndfile1,runtime_debs_if_resolved,https://github.com/bastibe/python-soundfile,wheel 可能捆绑；系统库作后备。
-CmdStan,compiler_toolchain,06_bayesian_mcmc / cmdstanpy,not_in_default,not_in_default,not_downloaded,https://mc-stan.org/cmdstanpy/,仅下载了 cmdstanpy wheel。Stan 需 C++ 工具链，单列待补。
+CmdStan,compiler_toolchain,06_bayesian_mcmc / cmdstanpy,source tarball,source tarball,downloaded:external_runtimes/cmdstan/cmdstan-2.40.0.tar.gz（源码发行包，需在目标机 make build）,https://mc-stan.org/cmdstanpy/,官方 CmdStan 2.40.0 源码发行包；需 C++ 工具链编译，未编译。
 CUDA / GPU driver,gpu,可选 PyTorch/TF/ORT GPU,unknown_hardware,unknown_hardware,not_downloaded,https://docs.nvidia.com/cuda/,硬件未知，不下载多套 CUDA。见 pending_not_in_default/gpu_optional_cn.md。
 CPython build toolchain,compiler_toolchain,官方源码构建备选,build-essential 及开发库,build-essential 及开发库,build_debs_if_resolved,https://devguide.python.org/getting-started/setup-building/,源码包不能直接运行。未在本机 apt install。
-slycot,python_optional_compile,python-control 部分功能,needs_build,needs_build,not_downloaded,https://python-control.readthedocs.io/,无稳定通用 wheel 时不纳入默认集合。
+slycot,python_optional_compile,python-control 部分功能,manylinux_2_28 wheel,manylinux_2_28 wheel,downloaded:slycot 0.7.1 manylinux wheel，已加入 11_optimization_control,https://python-control.readthedocs.io/,官方 manylinux_2_28 wheel，已在 11 组离线安装测试通过。
 ubuntu_22.04_runtime_debs,deb_closure,runtime,see system_dependencies/ubuntu_22.04,,downloaded=224; fail=0; unresolved=0,http://archive.ubuntu.com/ubuntu/,按官方 Packages 索引解析。未在本机安装。不能当作所有 glibc 发行版通用。
 ubuntu_22.04_build_debs,deb_closure,build,see system_dependencies/ubuntu_22.04,,downloaded=121; fail=0; unresolved=0,http://archive.ubuntu.com/ubuntu/,按官方 Packages 索引解析。未在本机安装。不能当作所有 glibc 发行版通用。
 ubuntu_24.04_runtime_debs,deb_closure,runtime,,see system_dependencies/ubuntu_24.04,downloaded=226; fail=0; unresolved=0,http://archive.ubuntu.com/ubuntu/,按官方 Packages 索引解析。未在本机安装。不能当作所有 glibc 发行版通用。
@@ -16,25 +16,7 @@ ubuntu_24.04_build_debs,deb_closure,build,,see system_dependencies/ubuntu_24.04,
 ubuntu_22.04_expansion_debs,deb_closure,tesseract/poppler/weasyprint/ffmpeg/libpq,system_dependencies/ubuntu_22.04/expansion_debs,,downloaded=216; fail=0; unresolved=1,http://archive.ubuntu.com/ubuntu/,扩展用途系统包。未在本机安装。Python wheel 成功不等于 Tesseract/Poppler/FFmpeg 已可运行。
 ubuntu_24.04_expansion_debs,deb_closure,tesseract/poppler/weasyprint/ffmpeg/libpq,,system_dependencies/ubuntu_24.04/expansion_debs,downloaded=231; fail=0; unresolved=1,http://archive.ubuntu.com/ubuntu/,扩展用途系统包。未在本机安装。Python wheel 成功不等于 Tesseract/Poppler/FFmpeg 已可运行。
 pandoc,document_runtime,20_documents / pypandoc,pandoc-3.13-linux-amd64.tar.gz,pandoc-3.13-linux-amd64.tar.gz,downloaded; size=36101020,https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-amd64.tar.gz,官方静态 tarball，非 Ubuntu deb。未执行。
-playwright_chromium,browser_runtime,19_scraping_automation,missing,missing,"not_downloaded:wget failed for https://playwright.azureedge.net/builds/chromium/1248/chromium-linux.zip: s/chromium/1248/chromium-linux.zip
-Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.243, 23.201.43.234, 23.201.43.203
-Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.243|:443... connected.
-HTTP request sent, awaiting response... 400 Bad Request
-2026-11-06 06:24:00 ERROR 400: Bad Request.
-
-",https://playwright.dev/python/docs/browsers,未能获取该浏览器 zip，不能把 playwright wheel 当作浏览器已齐备。
-playwright_firefox,browser_runtime,19_scraping_automation,missing,missing,"not_downloaded:wget failed for https://playwright.azureedge.net/builds/firefox/1555/firefox-linux.zip: lds/firefox/1555/firefox-linux.zip
-Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.203, 23.201.43.234, 23.201.43.243
-Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.203|:443... connected.
-HTTP request sent, awaiting response... 400 Bad Request
-2026-11-06 06:24:01 ERROR 400: Bad Request.
-
-",https://playwright.dev/python/docs/browsers,未能获取该浏览器 zip，不能把 playwright wheel 当作浏览器已齐备。
-playwright_webkit,browser_runtime,19_scraping_automation,missing,missing,"not_downloaded:wget failed for https://playwright.azureedge.net/builds/webkit/2370/webkit-linux.zip: uilds/webkit/2370/webkit-linux.zip
-Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.203, 23.201.43.243, 23.201.43.234
-Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.203|:443... connected.
-HTTP request sent, awaiting response... 400 Bad Request
-2026-11-06 06:24:01 ERROR 400: Bad Request.
-
-",https://playwright.dev/python/docs/browsers,未能获取该浏览器 zip，不能把 playwright wheel 当作浏览器已齐备。
+playwright_chromium,browser_runtime,19_scraping_automation,.url 占位,.url 占位,placeholder:Chrome for Testing 156.0.8078.4（chromium 1248）只有 .url，见 restricted_placeholders_cn.csv,https://playwright.dev/python/docs/browsers,Playwright 1248 的 chromium 就是 Chrome for Testing；按 Google Chrome 服务条款不再分发，需联网按 .url 下载。
+playwright_firefox,browser_runtime,19_scraping_automation,ubuntu-22.04 zip,ubuntu-24.04 zip,downloaded:firefox-1555-ubuntu-22.04.zip / firefox-1555-ubuntu-24.04.zip,https://playwright.dev/python/docs/browsers,Playwright 官方新 CDN；按目标系统选择。未执行安装。
+playwright_webkit,browser_runtime,19_scraping_automation,ubuntu-22.04 zip,ubuntu-24.04 zip,downloaded:webkit-2370-ubuntu-22.04.zip / webkit-2370-ubuntu-24.04.zip,https://playwright.dev/python/docs/browsers,Playwright 官方新 CDN；按目标系统选择。未执行安装。
 playwright_ffmpeg,browser_runtime,19_scraping_automation,"linux-x64 zip, not distro-specific","linux-x64 zip, not distro-specific",downloaded:ffmpeg-1013-linux.zip; size=2302701,https://playwright.dev/python/docs/browsers,Playwright 官方 Linux x64 浏览器包。未执行安装。glibc 目标仍为 Ubuntu 22.04/24.04。

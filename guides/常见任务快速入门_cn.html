@@ -40,7 +40,7 @@ returns = pd.Series(np.random.default_rng(0).normal(0.0003, 0.01, size=20), inde
 print(&quot;sharpe&quot;, qs.stats.sharpe(returns))
 print(&quot;max DD&quot;, qs.stats.max_drawdown(returns))
 </code></pre>
-<p>Prophet 还需要 <strong>未下载的 CmdStan</strong>，本页不给运行示例。</p>
+<p>Prophet 还需要 CmdStan：库中只有源码发行包 <a href="../external_runtimes/cmdstan/cmdstan-2.40.0.tar.gz"><code>external_runtimes/cmdstan/cmdstan-2.40.0.tar.gz</code></a>，要先在目标机编译，本页不给运行示例。</p>
 <hr />
 <h2>3. 机器学习（表格）</h2>
 <p><strong>环境：</strong> <a href="../environments/02_ml_stats_timeseries_em_py310/"><code>environments/02_ml_stats_timeseries_em_py310</code></a><br />
@@ -140,7 +140,7 @@ print(BeautifulSoup(html, &quot;lxml&quot;).p.text)
 </code></pre>
 <p>Scrapy 抓远程站点需要网络与目标站点授权，此处不给爬取示例。</p>
 <p>Playwright 在浏览器官方安装完成前不要运行：</p>
-<pre><code class="language-python"># 示例未验证。本库未能获取 Playwright 浏览器内核，预期失败。
+<pre><code class="language-python"># 示例未验证。先把 external_runtimes/playwright_browsers_linux_x64/ 中的 Firefox 或 WebKit 解压到 PLAYWRIGHT_BROWSERS_PATH；Chromium 只有 .url 占位，需联网下载。
 # from playwright.sync_api import sync_playwright
 </code></pre>
 <hr />

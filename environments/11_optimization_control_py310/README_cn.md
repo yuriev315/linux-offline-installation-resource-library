@@ -75,4 +75,5 @@ bash ./install_offline_en.sh
 
 主机：Ubuntu 26.04.1 LTS x86-64，glibc 2.43，python-build-standalone 3.10.22 / 3.12.16。离线安装：**ok**；检查脚本：**ok**。
 说明：pip check 无冲突。
+测试前修正：补下 slycot 0.7.1 官方 manylinux wheel（python-control 可选依赖），离线重新解析锁定清单。
 汇总见库根目录 `offline_install_test_cn.md`。
