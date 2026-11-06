@@ -1,0 +1,37 @@
+{
+  "new_groups": 26,
+  "direct_packages": 744,
+  "wheels": 2744,
+  "bytes": 5930094760,
+  "failed_direct": {
+    "13_stats_timeseries_py310": [
+      "ta",
+      "pandas-ta"
+    ],
+    "13_stats_timeseries_py312": [
+      "ta"
+    ],
+    "14_ml_tooling_py310": [
+      "lime"
+    ],
+    "14_ml_tooling_py312": [
+      "lime"
+    ],
+    "15_nlp_retrieval_py310": [
+      "jieba",
+      "langdetect"
+    ],
+    "15_nlp_retrieval_py312": [
+      "jieba",
+      "langdetect"
+    ]
+  },
+  "missing_deps": {
+    "19_scraping_automation_py310": [
+      "pypydispatcher"
+    ],
+    "19_scraping_automation_py312": [
+      "pypydispatcher"
+    ]
+  }
+}

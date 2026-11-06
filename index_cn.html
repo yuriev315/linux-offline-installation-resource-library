@@ -1,0 +1,84 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Linux 离线资源首页</title><style>body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;max-width:1100px;margin:2em auto;padding:0 16px;line-height:1.6;color:#1f2328;background:#fff}
+table{border-collapse:collapse}td,th{border:1px solid #d0d7de;padding:4px 10px;text-align:left}th{background:#f6f8fa}a{color:#0969da}small{color:#57606a}
+ul.cols{columns:3;padding-left:1.2em}@media (max-width:700px){ul.cols{columns:1}}
+@media (prefers-color-scheme: dark){body{background:#0d1117;color:#e6edf3}th{background:#161b22}td,th{border-color:#30363d}a{color:#4493f8}small{color:#8b949e}}</style></head><body>
+<h1>Linux 通用科研 Python 离线资源库</h1>
+<p>Linux x86-64（glibc，参考 Ubuntu 22.04/24.04）CPU 环境与 ARM 开发板资源。只做了下载与静态检查，未在目标机安装、未上板验证。链接指向的包没有下载时打不开，这是正常的。</p>
+<h2>说明与登记表</h2><ul><li><a href="README_cn.html">库说明</a> <small>README_cn.md</small></li>
+<li><a href="download_restore_cn.html">下载与解压</a> <small>download_restore_cn.md</small></li>
+<li><a href="environments_overview_cn.html">环境总览</a> <small>environments_overview_cn.md</small></li>
+<li><a href="guides/离线安装与使用_cn.html">离线安装与使用</a> <small>guides/离线安装与使用_cn.md</small></li>
+<li><a href="guides/常见任务快速入门_cn.html">常见任务快速入门</a> <small>guides/常见任务快速入门_cn.md</small></li>
+<li><a href="guides/常用工具与包用途索引_cn.html">常用工具与包用途索引</a> <small>guides/常用工具与包用途索引_cn.md</small></li>
+<li><a href="embedded/README_cn.html">嵌入式总说明</a> <small>embedded/README_cn.md</small></li>
+<li><a href="embedded/linux_sbcs/OVERVIEW_cn.html">Linux 开发板总览</a> <small>embedded/linux_sbcs/OVERVIEW_cn.md</small></li>
+<li><a href="runtime_inventory_cn.html">运行时清单</a> <small>runtime_inventory_cn.csv</small></li>
+<li><a href="package_inventory_cn.html">包清单</a> <small>package_inventory_cn.csv</small></li>
+<li><a href="external_dependencies_cn.html">系统与外部依赖</a> <small>external_dependencies_cn.csv</small></li>
+<li><a href="compatibility_issues_cn.html">兼容性问题</a> <small>compatibility_issues_cn.csv</small></li>
+<li><a href="restricted_placeholders_cn.html">受限文件占位清单</a> <small>restricted_placeholders_cn.csv</small></li>
+<li><a href="archive_index_cn.html">文件所在 tar 包</a> <small>archive_index_cn.csv</small></li>
+<li><a href="progress_cn.html">下载进度记录</a> <small>progress_cn.csv</small></li></ul>
+<h2>Python 环境组（50 个）</h2><table><tr><th>用途组</th><th>版本</th></tr>
+<tr><td>01_scientific_notebook</td><td><a href="environments/01_scientific_notebook_py310/README_cn.html">py310</a> · <a href="environments/01_scientific_notebook_py312/README_cn.html">py312</a></td></tr>
+<tr><td>02_ml_stats_timeseries_em</td><td><a href="environments/02_ml_stats_timeseries_em_py310/README_cn.html">py310</a> · <a href="environments/02_ml_stats_timeseries_em_py312/README_cn.html">py312</a></td></tr>
+<tr><td>03_signal_audio_image</td><td><a href="environments/03_signal_audio_image_py310/README_cn.html">py310</a> · <a href="environments/03_signal_audio_image_py312/README_cn.html">py312</a></td></tr>
+<tr><td>04_pytorch_cpu</td><td><a href="environments/04_pytorch_cpu_py310/README_cn.html">py310</a> · <a href="environments/04_pytorch_cpu_py312/README_cn.html">py312</a></td></tr>
+<tr><td>05_gpr_bayesopt</td><td><a href="environments/05_gpr_bayesopt_py310/README_cn.html">py310</a> · <a href="environments/05_gpr_bayesopt_py312/README_cn.html">py312</a></td></tr>
+<tr><td>06_bayesian_mcmc</td><td><a href="environments/06_bayesian_mcmc_py310/README_cn.html">py310</a> · <a href="environments/06_bayesian_mcmc_py312/README_cn.html">py312</a></td></tr>
+<tr><td>07_tensorflow_cpu</td><td><a href="environments/07_tensorflow_cpu_py310/README_cn.html">py310</a> · <a href="environments/07_tensorflow_cpu_py312/README_cn.html">py312</a></td></tr>
+<tr><td>07b_gpflow_tf218</td><td><a href="environments/07b_gpflow_tf218_py310/README_cn.html">py310</a> · <a href="environments/07b_gpflow_tf218_py312/README_cn.html">py312</a></td></tr>
+<tr><td>08_rl_basics</td><td><a href="environments/08_rl_basics_py310/README_cn.html">py310</a> · <a href="environments/08_rl_basics_py312/README_cn.html">py312</a></td></tr>
+<tr><td>09_huggingface_llm</td><td><a href="environments/09_huggingface_llm_py310/README_cn.html">py310</a> · <a href="environments/09_huggingface_llm_py312/README_cn.html">py312</a></td></tr>
+<tr><td>10_onnx_api_ui</td><td><a href="environments/10_onnx_api_ui_py310/README_cn.html">py310</a> · <a href="environments/10_onnx_api_ui_py312/README_cn.html">py312</a></td></tr>
+<tr><td>11_optimization_control</td><td><a href="environments/11_optimization_control_py310/README_cn.html">py310</a> · <a href="environments/11_optimization_control_py312/README_cn.html">py312</a></td></tr>
+<tr><td>12_data_storage</td><td><a href="environments/12_data_storage_py310/README_cn.html">py310</a> · <a href="environments/12_data_storage_py312/README_cn.html">py312</a></td></tr>
+<tr><td>13_stats_timeseries</td><td><a href="environments/13_stats_timeseries_py310/README_cn.html">py310</a> · <a href="environments/13_stats_timeseries_py312/README_cn.html">py312</a></td></tr>
+<tr><td>14_ml_tooling</td><td><a href="environments/14_ml_tooling_py310/README_cn.html">py310</a> · <a href="environments/14_ml_tooling_py312/README_cn.html">py312</a></td></tr>
+<tr><td>15_nlp_retrieval</td><td><a href="environments/15_nlp_retrieval_py310/README_cn.html">py310</a> · <a href="environments/15_nlp_retrieval_py312/README_cn.html">py312</a></td></tr>
+<tr><td>16_media_ocr</td><td><a href="environments/16_media_ocr_py310/README_cn.html">py310</a> · <a href="environments/16_media_ocr_py312/README_cn.html">py312</a></td></tr>
+<tr><td>17_web_services</td><td><a href="environments/17_web_services_py310/README_cn.html">py310</a> · <a href="environments/17_web_services_py312/README_cn.html">py312</a></td></tr>
+<tr><td>18_database</td><td><a href="environments/18_database_py310/README_cn.html">py310</a> · <a href="environments/18_database_py312/README_cn.html">py312</a></td></tr>
+<tr><td>19_scraping_automation</td><td><a href="environments/19_scraping_automation_py310/README_cn.html">py310</a> · <a href="environments/19_scraping_automation_py312/README_cn.html">py312</a></td></tr>
+<tr><td>20_documents</td><td><a href="environments/20_documents_py310/README_cn.html">py310</a> · <a href="environments/20_documents_py312/README_cn.html">py312</a></td></tr>
+<tr><td>21_viz_dashboard</td><td><a href="environments/21_viz_dashboard_py310/README_cn.html">py310</a> · <a href="environments/21_viz_dashboard_py312/README_cn.html">py312</a></td></tr>
+<tr><td>21b_desktop_pyside6</td><td><a href="environments/21b_desktop_pyside6_py310/README_cn.html">py310</a> · <a href="environments/21b_desktop_pyside6_py312/README_cn.html">py312</a></td></tr>
+<tr><td>22_engineering</td><td><a href="environments/22_engineering_py310/README_cn.html">py310</a> · <a href="environments/22_engineering_py312/README_cn.html">py312</a></td></tr>
+<tr><td>23_general_utils</td><td><a href="environments/23_general_utils_py310/README_cn.html">py310</a> · <a href="environments/23_general_utils_py312/README_cn.html">py312</a></td></tr>
+</table>
+<p>信号处理定向补充：<a href="python310_x86_64_supplement_signal/README_cn.html">CPython 3.10</a> · <a href="python312_x86_64_supplement_signal/README_cn.html">CPython 3.12</a></p>
+<h2>运行时</h2><ul><li><a href="runtimes/python_build_standalone/notes_cn.html">python-build-standalone 3.10.22 / 3.12.16</a></li>
+<li><a href="runtimes/cpython_official_source/build_from_source_cn.html">CPython 官方源码与构建说明</a></li><li><a href="external_runtimes/">external_runtimes/（Pandoc、Playwright ffmpeg）</a></li></ul>
+<h2>系统依赖</h2><ul><li><a href="system_dependencies/ubuntu_22.04/">Ubuntu 22.04</a></li><li><a href="system_dependencies/ubuntu_24.04/">Ubuntu 24.04</a></li></ul>
+<h2>开发板系统镜像（30 个目录）</h2><ul class="cols"><li><a href="embedded/linux_sbcs/_shared/images/armbian_bananapif3_trixie/">armbian_bananapif3_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_bananapim2s_trixie/">armbian_bananapim2s_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_bananapim5_trixie/">armbian_bananapim5_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_cuboxi_trixie/">armbian_cuboxi_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_mba8mpxl_trixie/">armbian_mba8mpxl_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_odroidc4_trixie/">armbian_odroidc4_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_odroidm1_trixie/">armbian_odroidm1_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_odroidm1s_trixie/">armbian_odroidm1s_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_odroidm2_trixie/">armbian_odroidm2_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_odroidn2_trixie/">armbian_odroidn2_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_odroidxu4_trixie/">armbian_odroidxu4_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_orangepi3b_trixie/">armbian_orangepi3b_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_orangepi3lts_trixie/">armbian_orangepi3lts_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_orangepi5_trixie/">armbian_orangepi5_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_orangepipc2_trixie/">armbian_orangepipc2_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_orangepipc_trixie/">armbian_orangepipc_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_orangepizero3_trixie/">armbian_orangepizero3_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/armbian_radxa_zero_trixie/">armbian_radxa_zero_trixie</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/beagle_ai64_debian12/">beagle_ai64_debian12</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/beagle_bbb_debian12/">beagle_bbb_debian12</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/beagle_play_debian12/">beagle_play_debian12</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/jetson_nano_l4t32.7.4/">jetson_nano_l4t32.7.4</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/jetson_orin_l4t36.4.4/">jetson_orin_l4t36.4.4</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/jetson_xavier_nx_l4t35.5.0/">jetson_xavier_nx_l4t35.5.0</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/openwrt_bpi_r3/">openwrt_bpi_r3</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/radxa_rock5b_bookworm/">radxa_rock5b_bookworm</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/radxa_rockpi4b_bookworm/">radxa_rockpi4b_bookworm</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/raspios_bookworm_lite_arm64/">raspios_bookworm_lite_arm64</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/raspios_bookworm_lite_armhf/">raspios_bookworm_lite_armhf</a></li>
+<li><a href="embedded/linux_sbcs/_shared/images/starfive_vf2_debian/">starfive_vf2_debian</a></li></ul>
+</body></html>

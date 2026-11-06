@@ -1,0 +1,48 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>external_dependencies_cn.csv</title><style>body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;max-width:1100px;margin:2em auto;padding:0 16px;line-height:1.6;color:#1f2328;background:#fff}
+table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #d0d7de;padding:4px 8px;vertical-align:top;text-align:left}
+th{background:#f6f8fa}code{background:#f6f8fa;padding:0 3px;border-radius:3px}pre{background:#f6f8fa;padding:10px;overflow:auto}
+a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
+@media (prefers-color-scheme: dark){body{background:#0d1117;color:#e6edf3}th{background:#161b22}code,pre{background:#161b22}th,td{border-color:#30363d}a{color:#4493f8}}</style></head><body><div class="nav"><a href="index_cn.html">离线首页 index_cn.html</a></div><h1>external_dependencies_cn.csv</h1>
+<p>21 行。原始数据见同名 CSV。</p>
+<table>
+<tr><th>component</th><th>category</th><th>needed_by</th><th>ubuntu_22.04</th><th>ubuntu_24.04</th><th>offline_status</th><th>official_docs</th><th>notes_cn</th></tr>
+<tr><td>glibc</td><td>c_runtime</td><td>all_wheels_and_runtimes</td><td>libc6 2.35, assumed present</td><td>libc6 2.39, assumed present</td><td>not_downloaded_base_system</td><td>distro base</td><td>默认 wheel 按最高 manylinux_2_35 选择，覆盖 22.04/24.04。</td></tr>
+<tr><td>OpenMP libgomp</td><td>c_runtime</td><td>numpy/sklearn/xgboost/lightgbm 等</td><td>libgomp1</td><td>libgomp1</td><td>runtime_debs_if_resolved</td><td>https://packages.ubuntu.com/libgomp1</td><td>多数 manylinux wheel 已捆绑；仍登记系统包。</td></tr>
+<tr><td>libgfortran</td><td>c_runtime</td><td>scipy 等</td><td>libgfortran5</td><td>libgfortran5</td><td>runtime_debs_if_resolved</td><td>https://packages.ubuntu.com/libgfortran5</td><td>scipy 的 manylinux wheel 通常捆绑 Fortran 运行库。</td></tr>
+<tr><td>FFmpeg</td><td>audio_video</td><td>librosa/部分音视频 I/O</td><td>ffmpeg</td><td>ffmpeg</td><td>runtime_debs_if_resolved</td><td>https://ffmpeg.org/</td><td>Python 包安装完成不等于系统 FFmpeg 已具备。</td></tr>
+<tr><td>Graphviz</td><td>graphics</td><td>部分可视化、模型图</td><td>graphviz</td><td>graphviz</td><td>runtime_debs_if_resolved</td><td>https://graphviz.org/download/</td><td>python-graphviz 只是绑定，需要系统 graphviz 可执行文件。</td></tr>
+<tr><td>libsndfile</td><td>audio</td><td>soundfile</td><td>libsndfile1</td><td>libsndfile1</td><td>runtime_debs_if_resolved</td><td>https://github.com/bastibe/python-soundfile</td><td>wheel 可能捆绑；系统库作后备。</td></tr>
+<tr><td>CmdStan</td><td>compiler_toolchain</td><td>06_bayesian_mcmc / cmdstanpy</td><td>not_in_default</td><td>not_in_default</td><td>not_downloaded</td><td>https://mc-stan.org/cmdstanpy/</td><td>仅下载了 cmdstanpy wheel。Stan 需 C++ 工具链，单列待补。</td></tr>
+<tr><td>CUDA / GPU driver</td><td>gpu</td><td>可选 PyTorch/TF/ORT GPU</td><td>unknown_hardware</td><td>unknown_hardware</td><td>not_downloaded</td><td>https://docs.nvidia.com/cuda/</td><td>硬件未知，不下载多套 CUDA。见 pending_not_in_default/gpu_optional_cn.md。</td></tr>
+<tr><td>CPython build toolchain</td><td>compiler_toolchain</td><td>官方源码构建备选</td><td>build-essential 及开发库</td><td>build-essential 及开发库</td><td>build_debs_if_resolved</td><td>https://devguide.python.org/getting-started/setup-building/</td><td>源码包不能直接运行。未在本机 apt install。</td></tr>
+<tr><td>slycot</td><td>python_optional_compile</td><td>python-control 部分功能</td><td>needs_build</td><td>needs_build</td><td>not_downloaded</td><td>https://python-control.readthedocs.io/</td><td>无稳定通用 wheel 时不纳入默认集合。</td></tr>
+<tr><td>ubuntu_22.04_runtime_debs</td><td>deb_closure</td><td>runtime</td><td>see system_dependencies/ubuntu_22.04</td><td></td><td>downloaded=224; fail=0; unresolved=0</td><td>http://archive.ubuntu.com/ubuntu/</td><td>按官方 Packages 索引解析。未在本机安装。不能当作所有 glibc 发行版通用。</td></tr>
+<tr><td>ubuntu_22.04_build_debs</td><td>deb_closure</td><td>build</td><td>see system_dependencies/ubuntu_22.04</td><td></td><td>downloaded=121; fail=0; unresolved=0</td><td>http://archive.ubuntu.com/ubuntu/</td><td>按官方 Packages 索引解析。未在本机安装。不能当作所有 glibc 发行版通用。</td></tr>
+<tr><td>ubuntu_24.04_runtime_debs</td><td>deb_closure</td><td>runtime</td><td></td><td>see system_dependencies/ubuntu_24.04</td><td>downloaded=226; fail=0; unresolved=0</td><td>http://archive.ubuntu.com/ubuntu/</td><td>按官方 Packages 索引解析。未在本机安装。不能当作所有 glibc 发行版通用。</td></tr>
+<tr><td>ubuntu_24.04_build_debs</td><td>deb_closure</td><td>build</td><td></td><td>see system_dependencies/ubuntu_24.04</td><td>downloaded=127; fail=0; unresolved=0</td><td>http://archive.ubuntu.com/ubuntu/</td><td>按官方 Packages 索引解析。未在本机安装。不能当作所有 glibc 发行版通用。</td></tr>
+<tr><td>ubuntu_22.04_expansion_debs</td><td>deb_closure</td><td>tesseract/poppler/weasyprint/ffmpeg/libpq</td><td><a href="system_dependencies/ubuntu_22.04/expansion_debs/">system_dependencies/ubuntu_22.04/expansion_debs</a></td><td></td><td>downloaded=216; fail=0; unresolved=1</td><td>http://archive.ubuntu.com/ubuntu/</td><td>扩展用途系统包。未在本机安装。Python wheel 成功不等于 Tesseract/Poppler/FFmpeg 已可运行。</td></tr>
+<tr><td>ubuntu_24.04_expansion_debs</td><td>deb_closure</td><td>tesseract/poppler/weasyprint/ffmpeg/libpq</td><td></td><td><a href="system_dependencies/ubuntu_24.04/expansion_debs/">system_dependencies/ubuntu_24.04/expansion_debs</a></td><td>downloaded=231; fail=0; unresolved=1</td><td>http://archive.ubuntu.com/ubuntu/</td><td>扩展用途系统包。未在本机安装。Python wheel 成功不等于 Tesseract/Poppler/FFmpeg 已可运行。</td></tr>
+<tr><td>pandoc</td><td>document_runtime</td><td>20_documents / pypandoc</td><td>pandoc-3.13-linux-amd64.tar.gz</td><td>pandoc-3.13-linux-amd64.tar.gz</td><td>downloaded; size=36101020</td><td>https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-amd64.tar.gz</td><td>官方静态 tarball，非 Ubuntu deb。未执行。</td></tr>
+<tr><td>playwright_chromium</td><td>browser_runtime</td><td>19_scraping_automation</td><td>missing</td><td>missing</td><td>not_downloaded:wget failed for https://playwright.azureedge.net/builds/chromium/1248/chromium-linux.zip: s/chromium/1248/chromium-linux.zip
+Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.243, 23.201.43.234, 23.201.43.203
+Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.243|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2026-11-06 06:24:00 ERROR 400: Bad Request.
+
+</td><td>https://playwright.dev/python/docs/browsers</td><td>未能获取该浏览器 zip，不能把 playwright wheel 当作浏览器已齐备。</td></tr>
+<tr><td>playwright_firefox</td><td>browser_runtime</td><td>19_scraping_automation</td><td>missing</td><td>missing</td><td>not_downloaded:wget failed for https://playwright.azureedge.net/builds/firefox/1555/firefox-linux.zip: lds/firefox/1555/firefox-linux.zip
+Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.203, 23.201.43.234, 23.201.43.243
+Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.203|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2026-11-06 06:24:01 ERROR 400: Bad Request.
+
+</td><td>https://playwright.dev/python/docs/browsers</td><td>未能获取该浏览器 zip，不能把 playwright wheel 当作浏览器已齐备。</td></tr>
+<tr><td>playwright_webkit</td><td>browser_runtime</td><td>19_scraping_automation</td><td>missing</td><td>missing</td><td>not_downloaded:wget failed for https://playwright.azureedge.net/builds/webkit/2370/webkit-linux.zip: uilds/webkit/2370/webkit-linux.zip
+Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.203, 23.201.43.243, 23.201.43.234
+Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.203|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2026-11-06 06:24:01 ERROR 400: Bad Request.
+
+</td><td>https://playwright.dev/python/docs/browsers</td><td>未能获取该浏览器 zip，不能把 playwright wheel 当作浏览器已齐备。</td></tr>
+<tr><td>playwright_ffmpeg</td><td>browser_runtime</td><td>19_scraping_automation</td><td>linux-x64 zip, not distro-specific</td><td>linux-x64 zip, not distro-specific</td><td>downloaded:ffmpeg-1013-linux.zip; size=2302701</td><td>https://playwright.dev/python/docs/browsers</td><td>Playwright 官方 Linux x64 浏览器包。未执行安装。glibc 目标仍为 Ubuntu 22.04/24.04。</td></tr>
+</table></body></html>

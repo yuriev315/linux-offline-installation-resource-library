@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://developer.download.nvidia.com/embedded/L4T/r35_Release_v5.0/release/Jetson_Linux_R35.5.0_aarch64.tbz2
+
+[File]
+Name=Jetson_Linux_R35.5.0_aarch64.tbz2
+SizeBytes=759217542
+SHA256=8cde3bd937d3eedb640a1c58d108c109f7cb904c38a03101dc17904b7d185ddf
+Reason=NVIDIA Jetson Linux（L4T）受 NVIDIA Software License 约束，不再分发；请从 NVIDIA 官方下载并接受许可
+DirectDownload=yes
+Checked=2026-11-06

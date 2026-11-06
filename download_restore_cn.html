@@ -1,0 +1,234 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>下载与解压说明（Linux 通用科研 Python 离线资源库）</title><style>body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;max-width:1100px;margin:2em auto;padding:0 16px;line-height:1.6;color:#1f2328;background:#fff}
+table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #d0d7de;padding:4px 8px;vertical-align:top;text-align:left}
+th{background:#f6f8fa}code{background:#f6f8fa;padding:0 3px;border-radius:3px}pre{background:#f6f8fa;padding:10px;overflow:auto}
+a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
+@media (prefers-color-scheme: dark){body{background:#0d1117;color:#e6edf3}th{background:#161b22}code,pre{background:#161b22}th,td{border-color:#30363d}a{color:#4493f8}}</style></head><body><div class="nav"><a href="index_cn.html">离线首页 index_cn.html</a></div><h1>下载与解压说明（Linux 通用科研 Python 离线资源库）</h1>
+<p>Release <code>python-offline-2026.11.06</code> 有 26 个<strong>不压缩 tar 包</strong>，合计约 29.5 GiB。wheel、deb 和系统镜像本身已经压缩，再压缩几乎不省空间。所有包都解压到<strong>同一个目录</strong>，彼此不重叠，可以只下需要的部分。</p>
+<blockquote>
+<p>这些资源是给 <strong>Linux x86-64（glibc，参考 Ubuntu 22.04/24.04）</strong> 和 ARM 开发板用的，不能在 Windows 上安装。在 Windows 上下载、解压，可以离线阅读全部说明；真正使用时，请把资源拷到 Linux 机器上。</p>
+</blockquote>
+<h2>按需下载</h2>
+<table>
+<thead>
+<tr>
+<th>包</th>
+<th>用途</th>
+<th>是否必需</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>linux_python_offline_01_common_docs_runtimes_cn_en.tar</code></td>
+<td>离线首页 <a href="index_cn.html"><code>index_cn.html</code></a>、全部说明与登记表、guides、Python 运行时（python-build-standalone 3.10/3.12、CPython 源码、pandoc）、scripts</td>
+<td><strong>必下</strong>（193 MiB）</td>
+</tr>
+<tr>
+<td><code>…_02_system_debs_ubuntu_…</code></td>
+<td>Ubuntu 22.04 / 24.04 系统依赖 deb</td>
+<td>目标机缺系统库时下载</td>
+</tr>
+<tr>
+<td><code>…_03–07_env_py310_part*</code></td>
+<td>Python 3.10 的环境组（每个 part 只含完整的组）</td>
+<td>用 3.10 时按需下载</td>
+</tr>
+<tr>
+<td><code>…_08–12_env_py312_part*</code></td>
+<td>Python 3.12 的环境组</td>
+<td>用 3.12 时按需下载</td>
+</tr>
+<tr>
+<td><code>…_13–14_embedded_tools_boards_part*</code></td>
+<td>嵌入式：电脑端工具链、开发板核心、树莓派 ARM wheel/deb、MicroPython/CircuitPython 固件、清单</td>
+<td>做嵌入式时下载</td>
+</tr>
+<tr>
+<td><code>…_15–25_board_images_part*</code></td>
+<td>开发板系统镜像（Armbian、Raspberry Pi OS、BeagleBoard、Radxa、StarFive、OpenWrt）</td>
+<td>只下所用板卡所在的 part</td>
+</tr>
+<tr>
+<td><code>…_26_update_supplement_signal_…</code></td>
+<td>信号处理定向补充</td>
+<td>需要 EMD / Kalman 时下载</td>
+</tr>
+</tbody>
+</table>
+<p>NVIDIA Jetson L4T 包受 NVIDIA 许可约束，本库不分发：<code>embedded/linux_sbcs/_shared/images/jetson_*</code> 下是 <code>.url</code> 占位文件，内含官方下载地址、字节数和 SHA-256，按地址下载后可以核对。全部占位文件见 <a href="restricted_placeholders_cn.html"><code>restricted_placeholders_cn.csv</code></a>。</p>
+<p>各包的完整内容见下表；每个文件属于哪个包，见附件 <a href="archive_index_cn.html"><code>archive_index_cn.csv</code></a>。</p>
+<table>
+<thead>
+<tr>
+<th>包</th>
+<th>内容</th>
+<th style="text-align: right;">大小</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>linux_python_offline_01_common_docs_runtimes_cn_en.tar</code></td>
+<td>离线首页 index_cn.html、库根说明与登记表、guides、Python 运行时（runtimes/、external_runtimes/）、scripts、state、受限文件占位清单（必下）</td>
+<td style="text-align: right;">193 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_02_system_debs_ubuntu_cn_en.tar</code></td>
+<td>Ubuntu 22.04 / 24.04 系统依赖 deb（运行、编译、扩展三类）</td>
+<td style="text-align: right;">762 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_03_env_py310_part1_cn_en.tar</code></td>
+<td>Python 3.10 环境组：01_scientific_notebook_py310 … 06_bayesian_mcmc_py310</td>
+<td style="text-align: right;">1,423 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_04_env_py310_part2_cn_en.tar</code></td>
+<td>Python 3.10 环境组：07_tensorflow_cpu_py310 … 08_rl_basics_py310</td>
+<td style="text-align: right;">1,526 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_05_env_py310_part3_cn_en.tar</code></td>
+<td>Python 3.10 环境组：09_huggingface_llm_py310 … 13_stats_timeseries_py310</td>
+<td style="text-align: right;">1,419 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_06_env_py310_part4_cn_en.tar</code></td>
+<td>Python 3.10 环境组：14_ml_tooling_py310 … 20_documents_py310</td>
+<td style="text-align: right;">1,513 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_07_env_py310_part5_cn_en.tar</code></td>
+<td>Python 3.10 环境组：21_viz_dashboard_py310 … 23_general_utils_py310</td>
+<td style="text-align: right;">618 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_08_env_py312_part1_cn_en.tar</code></td>
+<td>Python 3.12 环境组：01_scientific_notebook_py312 … 06_bayesian_mcmc_py312</td>
+<td style="text-align: right;">1,431 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_09_env_py312_part2_cn_en.tar</code></td>
+<td>Python 3.12 环境组：07_tensorflow_cpu_py312 … 08_rl_basics_py312</td>
+<td style="text-align: right;">1,529 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_10_env_py312_part3_cn_en.tar</code></td>
+<td>Python 3.12 环境组：09_huggingface_llm_py312 … 12_data_storage_py312</td>
+<td style="text-align: right;">1,171 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_11_env_py312_part4_cn_en.tar</code></td>
+<td>Python 3.12 环境组：13_stats_timeseries_py312 … 17_web_services_py312</td>
+<td style="text-align: right;">1,476 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_12_env_py312_part5_cn_en.tar</code></td>
+<td>Python 3.12 环境组：18_database_py312 … 23_general_utils_py312</td>
+<td style="text-align: right;">1,018 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_13_embedded_tools_boards_part1_cn_en.tar</code></td>
+<td>嵌入式（电脑端工具链、开发板核心与 ARM wheel/deb、固件、清单、Jetson L4T 占位链接）：README_cn.html … esp32s3-libs-3.3.9.zip</td>
+<td style="text-align: right;">1,480 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_14_embedded_tools_boards_part2_cn_en.tar</code></td>
+<td>嵌入式（电脑端工具链、开发板核心与 ARM wheel/deb、固件、清单、Jetson L4T 占位链接）：esptool-v5.3.0-linux-amd64.tar.gz … Tegra_Linux_Sample-Root-Filesystem_R35.5.0_aarch64.tbz2.url</td>
+<td style="text-align: right;">811 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_15_board_images_part1_cn_en.tar</code></td>
+<td>开发板系统镜像：armbian_bananapif3_trixie … armbian_cuboxi_trixie</td>
+<td style="text-align: right;">1,316 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_16_board_images_part2_cn_en.tar</code></td>
+<td>开发板系统镜像：armbian_mba8mpxl_trixie … armbian_odroidm1s_trixie</td>
+<td style="text-align: right;">1,328 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_17_board_images_part3_cn_en.tar</code></td>
+<td>开发板系统镜像：armbian_odroidm2_trixie … armbian_orangepi3b_trixie</td>
+<td style="text-align: right;">1,340 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_18_board_images_part4_cn_en.tar</code></td>
+<td>开发板系统镜像：armbian_orangepi3lts_trixie … armbian_orangepipc_trixie</td>
+<td style="text-align: right;">1,285 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_19_board_images_part5_cn_en.tar</code></td>
+<td>开发板系统镜像：armbian_orangepizero3_trixie … beagle_ai64_debian12</td>
+<td style="text-align: right;">1,178 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_20_board_images_part6_cn_en.tar</code></td>
+<td>开发板系统镜像：beagle_bbb_debian12 … beagle_bbb_debian12</td>
+<td style="text-align: right;">406 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_21_board_images_part7_cn_en.tar</code></td>
+<td>开发板系统镜像：beagle_play_debian12 … openwrt_bpi_r3</td>
+<td style="text-align: right;">1,436 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_22_board_images_part8_cn_en.tar</code></td>
+<td>开发板系统镜像：radxa_rock5b_bookworm … radxa_rock5b_bookworm</td>
+<td style="text-align: right;">1,472 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_23_board_images_part9_cn_en.tar</code></td>
+<td>开发板系统镜像：radxa_rockpi4b_bookworm … radxa_rockpi4b_bookworm</td>
+<td style="text-align: right;">1,371 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_24_board_images_part10_cn_en.tar</code></td>
+<td>开发板系统镜像：raspios_bookworm_lite_arm64 … raspios_bookworm_lite_armhf</td>
+<td style="text-align: right;">918 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_25_board_images_part11_cn_en.tar</code></td>
+<td>开发板系统镜像：starfive_vf2_debian … starfive_vf2_debian</td>
+<td style="text-align: right;">1,395 MiB</td>
+</tr>
+<tr>
+<td><code>linux_python_offline_26_update_supplement_signal_cn_en.tar</code></td>
+<td>信号处理定向补充（EMD-signal、filterpy、pykalman 及 aarch64/armv7l 板端 wheel），与 Release <code>python-offline-signal-v1-2026.11.06</code> 的两个 zip 内容相同</td>
+<td style="text-align: right;">360 MiB</td>
+</tr>
+</tbody>
+</table>
+<h2>在 Windows 上离线阅读</h2>
+<p>Windows 10/11 自带 <code>tar</code>，在 PowerShell 或 cmd 中都能用：</p>
+<pre><code class="language-powershell">mkdir D:\lpo
+cd D:\lpo
+tar -xf &quot;$env:USERPROFILE\Downloads\linux_python_offline_01_common_docs_runtimes_cn_en.tar&quot;
+# 其余下载的包同样解压到 D:\lpo
+</code></pre>
+<p>然后用浏览器打开 <code>D:\lpo\index_cn.html</code>，不需要联网：</p>
+<ul>
+<li>每个 <code>.md</code> 说明和指南都有同名 <code>.html</code>，其中存在的本地路径可以点击，跳到本地文件或目录。</li>
+<li>每个 CSV 登记表都有同名 <code>.html</code> 表格视图。</li>
+<li>只有 http(s) 链接（上游来源和官方文档）需要联网。</li>
+<li>链接指向的包没有下载时，该链接打不开，这是正常的。</li>
+</ul>
+<p>包内最长相对路径为 174 个字符，解压到 <code>D:\lpo\</code> 这样的短目录时不会超过 Windows 的 260 字符限制。7-Zip 也可以解压。包内没有符号链接和硬链接。</p>
+<h2>在 Linux 上使用</h2>
+<p><strong>建议把 tar 包本身拷到 Linux 上再解压</strong>：Linux 的 <code>tar</code> 会还原可执行权限，而 Windows 上解压再拷过去，<code>.sh</code> 脚本和工具链二进制会丢失可执行位。</p>
+<pre><code class="language-bash">mkdir -p ~/lpo &amp;&amp; cd ~/lpo
+for t in /path/to/linux_python_offline_*_cn_en.tar; do tar -xf &quot;$t&quot;; done
+</code></pre>
+<p>如果已经是在 Windows 上解压后拷过去的，就用 <code>bash install_offline_en.sh</code> 运行脚本，工具链目录用 <code>chmod -R u+x</code> 补回权限。</p>
+<p>安装步骤见 <a href="guides/离线安装与使用_cn.html"><code>guides/离线安装与使用_cn.html</code></a>；每个环境组的 <a href="README_cn.html"><code>README_cn.html</code></a> 给出该组的安装命令。</p>
+<h2>校验</h2>
+<p><a href="archive_index_cn.html"><code>archive_index_cn.csv</code></a> 列出每个文件所在的包、大小和 SHA256；Release 附件 <code>SHA256SUMS.txt</code> 列出每个 tar 包的 SHA256。</p>
+<pre><code class="language-bash">sha256sum -c SHA256SUMS.txt --ignore-missing
+sha256sum environments/04_pytorch_cpu_py312/wheelhouse/*.whl
+</code></pre>
+<h2>不在包内的内容</h2>
+<ul>
+<li><code>state/pip_cache/</code>：pip 的 HTTP 缓存，不能当 wheelhouse 用；所需 wheel 都已在各组 <code>wheelhouse/</code> 中。</li>
+<li>各下载工具留下的未完成 <code>.part</code> 文件。</li>
+<li>Playwright 浏览器内核（官方地址下载失败，见 <a href="external_dependencies_cn.html"><code>external_dependencies_cn.csv</code></a>）。</li>
+</ul>
+<h2>状态</h2>
+<p>本库只做了静态检查（wheel 平台标签、glibc 下限、依赖闭包、校验和），<strong>没有在目标机上实际安装、烧录或上板验证</strong>。</p></body></html>

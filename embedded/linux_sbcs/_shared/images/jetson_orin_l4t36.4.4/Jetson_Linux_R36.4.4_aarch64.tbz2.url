@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://developer.download.nvidia.com/embedded/L4T/r36_Release_v4.4/release/Jetson_Linux_R36.4.4_aarch64.tbz2
+
+[File]
+Name=Jetson_Linux_R36.4.4_aarch64.tbz2
+SizeBytes=746324969
+SHA256=a6ce11c22100ab0976e419959182417c83d62f4272501bc8714f2e076e010f3b
+Reason=NVIDIA Jetson Linux（L4T）受 NVIDIA Software License 约束，不再分发；请从 NVIDIA 官方下载并接受许可
+DirectDownload=yes
+Checked=2026-11-06

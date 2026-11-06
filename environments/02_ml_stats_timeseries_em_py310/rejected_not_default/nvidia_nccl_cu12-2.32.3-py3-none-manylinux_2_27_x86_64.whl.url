@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://files.pythonhosted.org/packages/f3/f8/9dce3698eed6fae28078eb38f748feb1665767693d8017c099de9fbf0b08/nvidia_nccl_cu12-2.32.3-py3-none-manylinux_2_27_x86_64.whl
+
+[File]
+Name=nvidia_nccl_cu12-2.32.3-py3-none-manylinux_2_27_x86_64.whl
+SizeBytes=351526311
+SHA256=bb94b2348e4861d5e8aa00b36c3d12d9bdf9c6369b82cbb723de0b582280a21c
+Reason=NVIDIA 专有许可（LicenseRef-NVIDIA-Proprietary）的 NCCL 二进制 wheel；脚本已将其排除在默认 CPU 集合之外，此处只留官方链接
+DirectDownload=yes
+Checked=2026-11-06

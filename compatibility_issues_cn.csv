@@ -1,0 +1,18 @@
+environment,severity,item,detail
+02_ml_stats_timeseries_em_py310,gpu_excluded,nvidia-nccl-cu12,GPU/NVIDIA transitive dependency excluded from default CPU set
+02_ml_stats_timeseries_em_py312,gpu_excluded,nvidia-nccl-cu13,GPU/NVIDIA transitive dependency excluded from default CPU set
+ubuntu_22.04,system,libtesseract5,unresolved expansion deb
+ubuntu_24.04,system,libleptonica6,unresolved expansion deb
+13_stats_timeseries_py310,python,ta,no compatible binary wheel; sdist attempted under sdist_needs_build/
+13_stats_timeseries_py310,python,pandas-ta,no compatible binary wheel; sdist attempted under sdist_needs_build/
+13_stats_timeseries_py312,python,ta,no compatible binary wheel; sdist attempted under sdist_needs_build/
+14_ml_tooling_py310,python,lime,no compatible binary wheel; sdist attempted under sdist_needs_build/
+14_ml_tooling_py312,python,lime,no compatible binary wheel; sdist attempted under sdist_needs_build/
+15_nlp_retrieval_py310,python,jieba,no compatible binary wheel; sdist attempted under sdist_needs_build/
+15_nlp_retrieval_py310,python,langdetect,no compatible binary wheel; sdist attempted under sdist_needs_build/
+15_nlp_retrieval_py312,python,jieba,no compatible binary wheel; sdist attempted under sdist_needs_build/
+15_nlp_retrieval_py312,python,langdetect,no compatible binary wheel; sdist attempted under sdist_needs_build/
+19_scraping_automation_py310,dependency,pypydispatcher,runtime Requires-Dist missing; group not marked complete
+19_scraping_automation_py312,dependency,pypydispatcher,runtime Requires-Dist missing; group not marked complete
+22_engineering_py310,gpu_excluded,nvidia-ml-py,declared GPU/NVIDIA dependency excluded; group not complete if still required
+22_engineering_py312,gpu_excluded,nvidia-ml-py,declared GPU/NVIDIA dependency excluded; group not complete if still required

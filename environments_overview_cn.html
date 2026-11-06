@@ -1,0 +1,603 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Linux 通用科研 Python 离线环境总览</title><style>body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;max-width:1100px;margin:2em auto;padding:0 16px;line-height:1.6;color:#1f2328;background:#fff}
+table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #d0d7de;padding:4px 8px;vertical-align:top;text-align:left}
+th{background:#f6f8fa}code{background:#f6f8fa;padding:0 3px;border-radius:3px}pre{background:#f6f8fa;padding:10px;overflow:auto}
+a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
+@media (prefers-color-scheme: dark){body{background:#0d1117;color:#e6edf3}th{background:#161b22}code,pre{background:#161b22}th,td{border-color:#30363d}a{color:#4493f8}}</style></head><body><div class="nav"><a href="index_cn.html">离线首页 index_cn.html</a></div><h1>Linux 通用科研 Python 离线环境总览</h1>
+<p>默认目标：<strong>Linux x86-64 + glibc</strong>，参考 Ubuntu 22.04/24.04 LTS，<strong>CPU</strong>。
+这不是“全部 Linux”环境。ARM64、musl、其他发行版、GPU 见 <a href="pending_not_in_default/"><code>pending_not_in_default/</code></a>。</p>
+<p>Windows 资源在 <code>windows_python_offline_resources/</code>，两套安装包不混用。</p>
+<h2>Python 运行时</h2>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>类型</th>
+<th>文件</th>
+<th>官方 python.org 二进制</th>
+<th>本轮是否执行</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.10.22</td>
+<td>python-build-standalone 第三方可解压运行时</td>
+<td><a href="runtimes/python_build_standalone/cpython-3.10.22+20261001-x86_64-unknown-linux-gnu-install_only.tar.gz"><code>runtimes/python_build_standalone/cpython-3.10.22+20261001-x86_64-unknown-linux-gnu-install_only.tar.gz</code></a></td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>3.12.16</td>
+<td>python-build-standalone 第三方可解压运行时</td>
+<td><a href="runtimes/python_build_standalone/cpython-3.12.16+20261026-x86_64-unknown-linux-gnu-install_only.tar.gz"><code>runtimes/python_build_standalone/cpython-3.12.16+20261026-x86_64-unknown-linux-gnu-install_only.tar.gz</code></a></td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>3.10.22</td>
+<td>CPython 官方源码</td>
+<td><a href="runtimes/cpython_official_source/Python-3.10.22.tar.xz"><code>runtimes/cpython_official_source/Python-3.10.22.tar.xz</code></a></td>
+<td>否（源码）</td>
+<td>否</td>
+</tr>
+<tr>
+<td>3.12.16</td>
+<td>CPython 官方源码</td>
+<td><a href="runtimes/cpython_official_source/Python-3.12.16.tar.xz"><code>runtimes/cpython_official_source/Python-3.12.16.tar.xz</code></a></td>
+<td>否（源码）</td>
+<td>否</td>
+</tr>
+</tbody>
+</table>
+<p>选择依据：3.10 已于 2026-10-01 结束上游支持，仅作兼容环境；3.12 安全支持至 2028-10，科学计算 wheel 覆盖较 3.13/3.14 更稳。</p>
+<h2>环境分组</h2>
+<table>
+<thead>
+<tr>
+<th>目录</th>
+<th>Python</th>
+<th>框架</th>
+<th style="text-align: right;">wheel 数</th>
+<th style="text-align: right;">总字节</th>
+<th>最低 glibc</th>
+<th>下载状态</th>
+<th>目标机安装验证</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>01_scientific_notebook_py310</code></td>
+<td>3.10</td>
+<td>NumPy / SciPy stack</td>
+<td style="text-align: right;">128</td>
+<td style="text-align: right;">230220970</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>01_scientific_notebook_py312</code></td>
+<td>3.12</td>
+<td>NumPy / SciPy stack</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">234684247</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>02_ml_stats_timeseries_em_py310</code></td>
+<td>3.10</td>
+<td>scikit-learn / statsmodels</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">359768673</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>02_ml_stats_timeseries_em_py312</code></td>
+<td>3.12</td>
+<td>scikit-learn / statsmodels</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">282846930</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>03_signal_audio_image_py310</code></td>
+<td>3.10</td>
+<td>scikit-learn / statsmodels</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">269143293</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>03_signal_audio_image_py312</code></td>
+<td>3.12</td>
+<td>scikit-learn / statsmodels</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">266580658</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>04_pytorch_cpu_py310</code></td>
+<td>3.10</td>
+<td>PyTorch CPU</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">234093533</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>04_pytorch_cpu_py312</code></td>
+<td>3.12</td>
+<td>PyTorch CPU</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">248024144</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>05_gpr_bayesopt_py310</code></td>
+<td>3.10</td>
+<td>PyTorch CPU + GPyTorch/BoTorch</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">291326295</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>05_gpr_bayesopt_py312</code></td>
+<td>3.12</td>
+<td>PyTorch CPU + GPyTorch/BoTorch</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">303298975</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>06_bayesian_mcmc_py310</code></td>
+<td>3.10</td>
+<td>PyMC / ArviZ</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">107114510</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>06_bayesian_mcmc_py312</code></td>
+<td>3.12</td>
+<td>PyMC / ArviZ</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">164473847</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>07_tensorflow_cpu_py310</code></td>
+<td>3.10</td>
+<td>TensorFlow CPU</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">340715252</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>07_tensorflow_cpu_py312</code></td>
+<td>3.12</td>
+<td>TensorFlow CPU</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">337151276</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>07b_gpflow_tf218_py310</code></td>
+<td>3.10</td>
+<td>GPflow + TensorFlow CPU</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">976273858</td>
+<td>2.31</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>07b_gpflow_tf218_py312</code></td>
+<td>3.12</td>
+<td>GPflow + TensorFlow CPU</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">969705661</td>
+<td>2.31</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>08_rl_basics_py310</code></td>
+<td>3.10</td>
+<td>PyTorch CPU + SB3</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">282878190</td>
+<td>2.31</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>08_rl_basics_py312</code></td>
+<td>3.12</td>
+<td>PyTorch CPU + SB3</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">296718183</td>
+<td>2.31</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>09_huggingface_llm_py310</code></td>
+<td>3.10</td>
+<td>PyTorch CPU + Hugging Face</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">323173674</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>09_huggingface_llm_py312</code></td>
+<td>3.12</td>
+<td>PyTorch CPU + Hugging Face</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">341095654</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>10_onnx_api_ui_py310</code></td>
+<td>3.10</td>
+<td>ONNX Runtime CPU</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">231755451</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>10_onnx_api_ui_py312</code></td>
+<td>3.12</td>
+<td>ONNX Runtime CPU</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">231517200</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>11_optimization_control_py310</code></td>
+<td>3.10</td>
+<td>CVXPY / CasADi</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">220633166</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>11_optimization_control_py312</code></td>
+<td>3.12</td>
+<td>CVXPY / CasADi</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">241506141</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+</tbody>
+</table>
+<h2>本轮扩展（数据处理、工程与应用）</h2>
+<p>本段为增量扩展，未重新审计原 01–11 组。</p>
+<table>
+<thead>
+<tr>
+<th>目录</th>
+<th>Python</th>
+<th>用途</th>
+<th style="text-align: right;">wheel 数</th>
+<th style="text-align: right;">总字节</th>
+<th>最低 glibc</th>
+<th>下载状态</th>
+<th>目标机安装验证</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>12_data_storage_py310</code></td>
+<td>3.10</td>
+<td>数据处理与存储</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">411926968</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>12_data_storage_py312</code></td>
+<td>3.12</td>
+<td>数据处理与存储（新 Python）</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">413298641</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>13_stats_timeseries_py310</code></td>
+<td>3.10</td>
+<td>统计、计量与时间序列</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">299816380</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>13_stats_timeseries_py312</code></td>
+<td>3.12</td>
+<td>统计、计量与时间序列（新 Python）</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">389171619</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>14_ml_tooling_py310</code></td>
+<td>3.10</td>
+<td>机器学习工程工具</td>
+<td style="text-align: right;">199</td>
+<td style="text-align: right;">388843918</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>14_ml_tooling_py312</code></td>
+<td>3.12</td>
+<td>机器学习工程工具（新 Python）</td>
+<td style="text-align: right;">193</td>
+<td style="text-align: right;">329700505</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>15_nlp_retrieval_py310</code></td>
+<td>3.10</td>
+<td>NLP 与检索 / RAG 基础</td>
+<td style="text-align: right;">194</td>
+<td style="text-align: right;">381246053</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>15_nlp_retrieval_py312</code></td>
+<td>3.12</td>
+<td>NLP 与检索 / RAG 基础（新 Python）</td>
+<td style="text-align: right;">186</td>
+<td style="text-align: right;">389867160</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>16_media_ocr_py310</code></td>
+<td>3.10</td>
+<td>图像、音视频与 OCR</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">370952317</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>16_media_ocr_py312</code></td>
+<td>3.12</td>
+<td>图像、音视频与 OCR（新 Python）</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">364902581</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>17_web_services_py310</code></td>
+<td>3.10</td>
+<td>Web 与服务</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;">49759814</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>17_web_services_py312</code></td>
+<td>3.12</td>
+<td>Web 与服务（新 Python）</td>
+<td style="text-align: right;">138</td>
+<td style="text-align: right;">53017696</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>18_database_py310</code></td>
+<td>3.10</td>
+<td>数据库与数据接入</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">157425274</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>18_database_py312</code></td>
+<td>3.12</td>
+<td>数据库与数据接入（新 Python）</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">160986161</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>19_scraping_automation_py310</code></td>
+<td>3.10</td>
+<td>爬虫与自动化</td>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">87699127</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>19_scraping_automation_py312</code></td>
+<td>3.12</td>
+<td>爬虫与自动化（新 Python）</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">88683128</td>
+<td>2.28</td>
+<td>partial</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>20_documents_py310</code></td>
+<td>3.10</td>
+<td>文档处理</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">128972632</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>20_documents_py312</code></td>
+<td>3.12</td>
+<td>文档处理（新 Python）</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">175883102</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>21_viz_dashboard_py310</code></td>
+<td>3.10</td>
+<td>可视化与仪表板</td>
+<td style="text-align: right;">152</td>
+<td style="text-align: right;">182375564</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>21_viz_dashboard_py312</code></td>
+<td>3.12</td>
+<td>可视化与仪表板（新 Python）</td>
+<td style="text-align: right;">148</td>
+<td style="text-align: right;">173967817</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>21b_desktop_pyside6_py310</code></td>
+<td>3.10</td>
+<td>桌面 GUI（PySide6）</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">289677054</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>21b_desktop_pyside6_py312</code></td>
+<td>3.12</td>
+<td>桌面 GUI（PySide6）（新 Python）</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">289588522</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>22_engineering_py310</code></td>
+<td>3.10</td>
+<td>工程工具</td>
+<td style="text-align: right;">146</td>
+<td style="text-align: right;">114400107</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>22_engineering_py312</code></td>
+<td>3.12</td>
+<td>工程工具（新 Python）</td>
+<td style="text-align: right;">145</td>
+<td style="text-align: right;">116200303</td>
+<td>2.34</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>23_general_utils_py310</code></td>
+<td>3.10</td>
+<td>通用工具与云存储 SDK</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">60734124</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+<tr>
+<td><code>23_general_utils_py312</code></td>
+<td>3.12</td>
+<td>通用工具与云存储 SDK（新 Python）</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">60998193</td>
+<td>2.28</td>
+<td>downloaded</td>
+<td>未做</td>
+</tr>
+</tbody>
+</table>
+<h2>离线安装步骤（目标 Linux）</h2>
+<ol>
+<li>确认 <code>uname -m</code> 为 <code>x86_64</code>，<code>ldd --version</code> 显示 glibc ≥ 本环境最低要求，且发行版为 glibc（非 musl）。</li>
+<li>解压对应 python-build-standalone：<code>tar -xzf runtimes/python_build_standalone/cpython-*.tar.gz</code></li>
+<li><code>export PYTHON_BIN=/path/to/python/bin/python3</code></li>
+<li>进入某一 <code>environments/&lt;id&gt;/</code>，执行 <code>bash install_offline_en.sh</code></li>
+<li>用该 venv 运行 <code>check_environment_en.py</code></li>
+<li>按需用发行版包管理器安装 <a href="external_dependencies_cn.html"><code>external_dependencies_cn.csv</code></a> 中的系统库。当前机器 <strong>没有</strong> apt install。</li>
+</ol>
+<h2>静态检查与未完成</h2>
+<ul>
+<li>已做：下载、wheel 文件名/METADATA/manylinux 标签检查、Ubuntu Packages 索引解析。</li>
+<li>未做：解压或执行运行时、创建 venv、导入测试、训练、部署、GPU 包下载。</li>
+<li>系统 <code>.deb</code> 若已下载，也 <strong>不能</strong> 宣称跨发行版离线系统依赖已经齐备；22.04 与 24.04 必须分别安装对应目录中的包。</li>
+</ul>
+<h2>嵌入式（增量）</h2>
+<p>详见 <a href="embedded/README_cn.html"><code>embedded/README_cn.md</code></a> 与 <a href="embedded/inventories/"><code>embedded/inventories/</code></a>。不以 Python wheel 数量代表嵌入式套件完整。</p></body></html>

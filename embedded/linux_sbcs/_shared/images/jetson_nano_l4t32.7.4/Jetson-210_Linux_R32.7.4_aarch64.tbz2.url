@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://developer.download.nvidia.com/embedded/L4T/r32_Release_v7.4/T210/Jetson-210_Linux_R32.7.4_aarch64.tbz2
+
+[File]
+Name=Jetson-210_Linux_R32.7.4_aarch64.tbz2
+SizeBytes=279443929
+SHA256=dbbbf3bdd8547d8131b55799facd0adaebe94116aabda2bdbc8d632d0d7aa257
+Reason=NVIDIA Jetson Linux（L4T）受 NVIDIA Software License 约束，不再分发；请从 NVIDIA 官方下载并接受许可
+DirectDownload=yes
+Checked=2026-11-06

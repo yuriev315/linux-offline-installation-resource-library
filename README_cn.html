@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Linux 通用科研 Python 离线资源</title><style>body{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;max-width:1100px;margin:2em auto;padding:0 16px;line-height:1.6;color:#1f2328;background:#fff}
+table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #d0d7de;padding:4px 8px;vertical-align:top;text-align:left}
+th{background:#f6f8fa}code{background:#f6f8fa;padding:0 3px;border-radius:3px}pre{background:#f6f8fa;padding:10px;overflow:auto}
+a{color:#0969da}.nav{font-size:13px;color:#57606a;margin-bottom:1em}
+@media (prefers-color-scheme: dark){body{background:#0d1117;color:#e6edf3}th{background:#161b22}code,pre{background:#161b22}th,td{border-color:#30363d}a{color:#4493f8}}</style></head><body><div class="nav"><a href="index_cn.html">离线首页 index_cn.html</a></div><h1>Linux 通用科研 Python 离线资源</h1>
+<p>目录：<code>linux_python_offline_resources/</code></p>
+<p>本仓库按用途准备 <strong>Linux x86-64 / glibc / CPU</strong> 科研 Python 离线环境，与 <code>windows_python_offline_resources/</code> 独立，不混用安装包。</p>
+<ul>
+<li>总览：<a href="environments_overview_cn.html"><code>environments_overview_cn.md</code></a></li>
+<li>运行时清单：<a href="runtime_inventory_cn.html"><code>runtime_inventory_cn.csv</code></a></li>
+<li>包清单：<a href="package_inventory_cn.html"><code>package_inventory_cn.csv</code></a></li>
+<li>系统/外部依赖：<a href="external_dependencies_cn.html"><code>external_dependencies_cn.csv</code></a></li>
+<li>兼容性问题：<a href="compatibility_issues_cn.html"><code>compatibility_issues_cn.csv</code></a></li>
+<li>准备脚本：<a href="scripts/prepare_offline_en.py"><code>scripts/prepare_offline_en.py</code></a>（支持断点续跑）</li>
+</ul>
+<p>默认参考 Ubuntu 22.04 与 24.04 LTS。不要声称适用于全部 Linux。</p>
+<h2>扩展环境（增量）</h2>
+<p>原 01–11 组保持不动。新增 12–23 覆盖数据处理、统计时序、机器学习工程、NLP/检索、媒体 OCR、Web、数据库、爬虫、文档、可视化、桌面 GUI、工程工具与通用 SDK。</p>
+<ul>
+<li>扩展准备脚本：<a href="scripts/prepare_expansion_en.py"><code>scripts/prepare_expansion_en.py</code></a></li>
+<li>外部运行时（Playwright 浏览器、Pandoc 等）：<a href="external_runtimes/"><code>external_runtimes/</code></a></li>
+<li>Ubuntu 22.04/24.04 扩展 <code>.deb</code>：<code>system_dependencies/*/expansion_debs/</code></li>
+</ul>
+<h2>嵌入式开发板</h2>
+<p>见 <a href="embedded/README_cn.html"><code>embedded/README_cn.md</code></a>。电脑端工具与板端资源分开；固件不是 CPython wheel。</p>
+<h2>下载、阅读与受限文件</h2>
+<ul>
+<li>下载与解压：<a href="download_restore_cn.html"><code>download_restore_cn.md</code></a>；每个文件所在的 tar 包：<a href="archive_index_cn.html"><code>archive_index_cn.csv</code></a></li>
+<li>离线首页：解压后用浏览器打开 <a href="index_cn.html"><code>index_cn.html</code></a>；每个 <code>.md</code> 和 <code>.csv</code> 都有同名 <code>.html</code></li>
+<li>中文使用说明：<a href="guides/"><code>guides/</code></a>；开发板总览：<a href="embedded/linux_sbcs/OVERVIEW_cn.html"><code>embedded/linux_sbcs/OVERVIEW_cn.md</code></a></li>
+<li>不能再分发的文件（NVIDIA Jetson L4T、NVIDIA NCCL wheel）以 <code>.url</code> 占位，内含官方链接、字节数与 SHA-256，见 <a href="restricted_placeholders_cn.html"><code>restricted_placeholders_cn.csv</code></a></li>
+<li>全部资源只做了下载与静态检查，未在目标机安装、未上板验证</li>
+</ul></body></html>

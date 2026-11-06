@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://developer.download.nvidia.com/embedded/L4T/r32_Release_v7.4/T210/Tegra_Linux_Sample-Root-Filesystem_R32.7.4_aarch64.tbz2
+
+[File]
+Name=Tegra_Linux_Sample-Root-Filesystem_R32.7.4_aarch64.tbz2
+SizeBytes=1525771787
+SHA256=68ea2c2a23573d195568448b436ae9c8b1baa07a14cc27310103c3b202a896b5
+Reason=NVIDIA Jetson Linux（L4T）受 NVIDIA Software License 约束，不再分发；请从 NVIDIA 官方下载并接受许可
+DirectDownload=yes
+Checked=2026-11-06

@@ -1,0 +1,166 @@
+time_utc,step,status,detail
+2026-11-06T04:57:56Z,embedded,start,host tools + board resources
+2026-11-06T04:59:50Z,embedded,start,host tools + board resources
+2026-11-06T05:00:50Z,embedded,missing,"Adafruit_NeoPixel.tar.gz:  sent, awaiting response... 302 Found
+Location: https://codeload.github.com/adafruit/Adafruit_NeoPixel/tar.gz/refs/tags/v1.12.5 [following]
+--2026-11-06 06:00:50--  https://c"
+2026-11-06T05:00:51Z,embedded,missing,"DallasTemperature.tar.gz: cation: https://codeload.github.com/milesburton/Arduino-Temperature-Control-Library/tar.gz/refs/tags/3.11.0 [following]
+--2026-11-06 06:00:51--  https://codeload.github.com/m"
+2026-11-06T05:06:21Z,embedded,missing,"STM32F405DISC-20250911-v1.26.1.dfu: --2026-11-06 06:06:21--  https://micropython.org/resources/firmware/STM32F405DISC-20250911-v1.26.1.dfu
+Resolving micropython.org (micropython.org)... 176.58.119.26
+"
+2026-11-06T05:06:22Z,embedded,missing,"STM32F405DISC-20241129-v1.24.1.dfu: --2026-11-06 06:06:21--  https://micropython.org/resources/firmware/STM32F405DISC-20241129-v1.24.1.dfu
+Resolving micropython.org (micropython.org)... 176.58.119.26
+"
+2026-11-06T05:06:26Z,embedded,missing,"adafruit-circuitpython-espressif_esp32_devkitc_v4-en_US-10.0.3.bin: esp32_devkitc_v4/en_US/adafruit-circuitpython-espressif_esp32_devkitc_v4-en_US-10.0.3.bin
+Resolving downloads.circuitpython.org (dow"
+2026-11-06T05:06:27Z,embedded,missing,"adafruit-circuitpython-st_stm32f411ce_blackpill-en_US-10.0.3.uf2: 32f411ce_blackpill/en_US/adafruit-circuitpython-st_stm32f411ce_blackpill-en_US-10.0.3.uf2
+Resolving downloads.circuitpython.org (downl"
+2026-11-06T05:06:29Z,embedded,missing,adafruit-circuitpython-bundle-10.x-mpy-20251029.zip: --2026-11-06 06:06:27--  https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20251029/adafruit-circuitpython-bundle-10.x-mp
+2026-11-06T05:06:29Z,embedded,finished_pass,miss=16 fw=14 tools=33
+2026-11-06T05:10:21Z,debs_ubuntu_22.04_runtime,ok,ok=224 fail=0 missing_names=0
+2026-11-06T05:11:42Z,debs_ubuntu_22.04_build,ok,ok=121 fail=0 missing_names=0
+2026-11-06T05:12:51Z,debs_ubuntu_24.04_runtime,ok,ok=226 fail=0 missing_names=0
+2026-11-06T05:13:20Z,debs_ubuntu_24.04_build,ok,ok=127 fail=0 missing_names=0
+2026-11-06T05:13:20Z,01_scientific_notebook_py310,start,科学计算与 Notebook
+2026-11-06T05:13:20Z,01_scientific_notebook_py310,downloaded,wheels=128 bytes=230220970
+2026-11-06T05:13:20Z,01_scientific_notebook_py312,start,科学计算与 Notebook（新 Python）
+2026-11-06T05:13:21Z,01_scientific_notebook_py312,downloaded,wheels=124 bytes=234684247
+2026-11-06T05:13:21Z,02_ml_stats_timeseries_em_py310,start,传统机器学习、统计、时间序列及 EM
+2026-11-06T05:13:22Z,02_ml_stats_timeseries_em_py310,downloaded,wheels=35 bytes=359768673
+2026-11-06T05:13:22Z,02_ml_stats_timeseries_em_py312,start,传统机器学习、统计、时间序列及 EM（新 Python）
+2026-11-06T05:13:22Z,02_ml_stats_timeseries_em_py312,downloaded,wheels=34 bytes=282846930
+2026-11-06T05:13:22Z,03_signal_audio_image_py310,start,信号、音频与图像处理
+2026-11-06T05:13:23Z,03_signal_audio_image_py310,downloaded,wheels=73 bytes=269143293
+2026-11-06T05:13:23Z,03_signal_audio_image_py312,start,信号、音频与图像处理（新 Python）
+2026-11-06T05:13:23Z,03_signal_audio_image_py312,downloaded,wheels=68 bytes=266580658
+2026-11-06T05:13:23Z,04_pytorch_cpu_py310,start,PyTorch CPU
+2026-11-06T05:13:27Z,04_pytorch_cpu_py310,downloaded,wheels=17 bytes=234093533
+2026-11-06T05:13:27Z,04_pytorch_cpu_py312,start,PyTorch CPU（新 Python）
+2026-11-06T05:13:30Z,04_pytorch_cpu_py312,downloaded,wheels=17 bytes=248024144
+2026-11-06T05:13:30Z,05_gpr_bayesopt_py310,start,GPR 与贝叶斯优化（PyTorch 路线）
+2026-11-06T05:13:32Z,05_gpr_bayesopt_py310,downloaded,wheels=35 bytes=291326295
+2026-11-06T05:13:32Z,05_gpr_bayesopt_py312,start,GPR 与贝叶斯优化（PyTorch 路线，新 Python）
+2026-11-06T05:13:34Z,05_gpr_bayesopt_py312,downloaded,wheels=31 bytes=303298975
+2026-11-06T05:13:34Z,06_bayesian_mcmc_py310,start,贝叶斯计算与 Monte Carlo
+2026-11-06T05:13:35Z,06_bayesian_mcmc_py310,downloaded,wheels=45 bytes=107114510
+2026-11-06T05:13:35Z,06_bayesian_mcmc_py312,start,贝叶斯计算与 Monte Carlo（新 Python）
+2026-11-06T05:13:36Z,06_bayesian_mcmc_py312,downloaded,wheels=42 bytes=164473847
+2026-11-06T05:13:36Z,07_tensorflow_cpu_py310,start,TensorFlow CPU
+2026-11-06T05:13:37Z,07_tensorflow_cpu_py310,downloaded,wheels=33 bytes=340715252
+2026-11-06T05:13:37Z,07_tensorflow_cpu_py312,start,TensorFlow CPU（新 Python）
+2026-11-06T05:13:38Z,07_tensorflow_cpu_py312,downloaded,wheels=33 bytes=337151276
+2026-11-06T05:13:38Z,07b_gpflow_tf218_py310,start,GPflow（TensorFlow 2.18 专用）
+2026-11-06T05:13:41Z,07b_gpflow_tf218_py310,downloaded,wheels=53 bytes=976273858
+2026-11-06T05:13:41Z,07b_gpflow_tf218_py312,start,GPflow（TensorFlow 2.18 专用，新 Python）
+2026-11-06T05:13:43Z,07b_gpflow_tf218_py312,downloaded,wheels=52 bytes=969705661
+2026-11-06T05:13:43Z,08_rl_basics_py310,start,强化学习基础
+2026-11-06T05:13:46Z,08_rl_basics_py310,downloaded,wheels=37 bytes=282878190
+2026-11-06T05:13:46Z,08_rl_basics_py312,start,强化学习基础（新 Python）
+2026-11-06T05:13:48Z,08_rl_basics_py312,downloaded,wheels=35 bytes=296718183
+2026-11-06T05:13:48Z,09_huggingface_llm_py310,start,Hugging Face 与大模型基础
+2026-11-06T05:13:51Z,09_huggingface_llm_py310,downloaded,wheels=63 bytes=323173674
+2026-11-06T05:13:51Z,09_huggingface_llm_py312,start,Hugging Face 与大模型基础（新 Python）
+2026-11-06T05:13:53Z,09_huggingface_llm_py312,downloaded,wheels=59 bytes=341095654
+2026-11-06T05:13:53Z,10_onnx_api_ui_py310,start,ONNX CPU、API 与应用界面
+2026-11-06T05:13:54Z,10_onnx_api_ui_py310,downloaded,wheels=84 bytes=231755451
+2026-11-06T05:13:54Z,10_onnx_api_ui_py312,start,ONNX CPU、API 与应用界面（新 Python）
+2026-11-06T05:13:54Z,10_onnx_api_ui_py312,downloaded,wheels=76 bytes=231517200
+2026-11-06T05:13:54Z,11_optimization_control_py310,start,优化与控制计算
+2026-11-06T05:13:55Z,11_optimization_control_py310,downloaded,wheels=28 bytes=220633166
+2026-11-06T05:13:55Z,11_optimization_control_py312,start,优化与控制计算（新 Python）
+2026-11-06T05:13:55Z,11_optimization_control_py312,downloaded,wheels=30 bytes=241506141
+2026-11-06T05:13:55Z,all,finished_pass,groups=24
+2026-11-06T05:14:58Z,expansion_debs_ubuntu_22.04,ok,ok=216 fail=0 missing=1
+2026-11-06T05:16:02Z,expansion_debs_ubuntu_24.04,ok,ok=231 fail=0 missing=1
+2026-11-06T05:16:04Z,12_data_storage_py310,start,数据处理与存储
+2026-11-06T05:16:05Z,12_data_storage_py310,downloaded,wheels=88 bytes=411926968
+2026-11-06T05:16:05Z,12_data_storage_py312,start,数据处理与存储（新 Python）
+2026-11-06T05:16:06Z,12_data_storage_py312,downloaded,wheels=91 bytes=413298641
+2026-11-06T05:16:06Z,13_stats_timeseries_py310,start,统计、计量与时间序列
+2026-11-06T05:17:02Z,13_stats_timeseries_py310,partial,wheels=95 bytes=299816380
+2026-11-06T05:17:02Z,13_stats_timeseries_py312,start,统计、计量与时间序列（新 Python）
+2026-11-06T05:18:01Z,13_stats_timeseries_py312,partial,wheels=101 bytes=389171619
+2026-11-06T05:18:01Z,14_ml_tooling_py310,start,机器学习工程工具
+2026-11-06T05:18:58Z,14_ml_tooling_py310,partial,wheels=199 bytes=388843918
+2026-11-06T05:18:58Z,14_ml_tooling_py312,start,机器学习工程工具（新 Python）
+2026-11-06T05:19:51Z,14_ml_tooling_py312,partial,wheels=193 bytes=329700505
+2026-11-06T05:19:51Z,15_nlp_retrieval_py310,start,NLP 与检索 / RAG 基础
+2026-11-06T05:21:20Z,15_nlp_retrieval_py310,partial,wheels=194 bytes=381246053
+2026-11-06T05:21:20Z,15_nlp_retrieval_py312,start,NLP 与检索 / RAG 基础（新 Python）
+2026-11-06T05:23:00Z,15_nlp_retrieval_py312,partial,wheels=186 bytes=389867160
+2026-11-06T05:23:00Z,16_media_ocr_py310,start,图像、音视频与 OCR
+2026-11-06T05:23:01Z,16_media_ocr_py310,downloaded,wheels=50 bytes=370952317
+2026-11-06T05:23:01Z,16_media_ocr_py312,start,图像、音视频与 OCR（新 Python）
+2026-11-06T05:23:02Z,16_media_ocr_py312,downloaded,wheels=46 bytes=364902581
+2026-11-06T05:23:02Z,17_web_services_py310,start,Web 与服务
+2026-11-06T05:23:02Z,17_web_services_py310,downloaded,wheels=137 bytes=49759814
+2026-11-06T05:23:02Z,17_web_services_py312,start,Web 与服务（新 Python）
+2026-11-06T05:23:03Z,17_web_services_py312,downloaded,wheels=138 bytes=53017696
+2026-11-06T05:23:03Z,18_database_py310,start,数据库与数据接入
+2026-11-06T05:23:03Z,18_database_py310,downloaded,wheels=46 bytes=157425274
+2026-11-06T05:23:03Z,18_database_py312,start,数据库与数据接入（新 Python）
+2026-11-06T05:23:04Z,18_database_py312,downloaded,wheels=43 bytes=160986161
+2026-11-06T05:23:04Z,19_scraping_automation_py310,start,爬虫与自动化
+2026-11-06T05:23:32Z,19_scraping_automation_py310,partial,wheels=75 bytes=87699127
+2026-11-06T05:23:32Z,19_scraping_automation_py312,start,爬虫与自动化（新 Python）
+2026-11-06T05:23:54Z,19_scraping_automation_py312,partial,wheels=73 bytes=88683128
+2026-11-06T05:23:54Z,20_documents_py310,start,文档处理
+2026-11-06T05:23:55Z,20_documents_py310,downloaded,wheels=66 bytes=128972632
+2026-11-06T05:23:55Z,20_documents_py312,start,文档处理（新 Python）
+2026-11-06T05:23:55Z,20_documents_py312,downloaded,wheels=67 bytes=175883102
+2026-11-06T05:23:55Z,21_viz_dashboard_py310,start,可视化与仪表板
+2026-11-06T05:23:56Z,21_viz_dashboard_py310,downloaded,wheels=152 bytes=182375564
+2026-11-06T05:23:56Z,21_viz_dashboard_py312,start,可视化与仪表板（新 Python）
+2026-11-06T05:23:56Z,21_viz_dashboard_py312,downloaded,wheels=148 bytes=173967817
+2026-11-06T05:23:56Z,21b_desktop_pyside6_py310,start,桌面 GUI（PySide6）
+2026-11-06T05:23:57Z,21b_desktop_pyside6_py310,downloaded,wheels=17 bytes=289677054
+2026-11-06T05:23:57Z,21b_desktop_pyside6_py312,start,桌面 GUI（PySide6）（新 Python）
+2026-11-06T05:23:57Z,21b_desktop_pyside6_py312,downloaded,wheels=16 bytes=289588522
+2026-11-06T05:23:57Z,22_engineering_py310,start,工程工具
+2026-11-06T05:23:58Z,22_engineering_py310,downloaded,wheels=146 bytes=114400107
+2026-11-06T05:23:58Z,22_engineering_py312,start,工程工具（新 Python）
+2026-11-06T05:23:58Z,22_engineering_py312,downloaded,wheels=145 bytes=116200303
+2026-11-06T05:23:58Z,23_general_utils_py310,start,通用工具与云存储 SDK
+2026-11-06T05:23:58Z,23_general_utils_py310,downloaded,wheels=117 bytes=60734124
+2026-11-06T05:23:58Z,23_general_utils_py312,start,通用工具与云存储 SDK（新 Python）
+2026-11-06T05:23:59Z,23_general_utils_py312,downloaded,wheels=115 bytes=60998193
+2026-11-06T05:24:00Z,playwright_chromium,failed,"wget failed for https://playwright.azureedge.net/builds/chromium/1248/chromium-linux.zip: s/chromium/1248/chromium-linux.zip
+Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.243, 23.201.43.234, 23.201.43.203
+Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.243|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2026-11-06 06:24:00 ERROR 400: Bad Request.
+
+"
+2026-11-06T05:24:01Z,playwright_firefox,failed,"wget failed for https://playwright.azureedge.net/builds/firefox/1555/firefox-linux.zip: lds/firefox/1555/firefox-linux.zip
+Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.203, 23.201.43.234, 23.201.43.243
+Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.203|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2026-11-06 06:24:01 ERROR 400: Bad Request.
+
+"
+2026-11-06T05:24:01Z,playwright_webkit,failed,"wget failed for https://playwright.azureedge.net/builds/webkit/2370/webkit-linux.zip: uilds/webkit/2370/webkit-linux.zip
+Resolving playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)... 23.201.43.203, 23.201.43.243, 23.201.43.234
+Connecting to playwright.download.prss.microsoft.com (playwright.download.prss.microsoft.com)|23.201.43.203|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2026-11-06 06:24:01 ERROR 400: Bad Request.
+
+"
+2026-11-06T05:24:02Z,playwright_ffmpeg,ok,/root/linux_python_offline_resources/external_runtimes/playwright_browsers_linux_x64/ffmpeg-1013-linux.zip
+2026-11-06T05:24:02Z,expansion,finished_pass,"{""new_groups"": 26, ""wheels"": 2744, ""bytes"": 5930094760}"
+2026-11-06T05:24:27Z,embedded,start,host tools + board resources
+2026-11-06T05:24:28Z,embedded,missing,"Adafruit_NeoPixel.tar.gz: st sent, awaiting response... 302 Found
+Location: https://codeload.github.com/adafruit/Adafruit_NeoPixel/tar.gz/refs/tags/v1.12.5 [following]
+--2026-11-06 06:24:28--  https:/"
+2026-11-06T05:24:29Z,embedded,missing,"DallasTemperature.tar.gz: Location: https://codeload.github.com/milesburton/Arduino-Temperature-Control-Library/tar.gz/refs/tags/3.11.0 [following]
+--2026-11-06 06:24:28--  https://codeload.github.com"
+2026-11-06T05:26:22Z,embedded,missing,"STM32F405DISC-20250911-v1.26.1.dfu: --2026-11-06 06:26:21--  https://micropython.org/resources/firmware/STM32F405DISC-20250911-v1.26.1.dfu
+Resolving micropython.org (micropython.org)... 176.58.119.26
+"
+2026-11-06T05:26:22Z,embedded,missing,"STM32F405DISC-20241129-v1.24.1.dfu: --2026-11-06 06:26:22--  https://micropython.org/resources/firmware/STM32F405DISC-20241129-v1.24.1.dfu
+Resolving micropython.org (micropython.org)... 176.58.119.26
+"
+2026-11-06T05:26:23Z,embedded,missing,adafruit-circuitpython-espressif_esp32_devkitc_v4-en_US-10.0.3.bin: --2026-11-06 06:26:22--  https://downloads.circuitpython.org/bin/espressif_esp32_devkitc_v4/en_US/adafruit-circuitpython-espressif_e
+2026-11-06T05:26:23Z,embedded,missing,adafruit-circuitpython-st_stm32f411ce_blackpill-en_US-10.0.3.uf2: --2026-11-06 06:26:23--  https://downloads.circuitpython.org/bin/st_stm32f411ce_blackpill/en_US/adafruit-circuitpython-st_stm32f411ce_
+2026-11-06T05:26:23Z,embedded,missing,adafruit-circuitpython-bundle-10.x-mpy-20251029.zip: --2026-11-06 06:26:23--  https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20251029/adafruit-circuitpython-bundle-10.x-mp
+2026-11-06T05:26:23Z,embedded,finished_pass,miss=16 fw=14 tools=33
